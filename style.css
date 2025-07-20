@@ -1,0 +1,151 @@
+.cimsor{
+    width: 100%;
+    background: linear-gradient(135deg, #27d349 0%, #cdffa3 100%);
+    background-size: cover;
+    background-repeat: round;
+    display: flex;
+    height: fit-content;
+    position: absolute;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+a{
+    margin: 10px;
+border-radius: 50%;
+}
+button{
+    border: 1px solid green;
+    border-radius: 50%;
+ background-color: lightblue;
+ color: green;
+ height: 50px;
+}
+.gomb{
+    border-radius: 50%;
+}
+.home{
+ background-image: url("./image/giphy\ \(1\).gif");
+ background-color: #cccccc;
+   background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  
+}
+.hatter{
+    display: flex; 
+ 
+    height: fit-content;
+    flex-direction: column;
+   align-items: center;
+margin-top: 70px;
+background-size: 100% 100%;
+background-position: 0px 0px;
+background-image: linear-gradient(90deg, #3345addb 0%, #774ec4d1 30%, #3621acc9 98%);
+width: fit-content;
+padding: 20px;
+border: 10px solid black;
+min-width: 350px;
+}
+.hatter1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+padding-bottom: 10px;
+flex-direction: column;
+}
+.muta{
+    border-radius: 50%;
+    padding: 35px;
+}
+.muta1{
+    padding: 50px;
+}
+.gomb1{
+padding: 9px;
+    align-items: center;
+}
+.hidden{
+    display: none;
+}
+.hatter2{
+        justify-content: center;
+    align-items: center;
+    display: flex;
+padding-bottom: 10px;
+flex-direction: column;
+min-width: 350px;
+}
+.felso{
+    display: flex;
+    justify-content: space-between;
+
+  
+}
+.helyes{
+    display: flex;
+    margin-right: 60px;
+  
+}
+.elet{
+    display: flex;
+}
+.kerdesszam{
+    display: flex;
+}
+.border1{
+    border: 5px solid black;
+margin-bottom: 10px;
+}
+.jatek{
+    background-color: antiquewhite;
+    color: black;
+ font-size: 15px;
+ height: fit-content;
+ display: flex;
+ max-width: 150px;
+min-width: 150px;
+}
+.kerdes12{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    min-width: 150px;
+   
+}
+.jatek1{
+        background-color: antiquewhite;
+    color: black;
+ font-size: 15px;
+ height: fit-content;
+ display: flex;
+margin-right: 25px;
+ width: fit-content;
+ max-width: 150px;
+ margin-bottom: 30px;
+ min-width: 150px;
+    }
+.kerdes34{
+    display: flex;
+    flex-direction: column;
+    min-width: 150px;
+}
+    .hidden1{
+display: none;
+    }
+    .hidden2{
+        display: none;
+    }
+    .hidden3{
+        display: none;
+    }
+    .pontok{
+        display: flex;
+        margin-right: 60px;
+    }
+    .kerdesek{
+        display: flex;
+     
+    }
+    .gom1{
+        margin-bottom: 20px;
+    }
