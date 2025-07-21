@@ -1243,11 +1243,11 @@ const gombos4 = document.getElementById("gombos4");
 
   function startGame() {
     // Szabályok és start gomb elrejtése
-    document.getElementById("szabalyCim").classList.add("hidden2");
-    document.getElementById("szabaly1").classList.add("hidden2");
-    document.getElementById("szabalyLista").classList.add("hidden2");
-    document.getElementById("szabaly2").classList.add("hidden2");
-    document.getElementById("startButton").classList.add("hidden2");
+    document.getElementById("szabalyCim").classList.add("hiddened");
+    document.getElementById("szabaly1").classList.add("hiddened");
+    document.getElementById("szabalyLista").classList.add("hiddened");
+    document.getElementById("szabaly2").classList.add("hiddened");
+    document.getElementById("startButton").classList.add("hiddened");
   
 
     // Rejtekből előhozunk mindent
