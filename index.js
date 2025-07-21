@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const kerdesSzoveg = document.getElementById("kerdesSzoveg");
   const valaszGombok = document.querySelectorAll(".valasz-gomb");
   const kerdesBlokk = document.getElementById("kerdes-blokk");
-
+const pipak2 = document.getElementById("pipak2");
   const pipakElem = document.getElementById("pipak");
   const pontokElem = document.getElementById("pontokSzama");
   const eletekElem = document.getElementById("eletek");
@@ -17,6 +17,10 @@ const kerdessz2 = document.getElementById("kerdessz2");
 const kerdessz3 = document.getElementById("kerdessz3");
 const kerdessz4 = document.getElementById("kerdessz4");
 const kerdekep = document.getElementById("kerdekep");
+const szabalyCim = document.getElementById("szabalyCim");
+const szabalyLista = document.getElementById("szabalyLista");
+const szabaly1 = document.getElementById("szabaly1");
+const szabaly2 = document.getElementById("szabaly2");
 
 const gombos1 = document.getElementById("gombos1");
 const gombos2 = document.getElementById("gombos2");
@@ -1243,7 +1247,7 @@ const gombos4 = document.getElementById("gombos4");
     document.getElementById("szabaly1").classList.add("hidden4");
     document.getElementById("szabalyLista").classList.add("hidden4");
     document.getElementById("szabaly2").classList.add("hidden4");
-    startButton.classList.add("hidden4");
+    document.getElementById("startButton").classList.add("hidden4");
   
 
     // Rejtekből előhozunk mindent
@@ -1277,7 +1281,8 @@ document.querySelector("#kerdekep")?.classList.add("hidden3");
 document.querySelector(".kerdesek")?.classList.add("hidden3");
 document.querySelector(".kerdesszam")?.classList.add("hidden3");
 document.querySelector(".elet")?.classList.add("hidden3");
-
+document.getElementById("pipak")?.classList.add("hidden3");
+document.getElementById("pipak2")?.classList.add("hidden3");
 
 document.querySelector("#gombos1")?.classList.add("hidden3");
 document.querySelector("#gombos2")?.classList.add("hidden3");
