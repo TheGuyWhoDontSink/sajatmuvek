@@ -11,6 +11,17 @@ document.addEventListener("DOMContentLoaded", function () {
 const vegeSzoveg = document.getElementById("vegeSzoveg");
 const eredmenyPont = document.getElementById("eredmenyPont");
 const vegsoPontszam = document.getElementById("vegsoPontszam");
+const kerdessz = document.getElementById("kerdessz");
+const kerdessz1 = document.getElementById("kerdessz1");
+const kerdessz2 = document.getElementById("kerdessz2");
+const kerdessz3 = document.getElementById("kerdessz3");
+const kerdessz4 = document.getElementById("kerdessz4");
+const kerdekep = document.getElementById("kerdekep");
+
+const gombos1 = document.getElementById("gombos1");
+const gombos2 = document.getElementById("gombos2");
+const gombos3 = document.getElementById("gombos3");
+const gombos4 = document.getElementById("gombos4");
 
   // Kérdések tömbje
   const kerdesek = [
@@ -1262,12 +1273,12 @@ const vegsoPontszam = document.getElementById("vegsoPontszam");
   vegsoPontszam.textContent = document.getElementById("pontokSzama").textContent;
   ujrainditGomb.classList.remove("hidden2");
 document.getElementById("kerdesSzoveg")?.classList.add("hidden3");
-document.querySelector(".image1")?.classList.add("hidden3");
+document.querySelector("#kerdekep")?.classList.add("hidden3");
 document.querySelector(".kerdesek")?.classList.add("hidden3");
 document.querySelector(".kerdesszam")?.classList.add("hidden3");
 document.querySelector(".elet")?.classList.add("hidden3");
-document.querySelector(".helyes")?.classList.add("hidden3");
-document.querySelector(".valasz-gomb")?.classList.add("hidden3");
+
+
 document.querySelector("#gombos1")?.classList.add("hidden3");
 document.querySelector("#gombos2")?.classList.add("hidden3");
 document.querySelector("#gombos3")?.classList.add("hidden");
