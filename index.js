@@ -38,8 +38,7 @@ const elethozzaadas = document.getElementById("elethozzaadas");
 goodSound.volume = 0.6;
 const wrongSound = new Audio('./audio/wrong.mp3');
 wrongSound.volume = 0.6;
-const lostSound = new Audio('./audio/lost.mp3');
-lostSound.volume = 0.6;
+
   // Kérdések tömbje
   const kerdesek = [
     {
