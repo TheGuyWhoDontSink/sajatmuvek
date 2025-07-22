@@ -2263,10 +2263,7 @@ backgroundAudio.volume = 0.5;
 
   function mutatKerdes() {
     if (aktualisKerdesIndex >= kevertKerdesek.length || eletek <= 0) {
-      lostSound.currentTime = 0;
-    lostSound.play();
-     background.pause();
-    background.currentTime = 0;
+    
       vegeSzoveg.classList.remove("hidden2");
   eredmenyPont.classList.remove("hidden2");
   vegsoPontszam.textContent = document.getElementById("pontokSzama").textContent;
@@ -2284,7 +2281,11 @@ document.querySelector("#gombos2")?.classList.add("hidden3");
 document.querySelector("#gombos3")?.classList.add("hidden");
 document.querySelector("#gombos4")?.classList.add("hidden");
 document.querySelector("#kupa")?.classList.add("hidden3");
-document.querySelector("#pontokSzama")?.classList.add("hidden");
+document.querySelector("#pontokSzama")?.classList.add("hidden"); 
+ lostSound.currentTime = 0;
+    lostSound.play();
+     background.pause();
+    background.currentTime = 0;
   return;
  
     }
