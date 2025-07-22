@@ -1,3 +1,4 @@
+
 document.addEventListener("DOMContentLoaded", function () {
   const startButton = document.getElementById("startButton");
   const kerdesSzoveg = document.getElementById("kerdesSzoveg");
@@ -12,7 +13,7 @@ const vegeSzoveg = document.getElementById("vegeSzoveg");
 const eredmenyPont = document.getElementById("eredmenyPont");
 const vegsoPontszam = document.getElementById("vegsoPontszam");
 const kerdessz = document.getElementById("kerdessz");
-const kerdessz1 = document.getElementById("kerdessz1");
+
 const kerdessz2 = document.getElementById("kerdessz2");
 const kerdessz3 = document.getElementById("kerdessz3");
 const kerdessz4 = document.getElementById("kerdessz4");
@@ -26,7 +27,19 @@ const gombos1 = document.getElementById("gombos1");
 const gombos2 = document.getElementById("gombos2");
 const gombos3 = document.getElementById("gombos3");
 const gombos4 = document.getElementById("gombos4");
-
+const pipahozzaadas = document.getElementById("pipahozzaadas");
+const pipahozzaadasertek = document.getElementById("pipahozzaadasertek");
+const pipalevonas = document.getElementById("pipalevonas");
+const ponthozzaadas = document.getElementById("ponthozzaadas");
+const eletlevonas = document.getElementById("eletlevonas");
+const elethozzaadas = document.getElementById("elethozzaadas");
+    const backgroundAudio = new Audio('./audio/background.mp3');
+    const goodSound = new Audio('./audio/good.mp3');
+goodSound.volume = 0.6;
+const wrongSound = new Audio('./audio/wrong.mp3');
+wrongSound.volume = 0.6;
+const lostSound = new Audio('./audio/lost.mp3');
+lostSound.volume = 0.6;
   // Kérdések tömbje
   const kerdesek = [
     {
@@ -2204,12 +2217,14 @@ const gombos4 = document.getElementById("gombos4");
 ];
 
   let aktualisKerdesIndex = 0;
+ 
   let kevertKerdesek = [];
 
   // Játék állapot változók
   let pipak = 0;
   let pontok = 0;
   let eletek = 3;
+  let kerdessz1 = 1;
 
   startButton.addEventListener("click", startGame);
 
@@ -2220,6 +2235,10 @@ const gombos4 = document.getElementById("gombos4");
     document.getElementById("szabalyLista").classList.add("hiddened");
     document.getElementById("szabaly2").classList.add("hiddened");
     document.getElementById("startButton").classList.add("hiddened");
+ backgroundAudio.play()
+backgroundAudio.loop = true;
+backgroundAudio.volume = 0.5;
+ 
   
 
     // Rejtekből előhozunk mindent
@@ -2244,6 +2263,10 @@ const gombos4 = document.getElementById("gombos4");
 
   function mutatKerdes() {
     if (aktualisKerdesIndex >= kevertKerdesek.length || eletek <= 0) {
+      lostSound.currentTime = 0;
+    lostSound.play();
+     background.pause();
+    background.currentTime = 0;
       vegeSzoveg.classList.remove("hidden2");
   eredmenyPont.classList.remove("hidden2");
   vegsoPontszam.textContent = document.getElementById("pontokSzama").textContent;
@@ -2284,38 +2307,60 @@ document.querySelector("#pontokSzama")?.classList.add("hidden");
 
         if (index === aktKerdes.helyesIndex) {
           gomb.classList.add("helyes");
-
+ goodSound.play();
           // Pipák növelése
           pipak++;
           pipakElem.textContent = pipak;
-
+         pipahozzaadas.classList.remove("hidden5");
+setTimeout(() => {
+  pipahozzaadas.classList.add("hidden5");
+}, 1000);
           // Pontok növelése
           pontok++;
           pontokElem.textContent = pontok;
-
+          ponthozzaadas.classList.remove("hidden5");
+setTimeout(() => {
+  ponthozzaadas.classList.add("hidden5");
+}, 1000);
+   
           // Ha pipák elérik az 5-öt, pipák nullázása és élet +1
           if (pipak === 5) {
             pipak = 0;
             eletek++;
             pipakElem.textContent = pipak;
             eletekElem.textContent = eletek;
+            elethozzaadas.classList.remove("hidden5");
+setTimeout(() => {
+  elethozzaadas.classList.add("hidden5");
+}, 1000);
+
           }
 
         } else {
           gomb.classList.add("rossz");
+          wrongSound.currentTime = 0;
+  wrongSound.play();
+
           valaszGombok[aktKerdes.helyesIndex].classList.add("helyes");
 
           // Pipák nullázása
+      
           pipak = 0;
           pipakElem.textContent = pipak;
 
           // Élet csökkentése
           eletek--;
           eletekElem.textContent = eletek;
+          eletlevonas.classList.remove("hidden5");
+setTimeout(() => {
+  eletlevonas.classList.add("hidden5");
+}, 1000);
         }
 
         setTimeout(() => {
           aktualisKerdesIndex++;
+          kerdessz1++,
+          document.getElementById("kerdessz1").textContent = kerdessz1;
           mutatKerdes();
         }, 1500);
       };

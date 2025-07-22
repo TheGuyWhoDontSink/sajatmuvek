@@ -155,3 +155,15 @@ display: none;
     .hiddened{
         display: none;
     }
+    .hidden5{
+        display: none;
+    }
+    .hozzaadas{
+        color: #27d349;
+    }
+    .levonas{
+        color: red;
+    }
+    .levonasertek{
+        color: red;
+    }
