@@ -2282,10 +2282,7 @@ document.querySelector("#gombos3")?.classList.add("hidden");
 document.querySelector("#gombos4")?.classList.add("hidden");
 document.querySelector("#kupa")?.classList.add("hidden3");
 document.querySelector("#pontokSzama")?.classList.add("hidden"); 
- lostSound.currentTime = 0;
-    lostSound.play();
-     backgroundAudio.pause();
-    backgroundAudio.currentTime = 0;
+
   return;
  
     }
