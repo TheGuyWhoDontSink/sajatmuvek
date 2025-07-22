@@ -2284,8 +2284,8 @@ document.querySelector("#kupa")?.classList.add("hidden3");
 document.querySelector("#pontokSzama")?.classList.add("hidden"); 
  lostSound.currentTime = 0;
     lostSound.play();
-     background.pause();
-    background.currentTime = 0;
+     backgroundAudio.pause();
+    backgroundAudio.currentTime = 0;
   return;
  
     }
