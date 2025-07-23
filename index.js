@@ -2213,6 +2213,2465 @@ wrongSound.volume = 0.6;
     helyesIndex: 2,
     kep: "farsang.jpg"
   },
+  {
+  kerdes: "Mit jelent a 'CPU' rövidítés?",
+  valaszok: ["Central Processing Unit", "Computer Primary Unit", "Core Power Unit", "Central Performance Unit"],
+  helyesIndex: 0,
+  kep: "szamitogep.jpg"
+},
+{
+  kerdes: "Mi az operációs rendszer fő feladata?",
+  valaszok: ["Internetezés", "Hardver vezérlése és szoftverek kezelése", "Grafika rajzolása", "Hang lejátszása"],
+  helyesIndex: 1,
+  kep: "szamitogep.jpg"
+},
+{
+  kerdes: "Melyik cég fejlesztette a Windows operációs rendszert?",
+  valaszok: ["Apple", "IBM", "Microsoft", "Google"],
+  helyesIndex: 2,
+  kep: "szamitogep.jpg"
+},
+{
+  kerdes: "Mi a RAM feladata a számítógépben?",
+  valaszok: ["Hosszú távú tárolás", "Ideiglenes adatok tárolása", "Processzor hűtése", "Internetes kapcsolatok kezelése"],
+  helyesIndex: 1,
+  kep: "szamitogep.jpg"
+},
+{
+  kerdes: "Mire való a 'Ctrl + C' billentyűkombináció?",
+  valaszok: ["Beillesztés", "Másolás", "Kivágás", "Mentés"],
+  helyesIndex: 1,
+  kep: "szamitogep.jpg"
+},
+{
+  kerdes: "Mit jelent az SSD?",
+  valaszok: ["System Software Disk", "Super Speed Drive", "Solid State Drive", "Secure Storage Device"],
+  helyesIndex: 2,
+  kep: "szamitogep.jpg"
+},
+{
+  kerdes: "Melyik nyelv NEM programozási nyelv?",
+  valaszok: ["Python", "HTML", "C++", "Photoshop"],
+  helyesIndex: 3,
+  kep: "szamitogep.jpg"
+},
+{
+  kerdes: "Mit csinál a 'Ctrl + Z' kombináció?",
+  valaszok: ["Újraindít", "Bezár", "Visszavon", "Ment"],
+  helyesIndex: 2,
+  kep: "szamitogep.jpg"
+},
+{
+  kerdes: "Melyik eszköz alkalmas bemeneti műveletre?",
+  valaszok: ["Monitor", "Billentyűzet", "Nyomtató", "Hangszóró"],
+  helyesIndex: 1,
+  kep: "szamitogep.jpg"
+},
+{
+  kerdes: "Mit jelent az URL?",
+  valaszok: ["Unified Resource Locator", "Universal Random Link", "Uniform Resource Locator", "Unique Route Language"],
+  helyesIndex: 2,
+  kep: "szamitogep.jpg"
+},
+  {
+    kerdes: "Mi a CPU fő feladata?",
+    valaszok: ["Képek tárolása", "Programok futtatása", "Hang lejátszása", "Hálózat kezelése"],
+    helyesIndex: 1,
+    kep: "szamitogep.jpg"
+  },
+  {
+    kerdes: "Mit jelent a RAM?",
+    valaszok: ["Random Access Memory", "Read All Memory", "Rapid Access Machine", "Run After Mode"],
+    helyesIndex: 0,
+    kep: "szamitogep.jpg"
+  },
+  {
+    kerdes: "Melyik eszköz nem bemeneti periféria?",
+    valaszok: ["Billentyűzet", "Egér", "Monitor", "Webkamera"],
+    helyesIndex: 2,
+    kep: "szamitogep.jpg"
+  },
+  {
+    kerdes: "Mi a HTML szerepe a webfejlesztésben?",
+    valaszok: ["Stílus hozzáadása", "Interaktivitás biztosítása", "Adatok tárolása", "Weboldal szerkezetének meghatározása"],
+    helyesIndex: 3,
+    kep: "szamitogep.jpg"
+  },
+  {
+    kerdes: "Mit csinál az operációs rendszer?",
+    valaszok: ["Videók szerkesztése", "Játékokat fejleszt", "Hardvert és szoftvert irányít", "Internetes oldalak tárolása"],
+    helyesIndex: 2,
+    kep: "szamitogep.jpg"
+  },
+  {
+    kerdes: "Melyik fájlkiterjesztés jelöli a képeket?",
+    valaszok: [".mp3", ".txt", ".jpg", ".exe"],
+    helyesIndex: 2,
+    kep: "szamitogep.jpg"
+  },
+  {
+    kerdes: "Mi a Google Chrome?",
+    valaszok: ["Szövegszerkesztő", "Böngészőprogram", "Játék", "Operációs rendszer"],
+    helyesIndex: 1,
+    kep: "szamitogep.jpg"
+  },
+  {
+    kerdes: "Melyik eszköz menti el az adatokat hosszú távon?",
+    valaszok: ["RAM", "Processzor", "Videókártya", "Merevlemez"],
+    helyesIndex: 3,
+    kep: "szamitogep.jpg"
+  },
+  {
+    kerdes: "Mi az IP-cím?",
+    valaszok: ["Internet csatlakozó", "Számítógép azonosítója a hálózaton", "Hibakód", "Grafikus meghajtó"],
+    helyesIndex: 1,
+    kep: "szamitogep.jpg"
+  },
+  {
+    kerdes: "Mit jelent az URL?",
+    valaszok: ["Universal Resource Locator", "Unique RAM Loader", "User Ready Line", "Ultra Rapid Logic"],
+    helyesIndex: 0,
+    kep: "szamitogep.jpg"
+  },
+
+  // --- További 30 kérdés ---
+
+  {
+    kerdes: "Mi az alaplap feladata?",
+    valaszok: ["Adatok tárolása", "Programok írása", "Hardverelemek összekapcsolása", "Hangkártya működtetése"],
+    helyesIndex: 2,
+    kep: "szamitogep.jpg"
+  },
+  {
+    kerdes: "Melyik program a Microsoft irodai csomag része?",
+    valaszok: ["Excel", "Photoshop", "Chrome", "Visual Studio"],
+    helyesIndex: 0,
+    kep: "szamitogep.jpg"
+  },
+  {
+    kerdes: "Mi a BIOS?",
+    valaszok: ["Zenelejátszó", "Alap rendszerindító program", "Fájlszerkesztő", "Hálózati eszköz"],
+    helyesIndex: 1,
+    kep: "szamitogep.jpg"
+  },
+  {
+    kerdes: "Mi az SSD előnye a HDD-vel szemben?",
+    valaszok: ["Több adat fér rá", "Olcsóbb", "Gyorsabb adatelérés", "Nehezebb súly"],
+    helyesIndex: 2,
+    kep: "szamitogep.jpg"
+  },
+  {
+    kerdes: "Mi a Ctrl + C billentyűkombináció funkciója?",
+    valaszok: ["Beillesztés", "Másolás", "Kivágás", "Bezárás"],
+    helyesIndex: 1,
+    kep: "szamitogep.jpg"
+  },
+  {
+    kerdes: "Mit jelent az AI rövidítés?",
+    valaszok: ["Auto Input", "Artificial Intelligence", "Advanced Interface", "Applied Index"],
+    helyesIndex: 1,
+    kep: "szamitogep.jpg"
+  },
+  {
+    kerdes: "Mi a programozás?",
+    valaszok: ["Számítógépes játék", "Számítógép bekapcsolása", "Utasítások írása számítógépnek", "Képek szerkesztése"],
+    helyesIndex: 2,
+    kep: "szamitogep.jpg"
+  },
+  {
+    kerdes: "Mire jó a tűzfal?",
+    valaszok: ["Videók vágására", "Internetszolgáltatásra", "Hálózati védelemre", "Nyomtatásra"],
+    helyesIndex: 2,
+    kep: "szamitogep.jpg"
+  },
+  {
+    kerdes: "Melyik nyelv nem programozási nyelv?",
+    valaszok: ["Python", "JavaScript", "C++", "HTML"],
+    helyesIndex: 3,
+    kep: "szamitogep.jpg"
+  },
+  {
+    kerdes: "Mi a Photoshop?",
+    valaszok: ["Játék", "Képszerkesztő program", "Táblázatkezelő", "Videolejátszó"],
+    helyesIndex: 1,
+    kep: "szamitogep.jpg"
+  },
+    {
+    kerdes: "Mi az egér szerepe a számítógépen?",
+    valaszok: ["Adatok tárolása", "Grafika létrehozása", "Mutató mozgatása", "Zenehallgatás"],
+    helyesIndex: 2,
+    kep: "szamitogep.jpg"
+  },
+  {
+    kerdes: "Mit csinál a vírusirtó program?",
+    valaszok: ["Zenelejátszást biztosít", "Megvédi a gépet a káros programoktól", "Videókat tölt le", "Memóriát bővít"],
+    helyesIndex: 1,
+    kep: "szamitogep.jpg"
+  },
+  {
+    kerdes: "Mi az operációs rendszer célja?",
+    valaszok: ["Weboldalak tervezése", "Hardver és szoftver kezelése", "Filmnézés", "Képnyomtatás"],
+    helyesIndex: 1,
+    kep: "szamitogep.jpg"
+  },
+  {
+    kerdes: "Mi az internet?",
+    valaszok: ["Nyomtató eszköz", "Globális számítógép-hálózat", "Programozási nyelv", "Belső memória"],
+    helyesIndex: 1,
+    kep: "szamitogep.jpg"
+  },
+  {
+    kerdes: "Melyik nem egy operációs rendszer?",
+    valaszok: ["Windows", "macOS", "Linux", "Google"],
+    helyesIndex: 3,
+    kep: "szamitogep.jpg"
+  },
+  {
+    kerdes: "Mi az adathordozó?",
+    valaszok: ["Zeneprogram", "Adatok tárolására alkalmas eszköz", "Kijelző", "Billentyűzet"],
+    helyesIndex: 1,
+    kep: "szamitogep.jpg"
+  },
+  {
+    kerdes: "Mit jelent a PDF fájl?",
+    valaszok: ["Portable Document Format", "Program Design File", "Picture Drawing File", "Power Data File"],
+    helyesIndex: 0,
+    kep: "szamitogep.jpg"
+  },
+  {
+    kerdes: "Mit csinál a 'formázás' egy meghajtón?",
+    valaszok: ["Megvédi a fájlokat", "Eltávolít minden adatot", "Frissíti a rendszerfájlt", "Tömöríti a dokumentumokat"],
+    helyesIndex: 1,
+    kep: "szamitogep.jpg"
+  },
+  {
+    kerdes: "Melyik a legelterjedtebb grafikus operációs rendszer?",
+    valaszok: ["DOS", "Unix", "Windows", "BIOS"],
+    helyesIndex: 2,
+    kep: "szamitogep.jpg"
+  },
+  {
+    kerdes: "Mi a képernyő frissítési gyakorisága?",
+    valaszok: ["Másodpercenkénti képkockák száma", "Böngészési sebesség", "Letöltési idő", "Hálózati kapcsolat minősége"],
+    helyesIndex: 0,
+    kep: "szamitogep.jpg"
+  },
+  {
+    kerdes: "Mi a pendrive másik neve?",
+    valaszok: ["SSD", "USB meghajtó", "CD-ROM", "Modem"],
+    helyesIndex: 1,
+    kep: "szamitogep.jpg"
+  },
+  {
+    kerdes: "Mit jelent a LAN rövidítés?",
+    valaszok: ["Local Area Network", "Large Active Node", "Logical Access Name", "Linked Application Network"],
+    helyesIndex: 0,
+    kep: "szamitogep.jpg"
+  },
+  {
+    kerdes: "Mi a 'bootolás'?",
+    valaszok: ["Adatmentés", "Rendszerindítás", "Frissítés", "Billentyűzet váltása"],
+    helyesIndex: 1,
+    kep: "szamitogep.jpg"
+  },
+  {
+    kerdes: "Mi a célja a fájl tömörítésének?",
+    valaszok: ["Olvasás gyorsítása", "Fájlméret csökkentése", "Grafika növelése", "Nyomtatási minőség javítása"],
+    helyesIndex: 1,
+    kep: "szamitogep.jpg"
+  },
+  {
+    kerdes: "Mit csinál a Ctrl + V billentyűkombináció?",
+    valaszok: ["Másolás", "Beillesztés", "Kivágás", "Visszavonás"],
+    helyesIndex: 1,
+    kep: "szamitogep.jpg"
+  },
+  {
+    kerdes: "Mi az e-mail?",
+    valaszok: ["Számítógép típusa", "Elektronikus levél", "Programozási nyelv", "Adathordozó"],
+    helyesIndex: 1,
+    kep: "szamitogep.jpg"
+  },
+  {
+    kerdes: "Melyik a legelterjedtebb szövegszerkesztő?",
+    valaszok: ["Excel", "Word", "Paint", "Access"],
+    helyesIndex: 1,
+    kep: "szamitogep.jpg"
+  },
+  {
+    kerdes: "Mire való a nyomtató?",
+    valaszok: ["Képek szerkesztésére", "Fájlok mentésére", "Papírra nyomtatásra", "Videók vágására"],
+    helyesIndex: 2,
+    kep: "szamitogep.jpg"
+  },
+  {
+    kerdes: "Melyik eszköz biztosítja az internetkapcsolatot?",
+    valaszok: ["Processzor", "Modem", "Alaplap", "Nyomtató"],
+    helyesIndex: 1,
+    kep: "szamitogep.jpg"
+  },
+  {
+    kerdes: "Mi a hacker?",
+    valaszok: ["Számítógép-alkatrész", "Játékprogram", "Valaki, aki bejut más rendszerekbe", "Email szolgáltatás"],
+    helyesIndex: 2,
+    kep: "szamitogep.jpg"
+  },
+   {
+    kerdes: "Melyik ország fővárosa Bécs?",
+    valaszok: ["Ausztria", "Németország", "Svájc", "Csehország"],
+    helyesIndex: 0,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Madrid?",
+    valaszok: ["Portugália", "Spanyolország", "Olaszország", "Franciaország"],
+    helyesIndex: 1,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Kairó?",
+    valaszok: ["Egyiptom", "Marokkó", "Tunézia", "Líbia"],
+    helyesIndex: 0,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Párizs?",
+    valaszok: ["Belgium", "Olaszország", "Franciaország", "Spanyolország"],
+    helyesIndex: 2,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Róma?",
+    valaszok: ["Olaszország", "Franciaország", "Görögország", "Szlovénia"],
+    helyesIndex: 0,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Athén?",
+    valaszok: ["Görögország", "Törökország", "Bulgária", "Ciprus"],
+    helyesIndex: 0,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Berlin?",
+    valaszok: ["Ausztria", "Németország", "Hollandia", "Csehország"],
+    helyesIndex: 1,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Prága?",
+    valaszok: ["Szlovákia", "Csehország", "Lengyelország", "Ausztria"],
+    helyesIndex: 1,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Varsó?",
+    valaszok: ["Litvánia", "Lengyelország", "Csehország", "Ukrajna"],
+    helyesIndex: 1,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Budapest?",
+    valaszok: ["Magyarország", "Románia", "Szerbia", "Szlovákia"],
+    helyesIndex: 0,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Bukarest?",
+    valaszok: ["Bulgária", "Románia", "Moldova", "Szerbia"],
+    helyesIndex: 1,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Ljubljana?",
+    valaszok: ["Szlovénia", "Horvátország", "Ausztria", "Csehország"],
+    helyesIndex: 0,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Zágráb?",
+    valaszok: ["Bosznia", "Szerbia", "Horvátország", "Montenegró"],
+    helyesIndex: 2,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Oslo?",
+    valaszok: ["Svédország", "Norvégia", "Finnország", "Dánia"],
+    helyesIndex: 1,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Stockholm?",
+    valaszok: ["Norvégia", "Svédország", "Dánia", "Finnország"],
+    helyesIndex: 1,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Koppenhága?",
+    valaszok: ["Finnország", "Dánia", "Svédország", "Norvégia"],
+    helyesIndex: 1,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Helsinki?",
+    valaszok: ["Dánia", "Finnország", "Svédország", "Norvégia"],
+    helyesIndex: 1,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Dublin?",
+    valaszok: ["Skócia", "Írország", "Wales", "Észak-Írország"],
+    helyesIndex: 1,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa London?",
+    valaszok: ["Írország", "Egyesült Királyság", "Franciaország", "Skócia"],
+    helyesIndex: 1,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Lisszabon?",
+    valaszok: ["Spanyolország", "Olaszország", "Portugália", "Franciaország"],
+    helyesIndex: 2,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Brüsszel?",
+    valaszok: ["Hollandia", "Belgium", "Luxemburg", "Franciaország"],
+    helyesIndex: 1,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Amszterdam?",
+    valaszok: ["Hollandia", "Belgium", "Dánia", "Németország"],
+    helyesIndex: 0,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Bern?",
+    valaszok: ["Svájc", "Ausztria", "Németország", "Liechtenstein"],
+    helyesIndex: 0,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Reykjavík?",
+    valaszok: ["Norvégia", "Grönland", "Izland", "Finnország"],
+    helyesIndex: 2,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Moszkva?",
+    valaszok: ["Fehéroroszország", "Oroszország", "Ukrajna", "Kazahsztán"],
+    helyesIndex: 1,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Kijev?",
+    valaszok: ["Ukrajna", "Oroszország", "Fehéroroszország", "Moldova"],
+    helyesIndex: 0,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Minszk?",
+    valaszok: ["Litvánia", "Fehéroroszország", "Ukrajna", "Oroszország"],
+    helyesIndex: 1,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Vilnius?",
+    valaszok: ["Lettország", "Észtország", "Litvánia", "Fehéroroszország"],
+    helyesIndex: 2,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Riga?",
+    valaszok: ["Litvánia", "Észtország", "Lettország", "Finnország"],
+    helyesIndex: 2,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Tallinn?",
+    valaszok: ["Észtország", "Lettország", "Litvánia", "Finnország"],
+    helyesIndex: 0,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Ankara?",
+    valaszok: ["Irán", "Törökország", "Szíria", "Görögország"],
+    helyesIndex: 1,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Teherán?",
+    valaszok: ["Irak", "Pakisztán", "Irán", "Törökország"],
+    helyesIndex: 2,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Bagdad?",
+    valaszok: ["Irán", "Szíria", "Irak", "Jordánia"],
+    helyesIndex: 2,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Kabul?",
+    valaszok: ["Irán", "Pakisztán", "Afganisztán", "India"],
+    helyesIndex: 2,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Islamabad?",
+    valaszok: ["Pakisztán", "Afganisztán", "Irán", "India"],
+    helyesIndex: 0,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Újdelhi?",
+    valaszok: ["India", "Nepál", "Banglades", "Srí Lanka"],
+    helyesIndex: 0,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Katmandu?",
+    valaszok: ["India", "Nepál", "Bhután", "Banglades"],
+    helyesIndex: 1,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Dakka?",
+    valaszok: ["Banglades", "India", "Pakisztán", "Srí Lanka"],
+    helyesIndex: 0,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Colombo?",
+    valaszok: ["Malajzia", "Indonézia", "Srí Lanka", "India"],
+    helyesIndex: 2,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Bangkok?",
+    valaszok: ["Thaiföld", "Malajzia", "Kambodzsa", "Vietnam"],
+    helyesIndex: 0,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Hanoi?",
+    valaszok: ["Laosz", "Vietnam", "Kambodzsa", "Thaiföld"],
+    helyesIndex: 1,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Phnompen?",
+    valaszok: ["Kambodzsa", "Laosz", "Vietnam", "Thaiföld"],
+    helyesIndex: 0,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Kuala Lumpur?",
+    valaszok: ["Malajzia", "Indonézia", "Brunei", "Fülöp-szigetek"],
+    helyesIndex: 0,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Jakarta?",
+    valaszok: ["Indonézia", "Malajzia", "Brunei", "Szingapúr"],
+    helyesIndex: 0,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Manila?",
+    valaszok: ["Fülöp-szigetek", "Thaiföld", "Indonézia", "Malajzia"],
+    helyesIndex: 0,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Szingapúr?",
+    valaszok: ["Szingapúr", "Malajzia", "Brunei", "Indonézia"],
+    helyesIndex: 0,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Peking?",
+    valaszok: ["Japán", "Kína", "Tajvan", "Dél-Korea"],
+    helyesIndex: 1,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Tokió?",
+    valaszok: ["Kína", "Dél-Korea", "Japán", "Thaiföld"],
+    helyesIndex: 2,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Szöul?",
+    valaszok: ["Észak-Korea", "Japán", "Kína", "Dél-Korea"],
+    helyesIndex: 3,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Phenjan?",
+    valaszok: ["Dél-Korea", "Észak-Korea", "Kína", "Japán"],
+    helyesIndex: 1,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Taipei?",
+    valaszok: ["Kína", "Tajvan", "Japán", "Dél-Korea"],
+    helyesIndex: 1,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Canberra?",
+    valaszok: ["Ausztrália", "Új-Zéland", "Fidzsi", "Pápua Új-Guinea"],
+    helyesIndex: 0,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Wellington?",
+    valaszok: ["Ausztrália", "Fidzsi", "Új-Zéland", "Tonga"],
+    helyesIndex: 2,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Mexikóváros?",
+    valaszok: ["Mexikó", "Spanyolország", "Kolumbia", "Peru"],
+    helyesIndex: 0,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Lima?",
+    valaszok: ["Ecuador", "Chile", "Peru", "Bolívia"],
+    helyesIndex: 2,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Bogotá?",
+    valaszok: ["Kolumbia", "Venezuela", "Ecuador", "Peru"],
+    helyesIndex: 0,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Santiago?",
+    valaszok: ["Chile", "Peru", "Brazília", "Argentína"],
+    helyesIndex: 0,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Buenos Aires?",
+    valaszok: ["Argentína", "Brazília", "Chile", "Uruguay"],
+    helyesIndex: 0,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Montevideo?",
+    valaszok: ["Paraguay", "Uruguay", "Argentína", "Chile"],
+    helyesIndex: 1,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Asunción?",
+    valaszok: ["Paraguay", "Uruguay", "Chile", "Ecuador"],
+    helyesIndex: 0,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa La Paz?",
+    valaszok: ["Bolívia", "Peru", "Chile", "Paraguay"],
+    helyesIndex: 0,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Brasília?",
+    valaszok: ["Argentína", "Brazília", "Chile", "Peru"],
+    helyesIndex: 1,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Caracas?",
+    valaszok: ["Venezuela", "Kolumbia", "Peru", "Ecuador"],
+    helyesIndex: 0,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Quito?",
+    valaszok: ["Kolumbia", "Peru", "Ecuador", "Chile"],
+    helyesIndex: 2,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Havanna?",
+    valaszok: ["Dominikai Köztársaság", "Kuba", "Mexikó", "Puerto Rico"],
+    helyesIndex: 1,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Nassau?",
+    valaszok: ["Jamaica", "Barbados", "Bahamák", "Kuba"],
+    helyesIndex: 2,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Kingston?",
+    valaszok: ["Haiti", "Jamaica", "Bahamák", "Trinidad és Tobago"],
+    helyesIndex: 1,
+    kep: "foldrajz.jpg"
+  },
+   {
+    kerdes: "Melyik ország fővárosa Port-au-Prince?",
+    valaszok: ["Dominikai Köztársaság", "Haiti", "Kuba", "Jamaica"],
+    helyesIndex: 1,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Santo Domingo?",
+    valaszok: ["Puerto Rico", "Haiti", "Kuba", "Dominikai Köztársaság"],
+    helyesIndex: 3,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Ottawa?",
+    valaszok: ["Kanada", "Egyesült Államok", "Mexikó", "Grönland"],
+    helyesIndex: 0,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Washington D.C.?",
+    valaszok: ["Egyesült Államok", "Kanada", "Mexikó", "Brazília"],
+    helyesIndex: 0,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Reykjavík?",
+    valaszok: ["Norvégia", "Izland", "Finnország", "Grönland"],
+    helyesIndex: 1,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Oslo?",
+    valaszok: ["Norvégia", "Svédország", "Finnország", "Dánia"],
+    helyesIndex: 0,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Stockholm?",
+    valaszok: ["Finnország", "Norvégia", "Svédország", "Észtország"],
+    helyesIndex: 2,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Helsinki?",
+    valaszok: ["Svédország", "Finnország", "Észtország", "Norvégia"],
+    helyesIndex: 1,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Koppenhága?",
+    valaszok: ["Dánia", "Svédország", "Norvégia", "Finnország"],
+    helyesIndex: 0,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Tallinn?",
+    valaszok: ["Észtország", "Lettország", "Litvánia", "Finnország"],
+    helyesIndex: 0,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Riga?",
+    valaszok: ["Litvánia", "Észtország", "Lettország", "Finnország"],
+    helyesIndex: 2,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Vilnius?",
+    valaszok: ["Lettország", "Litvánia", "Észtország", "Fehéroroszország"],
+    helyesIndex: 1,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Varsó?",
+    valaszok: ["Lengyelország", "Ukrajna", "Csehország", "Litvánia"],
+    helyesIndex: 0,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Prága?",
+    valaszok: ["Csehország", "Szlovákia", "Lengyelország", "Ausztria"],
+    helyesIndex: 0,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Pozsony?",
+    valaszok: ["Csehország", "Magyarország", "Szlovákia", "Ausztria"],
+    helyesIndex: 2,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Bécs?",
+    valaszok: ["Svájc", "Ausztria", "Magyarország", "Németország"],
+    helyesIndex: 1,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Budapest?",
+    valaszok: ["Ausztria", "Románia", "Magyarország", "Horvátország"],
+    helyesIndex: 2,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Ljubljana?",
+    valaszok: ["Szlovákia", "Szlovénia", "Horvátország", "Szerbia"],
+    helyesIndex: 1,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Zágráb?",
+    valaszok: ["Szerbia", "Szlovénia", "Horvátország", "Bosznia-Hercegovina"],
+    helyesIndex: 2,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Szarajevó?",
+    valaszok: ["Montenegró", "Bosznia-Hercegovina", "Horvátország", "Albánia"],
+    helyesIndex: 1,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Belgrád?",
+    valaszok: ["Koszovó", "Szerbia", "Macedónia", "Montenegró"],
+    helyesIndex: 1,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Podgorica?",
+    valaszok: ["Szerbia", "Koszovó", "Montenegró", "Bosznia-Hercegovina"],
+    helyesIndex: 2,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Tirana?",
+    valaszok: ["Koszovó", "Albánia", "Macedónia", "Montenegró"],
+    helyesIndex: 1,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Szkopje?",
+    valaszok: ["Albánia", "Macedónia", "Koszovó", "Szerbia"],
+    helyesIndex: 1,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Pristina?",
+    valaszok: ["Macedónia", "Koszovó", "Albánia", "Montenegró"],
+    helyesIndex: 1,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Athén?",
+    valaszok: ["Görögország", "Törökország", "Bulgária", "Ciprus"],
+    helyesIndex: 0,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Ankara?",
+    valaszok: ["Törökország", "Görögország", "Irán", "Szíria"],
+    helyesIndex: 0,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Nicosia?",
+    valaszok: ["Ciprus", "Görögország", "Törökország", "Libanon"],
+    helyesIndex: 0,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Moszkva?",
+    valaszok: ["Fehéroroszország", "Ukrajna", "Oroszország", "Kazahsztán"],
+    helyesIndex: 2,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Kijev?",
+    valaszok: ["Oroszország", "Fehéroroszország", "Ukrajna", "Moldova"],
+    helyesIndex: 2,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Minszk?",
+    valaszok: ["Ukrajna", "Oroszország", "Moldova", "Fehéroroszország"],
+    helyesIndex: 3,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Chisinau?",
+    valaszok: ["Románia", "Moldova", "Ukrajna", "Fehéroroszország"],
+    helyesIndex: 1,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Bern?",
+    valaszok: ["Svájc", "Ausztria", "Németország", "Liechtenstein"],
+    helyesIndex: 0,
+    kep: "foldrajz.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Vaduz?",
+    valaszok: ["Svájc", "Liechtenstein", "Ausztria", "Luxemburg"],
+    helyesIndex: 1,
+    kep: "foldrajz.jpg"
+  },
+    {
+    kerdes: "Melyik sorozatban játszott Szabó Győző a legismertebb szerepében?",
+    valaszok: ["Barátok közt", "Valami Amerika", "Terápia", "Tűzvonalban"],
+    helyesIndex: 1,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Kinek a nevéhez fűződik a 'Kincsem' című film főszerepe?",
+    valaszok: ["Kulka János", "Nagy Ervin", "Oroszlán Szonja", "Scherer Péter"],
+    helyesIndex: 1,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Ki játszotta Mágenheim doktort a Szomszédok című sorozatban?",
+    valaszok: ["Jordán Tamás", "Pusztaszeri Kornél", "Lengyel Ferenc", "Szőke Zoltán"],
+    helyesIndex: 3,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Melyik magyar színésznő játszott a Kontroll című filmben?",
+    valaszok: ["Péterfy Bori", "Balsai Móni", "Pálmai Anna", "Eszenyi Enikő"],
+    helyesIndex: 1,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Melyik filmben szerepelt Kamarás Iván?",
+    valaszok: ["Valami Amerika", "Állítsátok meg Terézanyut!", "Made in Hungária", "Örökség"],
+    helyesIndex: 0,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Kinek a nevéhez köthető a 'Testről és lélekről' című film főszerepe?",
+    valaszok: ["Tenki Réka", "Balsai Móni", "Borbély Alexandra", "Tóth Ildikó"],
+    helyesIndex: 2,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Ki a 'Süsü, a sárkány' hangja?",
+    valaszok: ["Sinkovits Imre", "Bodrogi Gyula", "Garas Dezső", "Kállai Ferenc"],
+    helyesIndex: 1,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Ki játszotta a Tanár urat a 'Tanár úr kérem' színpadi feldolgozásában?",
+    valaszok: ["Gálvölgyi János", "Kern András", "Eperjes Károly", "Szervét Tibor"],
+    helyesIndex: 3,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Melyik színész alakította a legismertebb Hacsekot?",
+    valaszok: ["Makláry Zoltán", "Bánhidi László", "Kállai Ferenc", "Kazal László"],
+    helyesIndex: 0,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Ki alakította az Üvegtigris című film sorozatban Lali karakterét?",
+    valaszok: ["Rudolf Péter", "Reviczky Gábor", "Kálloy Molnár Péter", "Szervét Tibor"],
+    helyesIndex: 0,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Melyik színésznő szerepelt a 'Barátok közt' című sorozatban Berényi Claudia szerepében?",
+    valaszok: ["Ábrahám Edit", "Pap Vera", "Tordai Teri", "Bánsági Ildikó"],
+    helyesIndex: 0,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Ki alakította Minarik Edét az 'Októberi vasárnap' című filmben?",
+    valaszok: ["Eperjes Károly", "Garas Dezső", "Kulka János", "Kállai Ferenc"],
+    helyesIndex: 1,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Melyik színész ismert Kabos Gyula karakterének modern megformálásáról?",
+    valaszok: ["Fábry Sándor", "Maksa Zoltán", "Gálvölgyi János", "Bödőcs Tibor"],
+    helyesIndex: 2,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Kinek az alakításához fűződik a 'Hyppolit, a lakáj' modern feldolgozása?",
+    valaszok: ["Rudolf Péter", "Kern András", "Reviczky Gábor", "Kolovratnik Krisztián"],
+    helyesIndex: 0,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Ki volt a főszereplője a 'Tűzvonalban' című sorozatnak?",
+    valaszok: ["Nagy Zsolt", "Lengyel Tamás", "Kovács Lajos", "Szabó Győző"],
+    helyesIndex: 3,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Ki alakította a Tanárnőt az 'Abigél' című sorozatban?",
+    valaszok: ["Halász Judit", "Dömsödi Janka", "Kovács Nóra", "Szabó Éva"],
+    helyesIndex: 0,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Ki volt a 'Linda' című sorozat főszereplője?",
+    valaszok: ["Kovács Patrícia", "Kékkovács Mara", "Bujtor István", "Görbe Nóra"],
+    helyesIndex: 3,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Melyik filmben játszott együtt Rudolf Péter és Nagy-Kálózy Eszter?",
+    valaszok: ["Üvegtigris", "Valami Amerika", "Ámbár tanár úr", "Sose halunk meg"],
+    helyesIndex: 2,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Ki az alábbiak közül Jászai Mari-díjas színész?",
+    valaszok: ["Hujber Ferenc", "Kulka János", "Stohl András", "Ganxsta Zolee"],
+    helyesIndex: 2,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Kinek a nevéhez fűződik a 'Meseautó' 2000-es feldolgozásának főszerepe?",
+    valaszok: ["Kulka János", "Rudolf Péter", "Kern András", "Szabó Győző"],
+    helyesIndex: 1,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Ki játszotta a Társas játék sorozat főszereplőjét?",
+    valaszok: ["Lengyel Tamás", "Száraz Dénes", "Nagy Zsolt", "Mucsi Zoltán"],
+    helyesIndex: 0,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Melyik magyar színésznő szerepelt a 'Made in Hungária' című filmben?",
+    valaszok: ["Ónodi Eszter", "Tenki Réka", "Balsai Móni", "Kovács Patrícia"],
+    helyesIndex: 0,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Kinek a hangja volt 'Vuk' a híres magyar rajzfilmben?",
+    valaszok: ["Bodrogi Gyula", "Gyabronka József", "Gyulai István", "Mikó István"],
+    helyesIndex: 3,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Ki a 'Zimmer Feri' című film főszereplője?",
+    valaszok: ["Reviczky Gábor", "Kulka János", "Szervét Tibor", "Gáspár Sándor"],
+    helyesIndex: 0,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Ki játszotta Csocsót a 'Csocsó, avagy éljen május elseje!' című filmben?",
+    valaszok: ["Koltay Gábor", "Reviczky Gábor", "Eperjes Károly", "Kern András"],
+    helyesIndex: 2,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Kinek a nevéhez fűződik a 'Sose halunk meg' című film főszerepe?",
+    valaszok: ["Garas Dezső", "Koltai Róbert", "Rudolf Péter", "Reviczky Gábor"],
+    helyesIndex: 1,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Melyik magyar színész volt a főszereplője a 'Macskafogó 2'-nek?",
+    valaszok: ["Stohl András", "Kulka János", "Szabó Győző", "Kern András"],
+    helyesIndex: 3,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Ki alakította a fiatal Zolit a 'Valami Amerika' első részében?",
+    valaszok: ["Hujber Ferenc", "Csányi Sándor", "Szabó Győző", "Nagy Ervin"],
+    helyesIndex: 0,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Melyik színésznő volt a 'Megáll az idő' női főszereplője?",
+    valaszok: ["Pap Vera", "Eszenyi Enikő", "Bánsági Ildikó", "Pécsi Ildikó"],
+    helyesIndex: 0,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Ki szerepelt a legtöbbször a Mikroszkóp Színpadon?",
+    valaszok: ["Gálvölgyi János", "Boncz Géza", "Kern András", "Kabos László"],
+    helyesIndex: 1,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Melyik színész volt a Katona József Színház egyik legismertebb arca?",
+    valaszok: ["Máté Gábor", "Zsótér Sándor", "Gálffi László", "Alföldi Róbert"],
+    helyesIndex: 0,
+    kep: "magyarceleb.jpg"
+  },
+   {
+    kerdes: "Ki játszotta a főszerepet a 'Tüskevár' című filmben?",
+    valaszok: ["Szakácsi Sándor", "Bujtor István", "Eperjes Károly", "Kovács Lajos"],
+    helyesIndex: 0,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Melyik színésznő kapta meg a Jászai Mari-díjat 2010-ben?",
+    valaszok: ["Ábrahám Edit", "Tenki Réka", "Csányi Edit", "Halász Judit"],
+    helyesIndex: 1,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Ki volt a címszereplő a 'Szindbád' című filmben?",
+    valaszok: ["Bujtor István", "Rátóti Zoltán", "Mészáros Béla", "Jancsó Miklós"],
+    helyesIndex: 2,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Melyik magyar színész játszotta el a Rózsa Sándort a 'Valahol Európában' című filmben?",
+    valaszok: ["Ifj. Vidnyánszky Attila", "Lázár Ervin", "Nagy Feró", "Székely B. Miklós"],
+    helyesIndex: 3,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Ki alakította a főszerepet a 'Légy jó mindhalálig' filmben?",
+    valaszok: ["Bujtor István", "Ruttkai Éva", "Gálffi László", "Szabó István"],
+    helyesIndex: 0,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Melyik színész játszott a legtöbbször a Vígszínházban?",
+    valaszok: ["Kulka János", "Lukács Sándor", "Rudolf Péter", "Jankovics József"],
+    helyesIndex: 1,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Ki az a színész, aki főként komikus szerepeiről ismert, és játszott a 'Misi mókus kalandjai'-ban?",
+    valaszok: ["Hujber Ferenc", "Gálvölgyi János", "Reviczky Gábor", "Stohl András"],
+    helyesIndex: 1,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Ki alakította a címszereplőt a 'Kincsem' című filmben?",
+    valaszok: ["Várkonyi András", "Dévényi István", "Csányi Sándor", "Nagy Ervin"],
+    helyesIndex: 3,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Melyik színész játszott a 'Tóth János' című magyar film főszerepében?",
+    valaszok: ["Rudolf Péter", "Kulka János", "Stohl András", "Csányi Sándor"],
+    helyesIndex: 1,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Ki játszotta a 'Pál utcai fiúk' film egyik főszereplőjét?",
+    valaszok: ["Farkas Gyula", "Eperjes Károly", "Hajdu Steve", "Koltai Róbert"],
+    helyesIndex: 0,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Melyik magyar színésznő kapott Kossuth-díjat 2005-ben?",
+    valaszok: ["Bánsági Ildikó", "Hámori Gabriella", "Császár Előd", "Halász Judit"],
+    helyesIndex: 0,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Ki játszotta a főszerepet a 'Sorstalanság' című filmben?",
+    valaszok: ["Gáspár Sándor", "Nagy Ervin", "Koltai Róbert", "Földes Eszter"],
+    helyesIndex: 1,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Ki volt a címszereplő a 'Máglyák Firenzében' című színdarabban?",
+    valaszok: ["Gábor Miklós", "Törőcsik Mari", "Ács János", "Jászai Mari"],
+    helyesIndex: 0,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Melyik színész volt a főszereplője az 'Indul a bakterház' című filmnek?",
+    valaszok: ["Nagy Feró", "Hajduk Károly", "Kulka János", "Hujber Ferenc"],
+    helyesIndex: 1,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Ki alakította a főszereplőt az 'A Pál utcai fiúk' című filmben?",
+    valaszok: ["Farkas Gyula", "Koltai Róbert", "Eperjes Károly", "Kulka János"],
+    helyesIndex: 0,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Ki volt a főszereplője a 'Sose halunk meg' című filmnek?",
+    valaszok: ["Garas Dezső", "Rudolf Péter", "Bujtor István", "Kern András"],
+    helyesIndex: 1,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Melyik magyar színész játszotta a 'Tanú' című film főszerepét?",
+    valaszok: ["Szeleczky Zita", "Bujtor István", "Mucsi Zoltán", "Radványi Géza"],
+    helyesIndex: 3,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Ki játszotta a címszerepet a 'A kőszívű ember fiai' filmben?",
+    valaszok: ["Bujtor István", "Eperjes Károly", "Nagy Feró", "Farkas Gyula"],
+    helyesIndex: 1,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Melyik színész volt az egyik főszereplője az 'Állítsátok meg Terézanyut!' című filmnek?",
+    valaszok: ["Kulka János", "Bujtor István", "Rudolf Péter", "Stohl András"],
+    helyesIndex: 0,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Ki volt a főszereplője a 'Hannibál tanár úr' című filmnek?",
+    valaszok: ["Stohl András", "Nagy Ervin", "Bánsági Ildikó", "Garas Dezső"],
+    helyesIndex: 1,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Melyik színésznő játszotta a főszerepet a 'Szerelem első vérig' című filmben?",
+    valaszok: ["Pap Vera", "Kovács Patrícia", "Dömsödi Janka", "Halász Judit"],
+    helyesIndex: 0,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Ki volt a 'Tanár úr kérem' című film főszereplője?",
+    valaszok: ["Bujtor István", "Rudolf Péter", "Stohl András", "Kulka János"],
+    helyesIndex: 0,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Melyik magyar színész játszotta a 'Valami Amerika' film egyik főszerepét?",
+    valaszok: ["Csányi Sándor", "Szabó Győző", "Hujber Ferenc", "Nagy Ervin"],
+    helyesIndex: 0,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Ki volt a 'Tűzvonalban' című sorozat egyik főszereplője?",
+    valaszok: ["Lengyel Tamás", "Kovács Lajos", "Szabó Győző", "Nagy Zsolt"],
+    helyesIndex: 3,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Ki alakította a 'Linda' című sorozat címadó szerepét?",
+    valaszok: ["Görbe Nóra", "Kovács Patrícia", "Kékkovács Mara", "Pap Vera"],
+    helyesIndex: 0,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Ki játszotta a 'Barátok közt' sorozatban Berényi Claudiát?",
+    valaszok: ["Ábrahám Edit", "Pap Vera", "Tordai Teri", "Bánsági Ildikó"],
+    helyesIndex: 0,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Melyik magyar színész játszotta a 'Macskafogó 2' című film egyik főszerepét?",
+    valaszok: ["Kulka János", "Stohl András", "Szabó Győző", "Kern András"],
+    helyesIndex: 3,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Ki volt a főszereplője az 'Abigél' című sorozatnak?",
+    valaszok: ["Halász Judit", "Dömsödi Janka", "Kovács Nóra", "Szabó Éva"],
+    helyesIndex: 0,
+    kep: "magyarceleb.jpg"
+  },
+  {
+    kerdes: "Melyik színész játszotta a 'Hyppolit, a lakáj' modern feldolgozásának főszerepét?",
+    valaszok: ["Rudolf Péter", "Kern András", "Reviczky Gábor", "Kolovratnik Krisztián"],
+    helyesIndex: 0,
+    kep: "magyarceleb.jpg"
+  },
+   {
+    kerdes: "Melyik filmben játszotta Leonardo DiCaprio a főszerepet?",
+    valaszok: ["Titanic", "Avatar", "Inception", "The Matrix"],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Ki a híres énekes, aki az 'Thriller' című albumot adta ki?",
+    valaszok: ["Elvis Presley", "Michael Jackson", "Prince", "Madonna"],
+    helyesIndex: 1,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Melyik ország származik a futballista Cristiano Ronaldo?",
+    valaszok: ["Spanyolország", "Olaszország", "Portugália", "Brazília"],
+    helyesIndex: 2,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Ki volt az első nő, aki vezette az Egyesült Államok NASA űrprogramját?",
+    valaszok: ["Sally Ride", "Mae Jemison", "Kalpana Chawla", "Valentina Tereshkova"],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Melyik híres zenész alapította a 'The Beatles' zenekart?",
+    valaszok: ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Ki az a híres színész, aki a 'Pirates of the Caribbean' filmek Jack Sparrow kapitányát alakítja?",
+    valaszok: ["Johnny Depp", "Brad Pitt", "Tom Cruise", "Robert Downey Jr."],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Melyik énekesnő adta ki a '1989' című albumot?",
+    valaszok: ["Ariana Grande", "Katy Perry", "Taylor Swift", "Beyoncé"],
+    helyesIndex: 2,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Ki a híres kosárlabdázó, aki 6 NBA bajnoki címet nyert a Chicago Bulls csapatával?",
+    valaszok: ["LeBron James", "Kobe Bryant", "Michael Jordan", "Shaquille O'Neal"],
+    helyesIndex: 2,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Melyik színésznő játszotta el Hermione Grangert a 'Harry Potter' filmekben?",
+    valaszok: ["Emma Watson", "Natalie Portman", "Emma Stone", "Scarlett Johansson"],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Ki az a híres énekes, aki az 'I'm Yours' című slágert adta ki?",
+    valaszok: ["Jason Mraz", "Ed Sheeran", "Bruno Mars", "Sam Smith"],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Melyik országban született a popsztár Beyoncé?",
+    valaszok: ["USA", "Kanada", "Anglia", "Ausztrália"],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Ki játszotta Tony Stark / Vasember szerepét a Marvel filmekben?",
+    valaszok: ["Chris Evans", "Robert Downey Jr.", "Chris Hemsworth", "Mark Ruffalo"],
+    helyesIndex: 1,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Melyik híres sportoló az első nő, aki megnyerte az összes Grand Slam teniszbajnokságot?",
+    valaszok: ["Serena Williams", "Venus Williams", "Martina Navratilova", "Steffi Graf"],
+    helyesIndex: 3,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Ki az a híres rendező, aki a 'Jurassic Park' és a 'E.T.' filmeket készítette?",
+    valaszok: ["James Cameron", "Steven Spielberg", "Martin Scorsese", "Quentin Tarantino"],
+    helyesIndex: 1,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Melyik énekesnő adta elő a 'Like a Virgin' című slágert?",
+    valaszok: ["Madonna", "Lady Gaga", "Celine Dion", "Whitney Houston"],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Ki játszotta Forrest Gumpot a 'Forrest Gump' című filmben?",
+    valaszok: ["Tom Hanks", "Brad Pitt", "Matt Damon", "Johnny Depp"],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Melyik ország származik a focista Lionel Messi?",
+    valaszok: ["Brazília", "Argentína", "Spanyolország", "Portugália"],
+    helyesIndex: 1,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Ki az a brit énekes, aki kiadta a 'Shape of You' című slágert?",
+    valaszok: ["Ed Sheeran", "Sam Smith", "Adele", "Harry Styles"],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Melyik színész alakította a Joker karakterét a 2008-as 'The Dark Knight' filmben?",
+    valaszok: ["Heath Ledger", "Joaquin Phoenix", "Jared Leto", "Jack Nicholson"],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Ki a híres rapper, aki az 'Empire State of Mind' című slágert adta elő?",
+    valaszok: ["Jay-Z", "Kanye West", "Drake", "Eminem"],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Melyik országban született a modell és színésznő Scarlett Johansson?",
+    valaszok: ["Kanada", "USA", "Anglia", "Ausztrália"],
+    helyesIndex: 1,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Ki játszotta a főszerepet a 'Gladiátor' című filmben?",
+    valaszok: ["Russell Crowe", "Joaquin Phoenix", "Tom Hardy", "Brad Pitt"],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Melyik énekesnőnek a színpadi neve Lady Gaga?",
+    valaszok: ["Stefani Germanotta", "Robyn Fenty", "Alicia Augello", "Katheryn Hudson"],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Ki az a sportoló, aki 23 NBA All-Star meccset játszott?",
+    valaszok: ["LeBron James", "Michael Jordan", "Kobe Bryant", "Tim Duncan"],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Melyik színésznő játszotta el Black Widow karakterét a Marvel filmekben?",
+    valaszok: ["Scarlett Johansson", "Emily Blunt", "Natalie Portman", "Elizabeth Olsen"],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Ki az a híres énekes, aki a 'Shape of You' és 'Perfect' című slágereket adta ki?",
+    valaszok: ["Ed Sheeran", "Bruno Mars", "Shawn Mendes", "Justin Bieber"],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Melyik ország származik az autóversenyző Lewis Hamilton?",
+    valaszok: ["USA", "Anglia", "Ausztrália", "Kanada"],
+    helyesIndex: 1,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Ki játszotta a főszerepet a 'Titanic' című filmben Rose-ként?",
+    valaszok: ["Kate Winslet", "Natalie Portman", "Keira Knightley", "Sandra Bullock"],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Melyik rapper adott ki albumot 'The Marshall Mathers LP' címmel?",
+    valaszok: ["Eminem", "Jay-Z", "Drake", "Kanye West"],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Ki az a brit énekesnő, aki az 'Hello' című dalt énekelte?",
+    valaszok: ["Adele", "Amy Winehouse", "Ellie Goulding", "Lorde"],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Melyik ország szülötte Novak Djokovic teniszbajnok?",
+    valaszok: ["Horvátország", "Szerbia", "Szlovénia", "Montenegró"],
+    helyesIndex: 1,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Ki volt a Harry Potter filmek főszereplője?",
+    valaszok: ["Daniel Radcliffe", "Rupert Grint", "Tom Felton", "Matthew Lewis"],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Melyik színész játszotta el Wolverine-t az X-Men filmekben?",
+    valaszok: ["Hugh Jackman", "Ryan Reynolds", "Chris Evans", "Robert Downey Jr."],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Ki az a híres színész, aki a 'Mission Impossible' filmek Ethan Hunt karakterét játssza?",
+    valaszok: ["Tom Cruise", "Brad Pitt", "Matt Damon", "Johnny Depp"],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Melyik zenekar tagja Paul McCartney?",
+    valaszok: ["The Rolling Stones", "The Beatles", "Queen", "Led Zeppelin"],
+    helyesIndex: 1,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Ki az a híres énekes, aki a 'Bad Romance' című számot adta ki?",
+    valaszok: ["Lady Gaga", "Katy Perry", "Madonna", "Rihanna"],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Melyik országban született az énekes Justin Bieber?",
+    valaszok: ["USA", "Kanada", "Anglia", "Ausztrália"],
+    helyesIndex: 1,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Ki játszotta a Joker szerepét a 2019-es azonos című filmben?",
+    valaszok: ["Joaquin Phoenix", "Heath Ledger", "Jared Leto", "Jack Nicholson"],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Melyik híres futballcsapat játékosa Lionel Messi?",
+    valaszok: ["Real Madrid", "Manchester United", "Barcelona", "Bayern München"],
+    helyesIndex: 2,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Ki volt az első ember, aki a Holdra lépett?",
+    valaszok: ["Buzz Aldrin", "Yuri Gagarin", "Neil Armstrong", "Michael Collins"],
+    helyesIndex: 2,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Melyik énekesnő adta ki a 'Lemonade' albumot?",
+    valaszok: ["Beyoncé", "Adele", "Rihanna", "Taylor Swift"],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Ki játszotta a főszerepet a 'Deadpool' filmben?",
+    valaszok: ["Ryan Reynolds", "Chris Evans", "Hugh Jackman", "Tom Holland"],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Melyik országban született a teniszjátékos Serena Williams?",
+    valaszok: ["USA", "Ausztrália", "Nagy-Britannia", "Dél-Afrika"],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Ki a 'Game of Thrones' sorozatból ismert Jon Snow karaktert alakító színész?",
+    valaszok: ["Kit Harington", "Emilia Clarke", "Peter Dinklage", "Nikolaj Coster-Waldau"],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Melyik énekes adott ki albumot '25' címmel?",
+    valaszok: ["Adele", "Beyoncé", "Taylor Swift", "Lady Gaga"],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Ki volt a híres színésznő a 'La La Land' című filmben?",
+    valaszok: ["Emma Stone", "Jennifer Lawrence", "Natalie Portman", "Anne Hathaway"],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Melyik híres sportoló nyerte meg 7-szer a Tour de France kerékpárversenyt?",
+    valaszok: ["Chris Froome", "Eddy Merckx", "Lance Armstrong", "Miguel Indurain"],
+    helyesIndex: 2,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Ki az a híres énekes, aki az 'Uptown Funk' című slágert adta elő?",
+    valaszok: ["Bruno Mars", "Pharrell Williams", "Justin Timberlake", "Usher"],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Melyik ország származik a színész Keanu Reeves?",
+    valaszok: ["USA", "Kanada", "Ausztrália", "Anglia"],
+    helyesIndex: 1,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Ki a 'Pirates of the Caribbean' filmek szereplője, aki Jack Sparrow kapitányt alakítja?",
+    valaszok: ["Johnny Depp", "Orlando Bloom", "Geoffrey Rush", "Javier Bardem"],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Melyik híres énekesnő énekelte a 'Rolling in the Deep' című slágert?",
+    valaszok: ["Adele", "Beyoncé", "Sia", "Katy Perry"],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Ki volt a főszereplő a 'The Matrix' filmekben?",
+    valaszok: ["Keanu Reeves", "Laurence Fishburne", "Hugo Weaving", "Carrie-Anne Moss"],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Melyik ország származik a színész Tom Hanks?",
+    valaszok: ["USA", "Anglia", "Ausztrália", "Kanada"],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Ki az a híres énekes, aki az 'Hello' című számot adta ki?",
+    valaszok: ["Adele", "Beyoncé", "Lady Gaga", "Katy Perry"],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Melyik sportágban híres Usain Bolt?",
+    valaszok: ["Úszás", "Atlétika", "Futball", "Kosárlabda"],
+    helyesIndex: 1,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Ki játszotta a 'Jack Sparrow' karakterét?",
+    valaszok: ["Johnny Depp", "Orlando Bloom", "Jude Law", "Brad Pitt"],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Melyik híres énekes adott ki 'Lover' című albumot?",
+    valaszok: ["Taylor Swift", "Katy Perry", "Ariana Grande", "Selena Gomez"],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Ki az a színész, aki a 'Deadpool' szerepét játszotta?",
+    valaszok: ["Ryan Reynolds", "Chris Evans", "Tom Holland", "Robert Downey Jr."],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Melyik országban született Novak Djokovic?",
+    valaszok: ["Horvátország", "Szerbia", "Szlovénia", "Montenegró"],
+    helyesIndex: 1,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Ki az a híres énekesnő, aki a 'Poker Face' című slágert énekelte?",
+    valaszok: ["Lady Gaga", "Katy Perry", "Madonna", "Rihanna"],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Melyik híres színész játszotta el a 'Batman' szerepét a 2005-ös filmben?",
+    valaszok: ["Christian Bale", "Ben Affleck", "Michael Keaton", "Val Kilmer"],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Ki az a híres énekes, aki a 'Happy' című számot adta ki?",
+    valaszok: ["Pharrell Williams", "Bruno Mars", "Justin Timberlake", "Ed Sheeran"],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Melyik országban született a színész Hugh Jackman?",
+    valaszok: ["USA", "Ausztrália", "Kanada", "Anglia"],
+    helyesIndex: 1,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Ki játszotta a főszerepet a 'The Revenant' című filmben?",
+    valaszok: ["Leonardo DiCaprio", "Tom Hardy", "Matt Damon", "Brad Pitt"],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Melyik híres énekesnőnek a színpadi neve Rihanna?",
+    valaszok: ["Robyn Fenty", "Stefani Germanotta", "Katheryn Hudson", "Alicia Augello"],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Ki az a híres focista, aki 5 alkalommal nyerte meg a Ballon d'Or-t?",
+    valaszok: ["Cristiano Ronaldo", "Lionel Messi", "Neymar", "Zlatan Ibrahimović"],
+    helyesIndex: 1,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Melyik híres rendező készítette a 'Pulp Fiction' című filmet?",
+    valaszok: ["Quentin Tarantino", "Steven Spielberg", "Martin Scorsese", "James Cameron"],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+  {
+    kerdes: "Ki az a színésznő, aki a 'Black Widow' szerepét alakítja?",
+    valaszok: ["Scarlett Johansson", "Emily Blunt", "Natalie Portman", "Elizabeth Olsen"],
+    helyesIndex: 0,
+    kep: "globalstar.jpg"
+  },
+   {
+    kerdes: "Hány kontinens van a Földön?",
+    valaszok: ["5", "6", "7", "8"],
+    helyesIndex: 2,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi a fővárosa Magyarországnak?",
+    valaszok: ["Bécs", "Budapest", "Prága", "Varsó"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Milyen alakú egy háromszög?",
+    valaszok: ["Négy oldalú", "Három oldalú", "Kör alakú", "Öt oldalú"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Melyik bolygó a Naprendszerünk legnagyobb bolygója?",
+    valaszok: ["Föld", "Mars", "Jupiter", "Vénusz"],
+    helyesIndex: 2,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Melyik évszak következik a tavasz után?",
+    valaszok: ["Nyár", "Ősz", "Tél", "Nyár vége"],
+    helyesIndex: 0,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi a 10-es számrendszerben a 101 bináris szám értéke?",
+    valaszok: ["3", "4", "5", "6"],
+    helyesIndex: 2,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi a magyar nyelv hivatalos nyelve?",
+    valaszok: ["Magyar", "Angol", "Német", "Francia"],
+    helyesIndex: 0,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Melyik állat tud repülni?",
+    valaszok: ["Elefánt", "Bagoly", "Ló", "Kutya"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Melyik ország zászlaja piros, fehér és zöld színekből áll?",
+    valaszok: ["Magyarország", "Németország", "Franciaország", "Olaszország"],
+    helyesIndex: 0,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi az 5 + 3 eredménye?",
+    valaszok: ["7", "8", "9", "6"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Melyik évszakban hullanak a levelek a fákról?",
+    valaszok: ["Tavasz", "Nyár", "Ősz", "Tél"],
+    helyesIndex: 2,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Hány órából áll egy nap?",
+    valaszok: ["12", "24", "48", "36"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Milyen formájú a Föld?",
+    valaszok: ["Gömb", "Kocka", "Henger", "Piramisszerű"],
+    helyesIndex: 0,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi az év első hónapja?",
+    valaszok: ["Január", "Február", "Március", "December"],
+    helyesIndex: 0,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Melyik állat él a vízben?",
+    valaszok: ["Cápa", "Oroszlán", "Macska", "Elefánt"],
+    helyesIndex: 0,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi a 3 x 4 eredménye?",
+    valaszok: ["7", "11", "12", "14"],
+    helyesIndex: 2,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Melyik hónapban van a karácsony?",
+    valaszok: ["December", "November", "Október", "Január"],
+    helyesIndex: 0,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Melyik az a szerv, ami a vért pumpálja az emberi testben?",
+    valaszok: ["Tüdő", "Máj", "Szív", "Gyomor"],
+    helyesIndex: 2,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Melyik az a három alapszín?",
+    valaszok: ["Piros, kék, sárga", "Zöld, narancs, lila", "Fekete, fehér, szürke", "Rózsaszín, barna, türkiz"],
+    helyesIndex: 0,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi a 15 - 7 eredménye?",
+    valaszok: ["8", "7", "9", "10"],
+    helyesIndex: 0,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Hány lába van a póknak?",
+    valaszok: ["6", "8", "10", "12"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi az alapanyaga a papírnak?",
+    valaszok: ["Fém", "Fa", "Műanyag", "Üveg"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Ki volt az első magyar király?",
+    valaszok: ["Szent István", "Mátyás király", "IV. Béla", "Károly Róbert"],
+    helyesIndex: 0,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Milyen anyagból készül a kenyér?",
+    valaszok: ["Liszt", "Cukor", "Só", "Olaj"],
+    helyesIndex: 0,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Melyik évszakban esik a legtöbb hó?",
+    valaszok: ["Tél", "Ősz", "Tavasz", "Nyár"],
+    helyesIndex: 0,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Hány perc van egy órában?",
+    valaszok: ["50", "60", "70", "80"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Melyik bolygó a Naphoz legközelebb?",
+    valaszok: ["Merkúr", "Vénusz", "Föld", "Mars"],
+    helyesIndex: 0,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Melyik állat nem tud repülni?",
+    valaszok: ["Madár", "Denevér", "Pingvin", "Bagoly"],
+    helyesIndex: 2,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Melyik szám következik a 9 után?",
+    valaszok: ["7", "8", "10", "11"],
+    helyesIndex: 2,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Milyen állat a kaméleon?",
+    valaszok: ["Hüllő", "Madár", "Emlős", "Hal"],
+    helyesIndex: 0,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Melyik bolygó a 'vörös bolygó' néven ismert?",
+    valaszok: ["Mars", "Vénusz", "Jupiter", "Szaturnusz"],
+    helyesIndex: 0,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Melyik évszakban nyílnak a virágok leggyakrabban?",
+    valaszok: ["Tél", "Ősz", "Tavasz", "Nyár"],
+    helyesIndex: 2,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi az angol nyelvben a 'kutya' szó?",
+    valaszok: ["Dog", "Cat", "Bird", "Fish"],
+    helyesIndex: 0,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Hány hónapból áll egy év?",
+    valaszok: ["10", "11", "12", "13"],
+    helyesIndex: 2,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Melyik a legnagyobb szerv az emberi testben?",
+    valaszok: ["Szív", "Máj", "Bőr", "Tüdő"],
+    helyesIndex: 2,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Milyen alakú a stop tábla?",
+    valaszok: ["Kör", "Négyzet", "Nyolcszög", "Háromszög"],
+    helyesIndex: 2,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi a neve a Föld körül keringő égitestnek?",
+    valaszok: ["Nap", "Hold", "Mars", "Jupiter"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi az a napszak, amikor felkel a nap?",
+    valaszok: ["Reggel", "Este", "Dél", "Éjjel"],
+    helyesIndex: 0,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi a 7 + 6 eredménye?",
+    valaszok: ["11", "12", "13", "14"],
+    helyesIndex: 2,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Melyik anyagból készül a ruházat leggyakrabban?",
+    valaszok: ["Fa", "Pamut", "Fém", "Kő"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Hány színű a magyar zászló?",
+    valaszok: ["2", "3", "4", "5"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Melyik a legkisebb egész szám?",
+    valaszok: ["0", "-1", "1", "-10"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi a neve annak az országának, ahol a piramisok találhatók?",
+    valaszok: ["Mexikó", "Egyiptom", "Görögország", "India"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Milyen állat a panda?",
+    valaszok: ["Medve", "Macska", "Kutya", "Elefánt"],
+    helyesIndex: 0,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi a 100-as szám tízesek és egyesek összege?",
+    valaszok: ["1", "10", "0", "100"],
+    helyesIndex: 2,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Hány lába van egy bogárnak?",
+    valaszok: ["4", "6", "8", "10"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi a neve annak az évnek, amelyben karácsony van?",
+    valaszok: ["Karácsony", "December", "Év", "Hét"],
+    helyesIndex: 2,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Melyik évszakban van a leghidegebb idő?",
+    valaszok: ["Ősz", "Tél", "Tavasz", "Nyár"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+   {
+    kerdes: "Mi az alma színe leggyakrabban?",
+    valaszok: ["Piros", "Kék", "Zöld", "Sárga"],
+    helyesIndex: 0,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Hány másodperc van egy percben?",
+    valaszok: ["30", "45", "60", "90"],
+    helyesIndex: 2,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Melyik ország zászlaja piros, fehér és kék színekből áll?",
+    valaszok: ["Franciaország", "Olaszország", "Németország", "Spanyolország"],
+    helyesIndex: 0,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi a fővárosa Franciaországnak?",
+    valaszok: ["Berlin", "Róma", "Párizs", "Madrid"],
+    helyesIndex: 2,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Melyik állat adja a tejet?",
+    valaszok: ["Disznó", "Kecske", "Ló", "Szamár"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi a neve annak a bolygónak, amelyiknek gyűrűi vannak?",
+    valaszok: ["Jupiter", "Mars", "Szaturnusz", "Neptunusz"],
+    helyesIndex: 2,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Hány nap van egy szökőévben?",
+    valaszok: ["365", "366", "364", "367"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Melyik évszakban kezdődik az iskolaév Magyarországon?",
+    valaszok: ["Nyár", "Ősz", "Tavasz", "Tél"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi a neve a Föld legnagyobb óceánjának?",
+    valaszok: ["Atlanti-óceán", "Csendes-óceán", "Indiai-óceán", "Jeges-tenger"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Hány nap van egy hétben?",
+    valaszok: ["5", "6", "7", "8"],
+    helyesIndex: 2,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi az angol nyelvben a 'köszönöm' szó?",
+    valaszok: ["Hello", "Please", "Thanks", "Goodbye"],
+    helyesIndex: 2,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Milyen színű a narancs?",
+    valaszok: ["Piros", "Narancssárga", "Zöld", "Kék"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Melyik a legkisebb szám a következők közül?",
+    valaszok: ["-5", "0", "3", "10"],
+    helyesIndex: 0,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi a neve annak az állatnak, amelyik mézet gyűjt?",
+    valaszok: ["Méhecske", "Lepke", "Hangya", "Szúnyog"],
+    helyesIndex: 0,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi a neve a legnagyobb szárazföldi emlősnek?",
+    valaszok: ["Elefánt", "Orrszarvú", "Zsiráf", "Medve"],
+    helyesIndex: 0,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Milyen alakú a négyszög?",
+    valaszok: ["Négy oldalú", "Három oldalú", "Kör alakú", "Öt oldalú"],
+    helyesIndex: 0,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa London?",
+    valaszok: ["Anglia", "Franciaország", "Németország", "Olaszország"],
+    helyesIndex: 0,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi az emberi test legnagyobb szerve?",
+    valaszok: ["Szív", "Máj", "Bőr", "Tüdő"],
+    helyesIndex: 2,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Milyen színű az ég általában napsütéses időben?",
+    valaszok: ["Zöld", "Kék", "Piros", "Fekete"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi a következő szám: 10, 20, 30, ...?",
+    valaszok: ["35", "40", "45", "50"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Melyik állat a leggyorsabb szárazföldi állat?",
+    valaszok: ["Oroszlán", "Gepárd", "Tigris", "Leopárd"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Melyik égitest kering a Föld körül?",
+    valaszok: ["Nap", "Hold", "Mars", "Jupiter"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Hány hónapból áll a nyár?",
+    valaszok: ["1", "2", "3", "4"],
+    helyesIndex: 2,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi az évszak, amikor hullanak a falevelek?",
+    valaszok: ["Tavasz", "Nyár", "Ősz", "Tél"],
+    helyesIndex: 2,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi a neve a magyar nemzeti himnusznak?",
+    valaszok: ["Szózat", "Himnusz", "Székely Himnusz", "Nemzeti Dal"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi a neve a folyónak, amelyik Budapesten folyik keresztül?",
+    valaszok: ["Tisza", "Duna", "Dráva", "Rába"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Melyik évszak következik a nyár után?",
+    valaszok: ["Ősz", "Tél", "Tavasz", "Nyár"],
+    helyesIndex: 0,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Hány kereke van egy kerékpárnak?",
+    valaszok: ["1", "2", "3", "4"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi az emberi test központi idegrendszerének része?",
+    valaszok: ["Szív", "Agy", "Máj", "Gyomor"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Melyik állat a háziállat, amelyik ugat?",
+    valaszok: ["Macska", "Kutya", "Ló", "Tyúk"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Milyen színű a traktor általában?",
+    valaszok: ["Piros", "Zöld", "Sárga", "Kék"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi a neve a leghíresebb magyar költőnek?",
+    valaszok: ["Ady Endre", "Petőfi Sándor", "József Attila", "Arany János"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Milyen anyagból készül a szék?",
+    valaszok: ["Fa", "Fém", "Műanyag", "Papír"],
+    helyesIndex: 0,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi a neve annak a városnak, amelyik a magyar Parlament otthona?",
+    valaszok: ["Debrecen", "Szeged", "Budapest", "Pécs"],
+    helyesIndex: 2,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Milyen sportág az, ahol labdát rúgnak a kapuba?",
+    valaszok: ["Kosárlabda", "Foci", "Röplabda", "Tenisz"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Melyik az az évszak, amikor a gyerekek nyári szünetre mennek?",
+    valaszok: ["Tavasz", "Nyár", "Ősz", "Tél"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi a neve a színek keveréséből keletkező új színnek?",
+    valaszok: ["Fekete", "Fehér", "Lila", "Barna"],
+    helyesIndex: 2,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Hány kontinens található a Földön?",
+    valaszok: ["5", "6", "7", "8"],
+    helyesIndex: 2,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Melyik testrészünk használjuk a halláshoz?",
+    valaszok: ["Szem", "Fül", "Száj", "Kéz"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Melyik évszakban szüretelik a szőlőt?",
+    valaszok: ["Tavasz", "Nyár", "Ősz", "Tél"],
+    helyesIndex: 2,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Milyen irányba halad a nap a délután folyamán?",
+    valaszok: ["Kelet", "Nyugat", "Észak", "Dél"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Hány ujjunk van összesen a két kezünkön?",
+    valaszok: ["8", "10", "12", "14"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi a neve a legismertebb magyar dalnak, amelyet általában az iskolákban énekelnek?",
+    valaszok: ["Székely Himnusz", "Himnusz", "Tavaszi szél", "Tavaszi szél vizet áraszt"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Melyik ország fővárosa Washington D.C.?",
+    valaszok: ["Kanada", "Mexikó", "Egyesült Államok", "Brazília"],
+    helyesIndex: 2,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Melyik a legnagyobb szárazföldi állat?",
+    valaszok: ["Elefánt", "Orrszarvú", "Zsiráf", "Medve"],
+    helyesIndex: 0,
+    kep: "iskola.jpg"
+  },
+   {
+    kerdes: "Mi a legkisebb természetes szám?",
+    valaszok: ["0", "1", "2", "-1"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Melyik évszakban virágoznak a fák?",
+    valaszok: ["Ősz", "Tél", "Tavasz", "Nyár"],
+    helyesIndex: 2,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Hány hét van egy évben?",
+    valaszok: ["52", "48", "50", "45"],
+    helyesIndex: 0,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi a fővárosa Olaszországnak?",
+    valaszok: ["Párizs", "Róma", "Berlin", "Madrid"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Melyik bolygó a Naprendszer legnagyobb bolygója?",
+    valaszok: ["Föld", "Mars", "Jupiter", "Szaturnusz"],
+    helyesIndex: 2,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Milyen anyagból készül a papír?",
+    valaszok: ["Fém", "Fa", "Műanyag", "Üveg"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi az évszak, amikor általában havazik Magyarországon?",
+    valaszok: ["Ősz", "Tél", "Tavasz", "Nyár"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi a magyar nemzeti ital?",
+    valaszok: ["Bor", "Pálinka", "Sör", "Kávé"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Melyik állat él a vízben és van pikkelye?",
+    valaszok: ["Kutya", "Hal", "Macska", "Madár"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Melyik a legismertebb magyar vár?",
+    valaszok: ["Visegrád", "Eger", "Budai Vár", "Sümeg"],
+    helyesIndex: 2,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Milyen színű a magyar zászló?",
+    valaszok: ["Piros, fehér, zöld", "Kék, fehér, piros", "Fekete, sárga, piros", "Zöld, sárga, fehér"],
+    helyesIndex: 0,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi a magyar népmesék legismertebb figurája?",
+    valaszok: ["Ludas Matyi", "Piroska", "Hamupipőke", "Jancsi"],
+    helyesIndex: 0,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Melyik bolygó kering a Naphoz legközelebb?",
+    valaszok: ["Mars", "Föld", "Merkúr", "Vénusz"],
+    helyesIndex: 2,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi a neve annak az anyagnak, amit könyvekben olvasunk?",
+    valaszok: ["Papír", "Fa", "Fém", "Üveg"],
+    helyesIndex: 0,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Milyen testrészünkkel ízlelünk?",
+    valaszok: ["Szem", "Fül", "Nyelv", "Kéz"],
+    helyesIndex: 2,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi a neve a legismertebb magyar népdalnak, amit az iskolában is énekelnek?",
+    valaszok: ["Tavaszi szél", "Boci, boci tarka", "Hej, Dunáról fúj a szél", "Cifra palota"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi a neve annak az állatnak, amelyik csiripel?",
+    valaszok: ["Kutya", "Macska", "Madár", "Hal"],
+    helyesIndex: 2,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi a magyar fizikai mértékegység, amit a súly mérésére használunk?",
+    valaszok: ["Kilogramm", "Liter", "Méterr", "Másodperc"],
+    helyesIndex: 0,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi a neve annak az évszaknak, amikor a természet megújul?",
+    valaszok: ["Ősz", "Tél", "Tavasz", "Nyár"],
+    helyesIndex: 2,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi a legnagyobb szervünk?",
+    valaszok: ["Bőr", "Szív", "Tüdő", "Máj"],
+    helyesIndex: 0,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi a színkeverés alapvető színei az RGB színmodellben?",
+    valaszok: ["Piros, zöld, kék", "Fekete, fehér, szürke", "Sárga, kék, piros", "Fehér, fekete, piros"],
+    helyesIndex: 0,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Melyik a legnagyobb kontinens?",
+    valaszok: ["Afrika", "Ázsia", "Európa", "Dél-Amerika"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Milyen évszakban szoktak karácsonyt ünnepelni?",
+    valaszok: ["Tél", "Ősz", "Tavasz", "Nyár"],
+    helyesIndex: 0,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Hány lába van egy póknak?",
+    valaszok: ["6", "8", "4", "10"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Melyik állat mondja, hogy 'miau'?",
+    valaszok: ["Kutya", "Macska", "Ló", "Tehén"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Melyik szín nem szerepel a magyar zászlóban?",
+    valaszok: ["Piros", "Fehér", "Zöld", "Kék"],
+    helyesIndex: 3,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi az a háromszög?",
+    valaszok: ["Három oldalú síkidom", "Négy oldalú síkidom", "Kör", "Ötszög"],
+    helyesIndex: 0,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi a fővárosa Németországnak?",
+    valaszok: ["Bécs", "Berlin", "Párizs", "Róma"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Melyik évszakban van a legtöbb napsütés?",
+    valaszok: ["Tavasz", "Nyár", "Ősz", "Tél"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi az emberi test legfontosabb energiaforrása?",
+    valaszok: ["Fehérje", "Zsír", "Szénhidrát", "Vitamin"],
+    helyesIndex: 2,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi a neve a legismertebb magyar focicsapatnak?",
+    valaszok: ["Ferencváros", "Újpest", "Debrecen", "Honvéd"],
+    helyesIndex: 0,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Milyen irányba süt a nap reggel?",
+    valaszok: ["Észak", "Dél", "Kelet", "Nyugat"],
+    helyesIndex: 2,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Hány óra van egy napban?",
+    valaszok: ["24", "12", "18", "20"],
+    helyesIndex: 0,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi az a növény, amelyik tavasszal virágzik és sárga színű?",
+    valaszok: ["Tulipán", "Nárcisz", "Rózsa", "Orchidea"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Melyik állat ismert a hosszú nyakáról?",
+    valaszok: ["Elefánt", "Zsiráf", "Orrszarvú", "Medve"],
+    helyesIndex: 1,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Melyik bolygó a Föld testvére, méretben és távolságban a Naptól?",
+    valaszok: ["Mars", "Merkúr", "Vénusz", "Jupiter"],
+    helyesIndex: 2,
+    kep: "iskola.jpg"
+  },
+  {
+    kerdes: "Mi a neve annak a magyar népdalnak, amelyik így kezdődik: 'Tavaszi szél vizet áraszt'?",
+    valaszok: ["Tavaszi szél", "Boci, boci tarka", "Hej, Dunáról fúj a szél", "Cifra palota"],
+    helyesIndex: 0,
+    kep: "iskola.jpg"
+  },
+  
+
 ];
 
   let aktualisKerdesIndex = 0;
