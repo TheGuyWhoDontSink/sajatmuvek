@@ -2718,330 +2718,1591 @@ wrongSound.volume = 0.6;
   helyesIndex: 0,
   kep: "foldrajz.jpg"
 },
-{
-  kerdes: "What is the capital of Sri Lanka?",
-  valaszok: ["Malaysia", "Indonesia", "Sri Lanka", "India"],
-  helyesIndex: 2,
-  kep: "foldrajz.jpg"
-},
-{
-  kerdes: "What is the capital of Thailand?",
-  valaszok: ["Thailand", "Malaysia", "Cambodia", "Vietnam"],
-  helyesIndex: 0,
-  kep: "foldrajz.jpg"
-},
-{
-  kerdes: "What is the capital of Vietnam?",
-  valaszok: ["Laos", "Vietnam", "Cambodia", "Thailand"],
+  {
+    kerdes: "Which video game features Mario as the main character?",
+    valaszok: ["Sonic", "Zelda", "Mario Kart", "Final Fantasy"],
+    helyesIndex: 2,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Which company developed the PlayStation console?",
+    valaszok: ["Microsoft", "Nintendo", "Sony", "Sega"],
+    helyesIndex: 2,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "What is the main goal in Minecraft?",
+    valaszok: ["Racing", "Building and survival", "Space travel", "Card playing"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "In which game can you find a creature called 'Creeper'?",
+    valaszok: ["Fortnite", "Minecraft", "Call of Duty", "Apex Legends"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Which game series features Geralt the Witcher?",
+    valaszok: ["The Elder Scrolls", "Witcher", "Dragon Age", "Dark Souls"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "In which game do you fight zombies as part of a survivor team?",
+    valaszok: ["Minecraft", "The Sims", "Left 4 Dead", "Among Us"],
+    helyesIndex: 2,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "In which game can you play as a wizard at Hogwarts?",
+    valaszok: ["Hogwarts Legacy", "Elder Scrolls", "Baldur's Gate", "Overwatch"],
+    helyesIndex: 0,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Which game involves building and shooting in a survival arena?",
+    valaszok: ["League of Legends", "Fortnite", "PUBG", "Valorant"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "What is the main character's name in The Legend of Zelda games?",
+    valaszok: ["Zelda", "Ganon", "Link", "Navi"],
+    helyesIndex: 2,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "In which game do you work with (or against) colorful crewmates?",
+    valaszok: ["Among Us", "Fall Guys", "Stardew Valley", "Doom"],
+    helyesIndex: 0,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Which game's main character is Kratos, the god of war?",
+    valaszok: ["God of War", "Assassin's Creed", "Halo", "Gears of War"],
+    helyesIndex: 0,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "What is the goal in the game Tetris?",
+    valaszok: ["Shooting", "Building", "Fitting shapes", "Trading"],
+    helyesIndex: 2,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "In which video game can you use a Pokéball?",
+    valaszok: ["Yu-Gi-Oh!", "Pokemon", "Animal Crossing", "Fire Emblem"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "In which game do you start on an island with a parachute?",
+    valaszok: ["Fortnite", "Minecraft", "PUBG", "Halo"],
+    helyesIndex: 2,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "In which game can you control the lives of Sims?",
+    valaszok: ["The Sims", "Stardew Valley", "Skyrim", "Civilization"],
+    helyesIndex: 0,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "In which game do you fight against the Death Star?",
+    valaszok: ["Halo", "Mass Effect", "Star Wars Battlefront", "Destiny"],
+    helyesIndex: 2,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Which game is famous for the 'Hadouken!' move?",
+    valaszok: ["Tekken", "Street Fighter", "Mortal Kombat", "Smash Bros"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "In which game can you explore the world of Tamriel?",
+    valaszok: ["The Witcher", "Elder Scrolls", "Dragon Age", "Dark Souls"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Which game's main character is Master Chief?",
+    valaszok: ["Halo", "Destiny", "Gears of War", "Titanfall"],
+    helyesIndex: 0,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "In which game can you collect stars in space with Mario?",
+    valaszok: ["Mario Galaxy", "Mario Kart", "Super Mario World", "Luigi's Mansion"],
+    helyesIndex: 0,
+    kep: "gamer.jpg"
+  },
+  {
+  kerdes: "Which horror game features animatronic characters in a pizzeria?",
+  valaszok: ["Resident Evil", "Five Nights at Freddy's", "Silent Hill", "Dead Space"],
   helyesIndex: 1,
-  kep: "foldrajz.jpg"
+  kep: "gamer.jpg"
 },
 {
-  kerdes: "What is the capital of Cambodia?",
-  valaszok: ["Cambodia", "Laos", "Vietnam", "Thailand"],
-  helyesIndex: 0,
-  kep: "foldrajz.jpg"
-},
-{
-  kerdes: "What is the capital of Malaysia?",
-  valaszok: ["Malaysia", "Indonesia", "Brunei", "Philippines"],
-  helyesIndex: 0,
-  kep: "foldrajz.jpg"
-},
-{
-  kerdes: "What is the capital of Indonesia?",
-  valaszok: ["Indonesia", "Malaysia", "Brunei", "Singapore"],
-  helyesIndex: 0,
-  kep: "foldrajz.jpg"
-},
-{
-  kerdes: "What is the capital of the Philippines?",
-  valaszok: ["Philippines", "Thailand", "Indonesia", "Malaysia"],
-  helyesIndex: 0,
-  kep: "foldrajz.jpg"
-},
-{
-  kerdes: "What is the capital of Singapore?",
-  valaszok: ["Singapore", "Malaysia", "Brunei", "Indonesia"],
-  helyesIndex: 0,
-  kep: "foldrajz.jpg"
-},
-{
-  kerdes: "What is the capital of China?",
-  valaszok: ["Japan", "China", "Taiwan", "South Korea"],
+  kerdes: "Which game is set in the post-apocalyptic world of Vaults and Wastelands?",
+  valaszok: ["Metro", "Fallout", "Far Cry", "STALKER"],
   helyesIndex: 1,
-  kep: "foldrajz.jpg"
+  kep: "gamer.jpg"
 },
 {
-  kerdes: "What is the capital of Japan?",
-  valaszok: ["China", "South Korea", "Japan", "Thailand"],
+  kerdes: "In which game can you be a cowboy in the Wild West?",
+  valaszok: ["Call of Juarez", "Red Dead Redemption", "GTA V", "Tomb Raider"],
+  helyesIndex: 1,
+  kep: "gamer.jpg"
+},
+{
+  kerdes: "Which game popularized the 'battle royale' genre?",
+  valaszok: ["Fortnite", "Warzone", "PUBG", "Apex Legends"],
   helyesIndex: 2,
-  kep: "foldrajz.jpg"
+  kep: "gamer.jpg"
 },
 {
-  kerdes: "What is the capital of South Korea?",
-  valaszok: ["North Korea", "Japan", "China", "South Korea"],
+  kerdes: "Which game lets you create and run your own island with cute animal villagers?",
+  valaszok: ["Stardew Valley", "Minecraft", "Animal Crossing", "Terraria"],
+  helyesIndex: 2,
+  kep: "gamer.jpg"
+},
+{
+  kerdes: "Which company developed the game 'Overwatch'?",
+  valaszok: ["Ubisoft", "Blizzard", "Valve", "Riot Games"],
+  helyesIndex: 1,
+  kep: "gamer.jpg"
+},
+{
+  kerdes: "Which classic arcade game involves eating dots and avoiding ghosts?",
+  valaszok: ["Donkey Kong", "Pac-Man", "Frogger", "Tetris"],
+  helyesIndex: 1,
+  kep: "gamer.jpg"
+},
+{
+  kerdes: "Which game is known for its fast-paced building mechanics?",
+  valaszok: ["PUBG", "Minecraft", "Fortnite", "Valorant"],
+  helyesIndex: 2,
+  kep: "gamer.jpg"
+},
+{
+  kerdes: "In which series does Ezio Auditore appear?",
+  valaszok: ["The Witcher", "Assassin's Creed", "God of War", "Far Cry"],
+  helyesIndex: 1,
+  kep: "gamer.jpg"
+},
+{
+  kerdes: "Which puzzle game uses falling blocks to complete rows?",
+  valaszok: ["Bejeweled", "Candy Crush", "Tetris", "Portal"],
+  helyesIndex: 2,
+  kep: "gamer.jpg"
+},
+{
+  kerdes: "Which game features a battle between plants and zombies?",
+  valaszok: ["Minecraft", "Terraria", "Plants vs. Zombies", "Roblox"],
+  helyesIndex: 2,
+  kep: "gamer.jpg"
+},
+{
+  kerdes: "Which game lets you simulate farming and relationships in a village?",
+  valaszok: ["The Sims", "Animal Crossing", "Stardew Valley", "Harvest Moon"],
+  helyesIndex: 2,
+  kep: "gamer.jpg"
+},
+{
+  kerdes: "Which game is based on building tracks and managing roller coasters?",
+  valaszok: ["SimCity", "RollerCoaster Tycoon", "Zoo Tycoon", "Minecraft"],
+  helyesIndex: 1,
+  kep: "gamer.jpg"
+},
+{
+  kerdes: "Which game is known for its brutal difficulty and cryptic storytelling?",
+  valaszok: ["Skyrim", "Dark Souls", "God of War", "Elden Ring"],
+  helyesIndex: 1,
+  kep: "gamer.jpg"
+},
+{
+  kerdes: "Which hero in Overwatch uses a bow and arrow?",
+  valaszok: ["Hanzo", "Reaper", "Genji", "Soldier: 76"],
+  helyesIndex: 0,
+  kep: "gamer.jpg"
+},
+{
+  kerdes: "Which game includes a character named Lara Croft?",
+  valaszok: ["Uncharted", "Tomb Raider", "Far Cry", "Resident Evil"],
+  helyesIndex: 1,
+  kep: "gamer.jpg"
+},
+{
+  kerdes: "Which FPS game series is set during different historical and modern wars?",
+  valaszok: ["Battlefield", "Valorant", "Overwatch", "Portal"],
+  helyesIndex: 0,
+  kep: "gamer.jpg"
+},
+{
+  kerdes: "What is the name of the evil organization in Resident Evil?",
+  valaszok: ["Umbrella", "Red Ribbon", "Blackwatch", "HiveMind"],
+  helyesIndex: 0,
+  kep: "gamer.jpg"
+},
+{
+  kerdes: "Which RPG series features turn-based combat and Chocobos?",
+  valaszok: ["Final Fantasy", "Persona", "Dragon Quest", "Zelda"],
+  helyesIndex: 0,
+  kep: "gamer.jpg"
+},
+{
+  kerdes: "Which game allows you to race with shells and bananas?",
+  valaszok: ["Crash Team Racing", "Need for Speed", "Mario Kart", "Gran Turismo"],
+  helyesIndex: 2,
+  kep: "gamer.jpg"
+},
+{
+  kerdes: "Which material is used to make the strongest armor in Minecraft?",
+  valaszok: ["Iron", "Diamond", "Gold", "Leather"],
+  helyesIndex: 1,
+  kep: "minecraft.jpg"
+},
+{
+  kerdes: "Which mob attacks you at night and explodes?",
+  valaszok: ["Zombie", "Spider", "Creeper", "Skeleton"],
+  helyesIndex: 2,
+  kep: "minecraft.jpg"
+},
+{
+  kerdes: "Which tool mines stone the fastest?",
+  valaszok: ["Axe", "Pickaxe", "Shovel", "Hoe"],
+  helyesIndex: 1,
+  kep: "minecraft.jpg"
+},
+{
+  kerdes: "Which plant can be used to make sugar in Minecraft?",
+  valaszok: ["Corn", "Sugar Cane", "Wheat", "Cabbage"],
+  helyesIndex: 1,
+  kep: "minecraft.jpg"
+},
+{
+  kerdes: "What is the name of the dimension you reach by building a portal with obsidian blocks?",
+  valaszok: ["End", "Nether", "Overworld", "Skylands"],
+  helyesIndex: 1,
+  kep: "minecraft.jpg"
+},
+{
+  kerdes: "Which mob drops ink sacs when defeated?",
+  valaszok: ["Spider", "Squid", "Fish", "Ghost"],
+  helyesIndex: 1,
+  kep: "minecraft.jpg"
+},
+{
+  kerdes: "What happens if a Creeper explodes underwater?",
+  valaszok: ["Big explosion", "No explosion", "Smaller explosion", "Fire starts"],
+  helyesIndex: 2,
+  kep: "minecraft.jpg"
+},
+{
+  kerdes: "What items do you need to craft TNT in Minecraft?",
+  valaszok: ["Gunpowder and paper", "Gunpowder and flint", "Paper and gunpowder", "Gunpowder and flint"],
+  helyesIndex: 0,
+  kep: "minecraft.jpg"
+},
+{
+  kerdes: "Which tool do you use to make glass?",
+  valaszok: ["Furnace", "Flint and steel", "Crafting table", "Anvil"],
+  helyesIndex: 0,
+  kep: "minecraft.jpg"
+},
+{
+  kerdes: "Which Minecraft mob attacks the fastest?",
+  valaszok: ["Skeleton", "Zombie", "Enderman", "Spider"],
+  helyesIndex: 2,
+  kep: "minecraft.jpg"
+},
+{
+  kerdes: "Which animal's meat is edible and restores health?",
+  valaszok: ["Pig", "Donkey", "Chicken", "Horse"],
+  helyesIndex: 0,
+  kep: "minecraft.jpg"
+},
+{
+  kerdes: "What happens if an Enderman touches water?",
+  valaszok: ["It catches fire", "It disappears", "It dies", "Nothing"],
+  helyesIndex: 2,
+  kep: "minecraft.jpg"
+},
+{
+  kerdes: "What is bread made from in Minecraft?",
+  valaszok: ["Wheat", "Sugar Cane", "Potato", "Carrot"],
+  helyesIndex: 0,
+  kep: "minecraft.jpg"
+},
+{
+  kerdes: "Which block cannot be mined by hand?",
+  valaszok: ["Diamond", "Lava", "Obsidian", "Gold"],
+  helyesIndex: 2,
+  kep: "minecraft.jpg"
+},
+{
+  kerdes: "Which block emits light in Minecraft?",
+  valaszok: ["TNT", "Torch", "Water", "Stone"],
+  helyesIndex: 1,
+  kep: "minecraft.jpg"
+},
+{
+  kerdes: "Which Minecraft mob can be tamed?",
+  valaszok: ["Ghost", "Wolf", "Creeper", "Donkey"],
+  helyesIndex: 1,
+  kep: "minecraft.jpg"
+},
+{
+  kerdes: "Which item do you use to activate a Nether Portal?",
+  valaszok: ["Flint and steel", "Water", "Stone", "Torch"],
+  helyesIndex: 0,
+  kep: "minecraft.jpg"
+},
+{
+  kerdes: "Which material is used to craft glass?",
+  valaszok: ["Sand", "Stone", "Diamond", "Dirt"],
+  helyesIndex: 0,
+  kep: "minecraft.jpg"
+},
+{
+  kerdes: "From which plant can you get dye in Minecraft?",
+  valaszok: ["Flower", "Sugar Cane", "Carrot", "Wheat"],
+  helyesIndex: 0,
+  kep: "minecraft.jpg"
+},
+{
+  kerdes: "What happens when water meets lava in Minecraft?",
+  valaszok: ["Stone forms", "Fire starts", "Nothing", "Snow forms"],
+  helyesIndex: 0,
+  kep: "minecraft.jpg"
+},
+{
+  kerdes: "What is the name of the mob that teleports and steals blocks?",
+  valaszok: ["Enderman", "Zombie", "Skeleton", "Witch"],
+  helyesIndex: 0,
+  kep: "minecraft.jpg"
+},
+{
+  kerdes: "What materials can be used to craft a sword?",
+  valaszok: ["Wood, Iron, Diamond or Gold", "Only Wood", "Only Iron", "Only Diamond"],
+  helyesIndex: 0,
+  kep: "minecraft.jpg"
+},
+{
+  kerdes: "Which tool is the fastest for mining wood?",
+  valaszok: ["Axe", "Pickaxe", "Shovel", "Hoe"],
+  helyesIndex: 0,
+  kep: "minecraft.jpg"
+},
+{
+  kerdes: "Which block is used to grow mushrooms faster?",
+  valaszok: ["Mycelium", "Grass", "Dirt", "Stone"],
+  helyesIndex: 0,
+  kep: "minecraft.jpg"
+},
+{
+  kerdes: "Which animal drops wool when sheared?",
+  valaszok: ["Sheep", "Cow", "Pig", "Chicken"],
+  helyesIndex: 0,
+  kep: "minecraft.jpg"
+},
+{
+  kerdes: "Which mob is passive and found in villages?",
+  valaszok: ["Villager", "Zombie", "Creeper", "Spider"],
+  helyesIndex: 0,
+  kep: "minecraft.jpg"
+},
+{
+  kerdes: "How do you cure a zombie villager?",
+  valaszok: ["Splash potion of weakness and golden apple", "Throw water on it", "Hit it with a sword", "Trap it"],
+  helyesIndex: 0,
+  kep: "minecraft.jpg"
+},
+{
+  kerdes: "Which ore is the most valuable in Minecraft?",
+  valaszok: ["Diamond", "Gold", "Iron", "Coal"],
+  helyesIndex: 0,
+  kep: "minecraft.jpg"
+},
+{
+  kerdes: "Which mob drops feathers?",
+  valaszok: ["Chicken", "Cow", "Pig", "Sheep"],
+  helyesIndex: 0,
+  kep: "minecraft.jpg"
+},
+{
+  kerdes: "Which mob shoots arrows?",
+  valaszok: ["Skeleton", "Zombie", "Spider", "Creeper"],
+  helyesIndex: 0,
+  kep: "minecraft.jpg"
+},
+{
+  kerdes: "Which block can be used to create a beacon base?",
+  valaszok: ["Iron, Gold, Diamond, or Emerald blocks", "Only Stone", "Only Wood", "Only Dirt"],
+  helyesIndex: 0,
+  kep: "minecraft.jpg"
+},
+{
+  kerdes: "What do you use to tame a horse?",
+  valaszok: ["Saddle", "Apple", "Carrot", "Stick"],
+  helyesIndex: 0,
+  kep: "minecraft.jpg"
+},
+{
+  kerdes: "Which block is used to smelt ores?",
+  valaszok: ["Furnace", "Anvil", "Crafting table", "Chest"],
+  helyesIndex: 0,
+  kep: "minecraft.jpg"
+},
+{
+  kerdes: "Which material is required to craft an enchanting table?",
+  valaszok: ["Obsidian", "Diamond", "Gold", "Iron"],
+  helyesIndex: 0,
+  kep: "minecraft.jpg"
+},
+{
+  kerdes: "What is the function of a crafting table?",
+  valaszok: ["To craft more complex items", "To cook food", "To store items", "To enchant weapons"],
+  helyesIndex: 0,
+  kep: "minecraft.jpg"
+},
+{
+  kerdes: "Which mob is passive and drops leather?",
+  valaszok: ["Cow", "Pig", "Sheep", "Chicken"],
+  helyesIndex: 0,
+  kep: "minecraft.jpg"
+},
+{
+  kerdes: "Which block can be used to respawn the Ender Dragon?",
+  valaszok: ["End Crystals", "Obsidian", "Bedrock", "Diamond Block"],
+  helyesIndex: 0,
+  kep: "minecraft.jpg"
+},
+{
+  kerdes: "How do you get experience points quickly?",
+  valaszok: ["Killing mobs", "Mining dirt", "Eating food", "Fishing"],
+  helyesIndex: 0,
+  kep: "minecraft.jpg"
+},
+{
+  kerdes: "Which food restores the most hunger points?",
+  valaszok: ["Steak", "Bread", "Apple", "Carrot"],
+  helyesIndex: 0,
+  kep: "minecraft.jpg"
+},
+{
+  kerdes: "Which block do you need to mine to get diamonds?",
+  valaszok: ["Stone", "Obsidian", "Deepslate", "Diamond Ore"],
   helyesIndex: 3,
-  kep: "foldrajz.jpg"
+  kep: "minecraft.jpg"
 },
 {
-  kerdes: "What is the capital of North Korea?",
-  valaszok: ["South Korea", "North Korea", "China", "Japan"],
-  helyesIndex: 1,
-  kep: "foldrajz.jpg"
-},
-{
-  kerdes: "What is the capital of Taiwan?",
-  valaszok: ["China", "Taiwan", "Japan", "South Korea"],
-  helyesIndex: 1,
-  kep: "foldrajz.jpg"
-},
-{
-  kerdes: "What is the capital of Australia?",
-  valaszok: ["Australia", "New Zealand", "Fiji", "Papua New Guinea"],
+  kerdes: "What mob explodes when near the player silently?",
+  valaszok: ["Creeper", "Zombie", "Spider", "Skeleton"],
   helyesIndex: 0,
-  kep: "foldrajz.jpg"
+  kep: "minecraft.jpg"
 },
 {
-  kerdes: "What is the capital of New Zealand?",
-  valaszok: ["Australia", "Fiji", "New Zealand", "Tonga"],
-  helyesIndex: 2,
-  kep: "foldrajz.jpg"
-},
-{
-  kerdes: "What is the capital of Mexico?",
-  valaszok: ["Mexico", "Spain", "Colombia", "Peru"],
+  kerdes: "Which animal can you ride after taming in Minecraft?",
+  valaszok: ["Horse", "Chicken", "Pig", "Sheep"],
   helyesIndex: 0,
-  kep: "foldrajz.jpg"
+  kep: "minecraft.jpg"
 },
 {
-  kerdes: "What is the capital of Peru?",
-  valaszok: ["Ecuador", "Chile", "Peru", "Bolivia"],
-  helyesIndex: 2,
-  kep: "foldrajz.jpg"
-},
-{
-  kerdes: "What is the capital of Colombia?",
-  valaszok: ["Colombia", "Venezuela", "Ecuador", "Peru"],
+  kerdes: "What do you get when you smelt iron ore?",
+  valaszok: ["Iron ingot", "Iron block", "Iron sword", "Iron pickaxe"],
   helyesIndex: 0,
-  kep: "foldrajz.jpg"
+  kep: "minecraft.jpg"
 },
 {
-  kerdes: "What is the capital of Chile?",
-  valaszok: ["Chile", "Peru", "Brazil", "Argentina"],
+  kerdes: "Which plant can be farmed for bread production?",
+  valaszok: ["Wheat", "Sugar Cane", "Carrot", "Potato"],
   helyesIndex: 0,
-  kep: "foldrajz.jpg"
+  kep: "minecraft.jpg"
 },
 {
-  kerdes: "What is the capital of Argentina?",
-  valaszok: ["Argentina", "Brazil", "Chile", "Uruguay"],
+  kerdes: "Which mob can be found only in the Nether dimension?",
+  valaszok: ["Ghast", "Zombie", "Creeper", "Enderman"],
   helyesIndex: 0,
-  kep: "foldrajz.jpg"
+  kep: "minecraft.jpg"
+},
+ {
+    kerdes: "What is the name of the main character in The Legend of Zelda series?",
+    valaszok: ["Zelda", "Link", "Ganondorf", "Navi"],
+    helyesIndex: 1,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "Which Nintendo console was the first to use discs instead of cartridges?",
+    valaszok: ["Nintendo 64", "GameCube", "Wii", "Switch"],
+    helyesIndex: 1,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "Which Mario game introduced the character Yoshi?",
+    valaszok: ["Super Mario Bros", "Super Mario World", "Mario Kart 64", "Super Mario 64"],
+    helyesIndex: 1,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "What is the name of the princess often rescued by Mario?",
+    valaszok: ["Peach", "Daisy", "Zelda", "Rosalina"],
+    helyesIndex: 0,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "In which game did Nintendo first introduce motion controls?",
+    valaszok: ["Wii Sports", "Super Mario Galaxy", "Nintendo 64", "GameCube"],
+    helyesIndex: 0,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "Which Nintendo series features battles in a grid-based tactical format?",
+    valaszok: ["Fire Emblem", "Pokémon", "Animal Crossing", "Kirby"],
+    helyesIndex: 0,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "What is the name of the dinosaur companion of Mario?",
+    valaszok: ["Bowser", "Yoshi", "Toad", "Donkey Kong"],
+    helyesIndex: 1,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "Which handheld console is known for its dual screens?",
+    valaszok: ["Game Boy", "Nintendo DS", "GameCube", "Wii U"],
+    helyesIndex: 1,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "Who is the main antagonist in the Metroid series?",
+    valaszok: ["Ridley", "Mother Brain", "Kraid", "Dark Samus"],
+    helyesIndex: 0,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "Which game features the character Kirby?",
+    valaszok: ["Kirby's Dream Land", "Donkey Kong Country", "Super Mario Bros", "Zelda: Ocarina of Time"],
+    helyesIndex: 0,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "What year was the original Nintendo Entertainment System (NES) released in North America?",
+    valaszok: ["1983", "1985", "1987", "1989"],
+    helyesIndex: 1,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "What is the primary weapon used by Samus Aran in Metroid?",
+    valaszok: ["Power Sword", "Plasma Rifle", "Arm Cannon", "Blaster"],
+    helyesIndex: 2,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "Which Nintendo game popularized the 'Z-targeting' mechanic?",
+    valaszok: ["Super Mario 64", "The Legend of Zelda: Ocarina of Time", "Metroid Prime", "Donkey Kong 64"],
+    helyesIndex: 1,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "Which character is known as Mario’s brother?",
+    valaszok: ["Wario", "Luigi", "Toad", "Bowser"],
+    helyesIndex: 1,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "What is the name of the city in the game Animal Crossing?",
+    valaszok: ["New Leaf", "Breezy Hollow", "Tom Nook Town", "Isabelle Village"],
+    helyesIndex: 0,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "Which game features the villain King Dedede?",
+    valaszok: ["Kirby’s Dream Land", "Metroid", "Donkey Kong Country", "Fire Emblem"],
+    helyesIndex: 0,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "Which Nintendo console was the first to feature HD graphics?",
+    valaszok: ["Wii U", "Nintendo Switch", "GameCube", "Nintendo 64"],
+    helyesIndex: 0,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "What is the name of the plumber who is the main protagonist in the Donkey Kong arcade game?",
+    valaszok: ["Mario", "Luigi", "Wario", "Bowser"],
+    helyesIndex: 0,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "Which Nintendo game series includes creatures like Pikachu and Charizard?",
+    valaszok: ["Pokémon", "Digimon", "Yu-Gi-Oh", "Animal Crossing"],
+    helyesIndex: 0,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "Which Nintendo game allows players to build and explore in a blocky world?",
+    valaszok: ["Minecraft", "Terraria", "Splatoon", "Animal Crossing"],
+    helyesIndex: 0,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "Which Nintendo console introduced the Amiibo figures?",
+    valaszok: ["Wii U", "Nintendo 3DS", "Nintendo Switch", "GameCube"],
+    helyesIndex: 0,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "In which game does Link wield the Master Sword?",
+    valaszok: ["The Legend of Zelda", "Metroid", "Kirby", "Fire Emblem"],
+    helyesIndex: 0,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "Which Nintendo series features battles with swords and magic?",
+    valaszok: ["Fire Emblem", "Super Smash Bros", "Mario Kart", "Metroid"],
+    helyesIndex: 0,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "What is the name of Mario’s dinosaur friend?",
+    valaszok: ["Bowser", "Yoshi", "Donkey Kong", "Wario"],
+    helyesIndex: 1,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "Which Nintendo handheld console came after the Game Boy Advance?",
+    valaszok: ["Nintendo DS", "GameCube", "Wii", "Nintendo 3DS"],
+    helyesIndex: 0,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "Which Nintendo game series features races with Mario and friends on karts?",
+    valaszok: ["Mario Kart", "F-Zero", "Diddy Kong Racing", "Crash Team Racing"],
+    helyesIndex: 0,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "Which game introduced the character Samus Aran?",
+    valaszok: ["Metroid", "Mega Man", "Kirby", "Castlevania"],
+    helyesIndex: 0,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "Which Nintendo console was released in 2017 and is hybrid between handheld and home console?",
+    valaszok: ["Nintendo Switch", "Wii U", "Nintendo 3DS", "GameCube"],
+    helyesIndex: 0,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "Which Nintendo character is known for catching creatures in Poké Balls?",
+    valaszok: ["Ash", "Red", "Blue", "Trainer"],
+    helyesIndex: 1,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "What is the name of the final boss in many Zelda games?",
+    valaszok: ["Ganondorf", "Bowser", "King Dedede", "Ridley"],
+    helyesIndex: 0,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "Which game is famous for its underground mining and building mechanics?",
+    valaszok: ["Minecraft", "Terraria", "Stardew Valley", "Animal Crossing"],
+    helyesIndex: 0,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "Which Nintendo character is a pink puffball?",
+    valaszok: ["Kirby", "Jigglypuff", "Toad", "Pikachu"],
+    helyesIndex: 0,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "Which Nintendo series features a character named Fox McCloud?",
+    valaszok: ["Star Fox", "Metroid", "F-Zero", "Super Smash Bros"],
+    helyesIndex: 0,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "Which handheld Nintendo console had a 3D screen without glasses?",
+    valaszok: ["Nintendo 3DS", "Game Boy Advance", "Nintendo DS", "GameCube"],
+    helyesIndex: 0,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "Which Nintendo game features squid-like characters called Inklings?",
+    valaszok: ["Splatoon", "Pokémon", "Kirby", "Animal Crossing"],
+    helyesIndex: 0,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "What is the main goal in the game Animal Crossing?",
+    valaszok: ["Build and decorate your village", "Fight enemies", "Race cars", "Catch Pokémon"],
+    helyesIndex: 0,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "Which Nintendo series includes collectible cards called Spirits?",
+    valaszok: ["Super Smash Bros Ultimate", "Pokémon TCG", "Fire Emblem", "Animal Crossing"],
+    helyesIndex: 0,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "Which Nintendo console was the successor to the Wii?",
+    valaszok: ["Wii U", "Nintendo Switch", "GameCube", "Nintendo 3DS"],
+    helyesIndex: 0,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "Which character often says ‘It’s-a me!’?",
+    valaszok: ["Mario", "Luigi", "Bowser", "Toad"],
+    helyesIndex: 0,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "What is the name of the main antagonist in the Donkey Kong series?",
+    valaszok: ["King K. Rool", "Bowser", "Ganondorf", "Ridley"],
+    helyesIndex: 0,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "Which Nintendo series features giant robots and futuristic racing?",
+    valaszok: ["F-Zero", "Star Fox", "Metroid", "Kirby"],
+    helyesIndex: 0,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "Which game features battles between Nintendo characters in various arenas?",
+    valaszok: ["Super Smash Bros", "Mario Kart", "Pokémon", "Fire Emblem"],
+    helyesIndex: 0,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "Which Nintendo game features a talking hat named Cappy?",
+    valaszok: ["Super Mario Odyssey", "Mario Kart 8", "Splatoon", "Kirby"],
+    helyesIndex: 0,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "Which Nintendo game lets players farm, fish, and build relationships in a rural town?",
+    valaszok: ["Animal Crossing", "Stardew Valley", "Harvest Moon", "Minecraft"],
+    helyesIndex: 0,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "Which Nintendo handheld console had a touchscreen and stylus?",
+    valaszok: ["Nintendo DS", "Game Boy Advance", "Nintendo 3DS", "GameCube"],
+    helyesIndex: 0,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "What is the name of the sword often wielded by Link in Zelda games?",
+    valaszok: ["Master Sword", "Power Sword", "Lightsaber", "Blade of Time"],
+    helyesIndex: 0,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "Which Nintendo series features anthropomorphic animals in competitive sports?",
+    valaszok: ["Mario Sports", "Pokémon", "Kirby", "Fire Emblem"],
+    helyesIndex: 0,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "Which Nintendo game has a character named Donkey Kong?",
+    valaszok: ["Donkey Kong Country", "Super Mario Bros", "Metroid", "Kirby"],
+    helyesIndex: 0,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "Which Nintendo character is known for throwing hammers?",
+    valaszok: ["Donkey Kong", "Mario", "Luigi", "Bowser"],
+    helyesIndex: 0,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "Which Nintendo console was the first to support online gaming?",
+    valaszok: ["GameCube", "Wii", "Nintendo 64", "Switch"],
+    helyesIndex: 1,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "Which Nintendo game features a sport called 'Splatfest'?",
+    valaszok: ["Splatoon", "Mario Kart", "Wii Sports", "Animal Crossing"],
+    helyesIndex: 0,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "Which Nintendo game series is set on the planet Zebes?",
+    valaszok: ["Metroid", "Star Fox", "Kirby", "Fire Emblem"],
+    helyesIndex: 0,
+    kep: "nintendo.jpg"
+  },
+  {
+    kerdes: "What keyword is used to define a function in Python?",
+    valaszok: ["func", "def", "function", "define"],
+    helyesIndex: 1,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "Which data type is used to store a sequence of characters in Python?",
+    valaszok: ["int", "float", "str", "bool"],
+    helyesIndex: 2,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "How do you start a comment in Python?",
+    valaszok: ["//", "/*", "#", "<!--"],
+    helyesIndex: 2,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "Which Python keyword is used for conditional branching?",
+    valaszok: ["switch", "if", "case", "choose"],
+    helyesIndex: 1,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "What is the output of print(2 ** 3) in Python?",
+    valaszok: ["6", "8", "9", "5"],
+    helyesIndex: 1,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "Which Python collection type is ordered, changeable, and allows duplicate members?",
+    valaszok: ["list", "set", "dictionary", "tuple"],
+    helyesIndex: 0,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "How do you create a list in Python?",
+    valaszok: ["{}", "[]", "()", "<>"],
+    helyesIndex: 1,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "What is the correct way to import a module in Python?",
+    valaszok: ["include math", "using math", "import math", "require math"],
+    helyesIndex: 2,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "How do you write a while loop in Python?",
+    valaszok: ["while condition:", "loop while condition", "while (condition)", "do while condition"],
+    helyesIndex: 0,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "What will be the result of len('Hello')?",
+    valaszok: ["4", "5", "6", "Error"],
+    helyesIndex: 1,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "Which of these is NOT a valid Python variable name?",
+    valaszok: ["my_var", "2var", "var2", "_var"],
+    helyesIndex: 1,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "What data type is returned by the input() function?",
+    valaszok: ["int", "str", "float", "bool"],
+    helyesIndex: 1,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "Which operator is used for floor division in Python?",
+    valaszok: ["/", "//", "%", "**"],
+    helyesIndex: 1,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "What does the 'pass' statement do in Python?",
+    valaszok: ["Stops execution", "Skips current iteration", "Does nothing", "Ends a function"],
+    helyesIndex: 2,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "What is the output of print(type(3.14))?",
+    valaszok: ["<class 'int'>", "<class 'float'>", "<class 'str'>", "<class 'bool'>"],
+    helyesIndex: 1,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "Which keyword is used to create a class in Python?",
+    valaszok: ["class", "def", "object", "struct"],
+    helyesIndex: 0,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "How do you add an element to the end of a list named 'my_list'?",
+    valaszok: ["my_list.append(element)", "my_list.add(element)", "my_list.insert(element)", "my_list.push(element)"],
+    helyesIndex: 0,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "What is the correct way to handle exceptions in Python?",
+    valaszok: ["try-except", "catch-try", "try-catch", "handle-except"],
+    helyesIndex: 0,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "Which function converts a string to an integer in Python?",
+    valaszok: ["int()", "str()", "float()", "toInt()"],
+    helyesIndex: 0,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "What is a Python dictionary?",
+    valaszok: ["A list of values", "A key-value store", "An ordered sequence", "A set of unique values"],
+    helyesIndex: 1,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "Which method removes the last item from a list?",
+    valaszok: ["pop()", "remove()", "delete()", "clear()"],
+    helyesIndex: 0,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "How do you create a tuple in Python?",
+    valaszok: ["[]", "{}", "()", "<>"],
+    helyesIndex: 2,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "Which of these is mutable in Python?",
+    valaszok: ["tuple", "string", "list", "int"],
+    helyesIndex: 2,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "What is the keyword to exit a loop prematurely in Python?",
+    valaszok: ["break", "stop", "exit", "return"],
+    helyesIndex: 0,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "How do you check for equality in Python?",
+    valaszok: ["=", "==", "===", "equals"],
+    helyesIndex: 1,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "What does the 'len()' function do?",
+    valaszok: ["Returns the length", "Returns the type", "Returns the value", "Returns the index"],
+    helyesIndex: 0,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "Which of these is a Python boolean value?",
+    valaszok: ["true", "True", "TRUE", "yes"],
+    helyesIndex: 1,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "What symbol is used to denote a block of code in Python?",
+    valaszok: ["Braces {}", "Indentation", "Parentheses ()", "Semicolon ;"],
+    helyesIndex: 1,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "Which keyword is used to create an anonymous function in Python?",
+    valaszok: ["func", "lambda", "def", "anonymous"],
+    helyesIndex: 1,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "How do you access the first element of a list named 'my_list'?",
+    valaszok: ["my_list[0]", "my_list[1]", "my_list.first()", "my_list(0)"],
+    helyesIndex: 0,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "Which method would you use to convert all characters in a string to uppercase?",
+    valaszok: ["upper()", "capitalize()", "toupper()", "uppercase()"],
+    helyesIndex: 0,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "How can you create a set in Python?",
+    valaszok: ["{}", "[]", "()", "set()"],
+    helyesIndex: 3,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "What is the output of print(5 % 2)?",
+    valaszok: ["1", "2", "0", "Error"],
+    helyesIndex: 0,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "Which Python statement is used to iterate over a sequence?",
+    valaszok: ["for", "while", "loop", "iterate"],
+    helyesIndex: 0,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "How do you create an empty dictionary in Python?",
+    valaszok: ["[]", "{}", "()", "dict()"],
+    helyesIndex: 1,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "Which keyword is used to create a generator function?",
+    valaszok: ["yield", "return", "generate", "func"],
+    helyesIndex: 0,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "What is the output of print(bool(0))?",
+    valaszok: ["True", "False", "0", "Error"],
+    helyesIndex: 1,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "How do you open a file for reading in Python?",
+    valaszok: ["open('file.txt', 'w')", "open('file.txt', 'r')", "open('file.txt', 'rw')", "open('file.txt')"],
+    helyesIndex: 1,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "Which built-in function returns the absolute value of a number?",
+    valaszok: ["abs()", "fabs()", "absolute()", "mod()"],
+    helyesIndex: 0,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "What does the 'strip()' method do on a string?",
+    valaszok: ["Removes spaces from both ends", "Removes spaces from left", "Removes spaces from right", "Replaces spaces"],
+    helyesIndex: 0,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "What is the correct way to concatenate two strings 'a' and 'b'?",
+    valaszok: ["a + b", "a.concat(b)", "concat(a, b)", "a & b"],
+    helyesIndex: 0,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "Which Python keyword exits a function and returns a value?",
+    valaszok: ["exit", "return", "break", "stop"],
+    helyesIndex: 1,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "How do you check if a key 'k' exists in a dictionary 'd'?",
+    valaszok: ["k in d", "d.has_key(k)", "k exists d", "d.contains(k)"],
+    helyesIndex: 0,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "Which function converts an iterable to a list?",
+    valaszok: ["list()", "array()", "tuple()", "set()"],
+    helyesIndex: 0,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "What is the output of print(3 == 3.0)?",
+    valaszok: ["True", "False", "Error", "None"],
+    helyesIndex: 0,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "Which keyword is used to define a class method?",
+    valaszok: ["@staticmethod", "@classmethod", "def", "classmethod"],
+    helyesIndex: 1,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "How can you generate a random number in Python?",
+    valaszok: ["import random; random.randint()", "import rand; rand()", "random()", "randint()"],
+    helyesIndex: 0,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "What is the output of print(bool('False'))?",
+    valaszok: ["True", "False", "Error", "None"],
+    helyesIndex: 0,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "Which of these is a Python keyword?",
+    valaszok: ["yield", "print", "input", "len"],
+    helyesIndex: 0,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "What is the result of 3 < 5 and 2 > 4?",
+    valaszok: ["True", "False", "Error", "None"],
+    helyesIndex: 1,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "How do you create a virtual environment in Python?",
+    valaszok: ["python -m venv env", "python create venv", "venv create", "pip venv create"],
+    helyesIndex: 0,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "Which operator is used for string repetition in Python?",
+    valaszok: ["*", "+", "%", "^"],
+    helyesIndex: 0,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "What is the output of print(list(range(3)))?",
+    valaszok: ["[0, 1, 2]", "[1, 2, 3]", "[0, 1, 2, 3]", "[1, 2]"],
+    helyesIndex: 0,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "Which built-in function returns the maximum of a list?",
+    valaszok: ["max()", "maximum()", "max_value()", "largest()"],
+    helyesIndex: 0,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "How do you comment multiple lines in Python?",
+    valaszok: ["''' ... '''", "// ... //", "/* ... */", "# ... #"],
+    helyesIndex: 0,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "What is the default data type for integer division in Python 3?",
+    valaszok: ["int", "float", "double", "decimal"],
+    helyesIndex: 1,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "Which of the following can be used to iterate over two lists simultaneously?",
+    valaszok: ["zip()", "map()", "filter()", "enumerate()"],
+    helyesIndex: 0,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "What does the 'enumerate()' function do?",
+    valaszok: ["Adds index to elements", "Filters list", "Sorts list", "Reverses list"],
+    helyesIndex: 0,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "How do you remove duplicates from a list 'my_list'?",
+    valaszok: ["list(set(my_list))", "my_list.remove_duplicates()", "unique(my_list)", "my_list.unique()"],
+    helyesIndex: 0,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "What is the output of print(type(None))?",
+    valaszok: ["<class 'NoneType'>", "<class 'null'>", "<class 'void'>", "<class 'None'>"],
+    helyesIndex: 0,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "Which method converts a string into a list of words?",
+    valaszok: ["split()", "join()", "slice()", "cut()"],
+    helyesIndex: 0,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "How do you define a Python function with default argument values?",
+    valaszok: ["def func(a=5):", "def func(a):=5", "def func(a default 5):", "def func(a <- 5):"],
+    helyesIndex: 0,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "What does the 'is' operator test in Python?",
+    valaszok: ["Value equality", "Identity equality", "Membership", "Type equality"],
+    helyesIndex: 1,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "How do you reverse a list named 'my_list'?",
+    valaszok: ["my_list.reverse()", "reverse(my_list)", "my_list.reversed()", "reversed(my_list)"],
+    helyesIndex: 0,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "Which of these is an immutable data type?",
+    valaszok: ["list", "set", "tuple", "dictionary"],
+    helyesIndex: 2,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "What is the output of print( 'Hello' + str(5) )?",
+    valaszok: ["Hello5", "Hello 5", "Hello", "Error"],
+    helyesIndex: 0,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "Which of these is a valid Python identifier?",
+    valaszok: ["2var", "_var", "var-name", "var name"],
+    helyesIndex: 1,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "What is the output of print(type([]))?",
+    valaszok: ["<class 'list'>", "<class 'tuple'>", "<class 'dict'>", "<class 'set'>"],
+    helyesIndex: 0,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "Which module is used for working with regular expressions in Python?",
+    valaszok: ["regex", "re", "pyregex", "expression"],
+    helyesIndex: 1,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "How do you read all lines from a file object 'f'?",
+    valaszok: ["f.read()", "f.readlines()", "f.readall()", "f.readline()"],
+    helyesIndex: 1,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "Which keyword is used to declare a global variable inside a function?",
+    valaszok: ["global", "nonlocal", "extern", "public"],
+    helyesIndex: 0,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "Which of these is NOT a Python data structure?",
+    valaszok: ["list", "set", "map", "tuple"],
+    helyesIndex: 2,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "What is the output of print(2 ** 3 ** 2)?",
+    valaszok: ["64", "512", "256", "Error"],
+    helyesIndex: 1,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "Which method converts all characters in a string to lowercase?",
+    valaszok: ["lower()", "downcase()", "mincase()", "tolower()"],
+    helyesIndex: 0,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "What does the 'finally' clause in a try-except block do?",
+    valaszok: ["Executes if no exception", "Executes always", "Executes only on exception", "Skips the block"],
+    helyesIndex: 1,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "How do you check the length of a dictionary 'd'?",
+    valaszok: ["len(d)", "d.length()", "d.size()", "length(d)"],
+    helyesIndex: 0,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "Which built-in function sorts a list?",
+    valaszok: ["sorted()", "sort()", "order()", "arrange()"],
+    helyesIndex: 0,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "What is the correct syntax for a list comprehension that squares numbers 0-4?",
+    valaszok: ["[x**2 for x in range(5)]", "[x^2 for x in range(5)]", "list(x**2 for x in range(5))", "[x*x in range(5)]"],
+    helyesIndex: 0,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "Which operator is used for bitwise AND in Python?",
+    valaszok: ["&", "|", "^", "~"],
+    helyesIndex: 0,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "What is the output of print( type( lambda x: x ) )?",
+    valaszok: ["<class 'function'>", "<class 'lambda'>", "<class 'method'>", "<class 'object'>"],
+    helyesIndex: 0,
+    kep: "python.jpg"
+  },
+  {
+    kerdes: "How do you check if a list 'a' is empty?",
+    valaszok: ["if not a:", "if a == []:", "if len(a) == 0:", "All of the above"],
+    helyesIndex: 3,
+    kep: "python.jpg"
+  },
+  {
+kerdes: "What is REST API?",
+valaszok: ["Really Easy Simple Thing", "Representational State Transfer", "Random Server Transfer", "None"],
+helyesIndex: 1,
+kep: "backend.jpg"
+},
+
+{
+kerdes: "Which is NOT a backend language?",
+valaszok: ["PHP", "Ruby", "CSS", "Python"],
+helyesIndex: 2,
+kep: "backend.jpg"
+},
+
+{
+kerdes: "What does DBMS mean?",
+valaszok: ["Data Bank Management System", "Database Management System", "DataBase Manual Setup", "None"],
+helyesIndex: 1,
+kep: "backend.jpg"
+},
+
+{
+kerdes: "What is SQL Injection?",
+valaszok: ["A type of attack", "SQL command", "Database backup", "A programming language"],
+helyesIndex: 0,
+kep: "backend.jpg"
+},
+
+{
+kerdes: "What is Middleware?",
+valaszok: ["Software that connects apps", "Hardware device", "Database engine", "None"],
+helyesIndex: 0,
+kep: "backend.jpg"
+},
+
+{
+kerdes: "In backend, what does MVC stand for?",
+valaszok: ["Model View Controller", "Multiple Variable Code", "Main Visual Component", "None"],
+helyesIndex: 0,
+kep: "backend.jpg"
+},
+
+{
+kerdes: "Which is NoSQL database?",
+valaszok: ["MySQL", "PostgreSQL", "MongoDB", "SQLite"],
+helyesIndex: 2,
+kep: "backend.jpg"
+},
+
+{
+kerdes: "What is a server?",
+valaszok: ["A computer that serves data", "A programming language", "Database type", "Web browser"],
+helyesIndex: 0,
+kep: "backend.jpg"
+},
+
+{
+kerdes: "What port does HTTP use?",
+valaszok: ["80", "21", "443", "8080"],
+helyesIndex: 0,
+kep: "backend.jpg"
+},
+
+{
+kerdes: "What is JSON?",
+valaszok: ["JavaScript Object Notation", "JavaScript Online", "Java Simple Object Notation", "None"],
+helyesIndex: 0,
+kep: "backend.jpg"
 },
 {
-  kerdes: "What is the capital of Uruguay?",
-  valaszok: ["Paraguay", "Uruguay", "Argentina", "Chile"],
-  helyesIndex: 1,
-  kep: "foldrajz.jpg"
+kerdes: "What is the purpose of an API?",
+valaszok: ["Allows communication between software", "Is a programming language", "Database engine", "Web browser"],
+helyesIndex: 0,
+kep: "backend.jpg"
+},
+
+{
+kerdes: "Which HTTP method is used to update data?",
+valaszok: ["GET", "POST", "PUT", "DELETE"],
+helyesIndex: 2,
+kep: "backend.jpg"
+},
+
+{
+kerdes: "What is a 'hook' in backend programming?",
+valaszok: ["A way to catch errors", "A method to extend functionality", "Database query", "API endpoint"],
+helyesIndex: 1,
+kep: "backend.jpg"
+},
+
+{
+kerdes: "What language is used for backend scripting in Node.js?",
+valaszok: ["JavaScript", "Python", "PHP", "Ruby"],
+helyesIndex: 0,
+kep: "backend.jpg"
+},
+
+{
+kerdes: "What is caching?",
+valaszok: ["Storing data temporarily for faster access", "Database backup", "A programming technique", "None"],
+helyesIndex: 0,
+kep: "backend.jpg"
+},
+
+{
+kerdes: "Which of these is a backend framework?",
+valaszok: ["React", "Angular", "Django", "Vue"],
+helyesIndex: 2,
+kep: "backend.jpg"
+},
+
+{
+kerdes: "What does CRUD stand for?",
+valaszok: ["Create, Read, Update, Delete", "Create, Run, Use, Destroy", "Code, Run, Update, Debug", "None"],
+helyesIndex: 0,
+kep: "backend.jpg"
+},
+
+{
+kerdes: "What is a 'session' in web backend?",
+valaszok: ["Temporary data stored on server", "A database", "A programming language", "A file format"],
+helyesIndex: 0,
+kep: "backend.jpg"
+},
+
+{
+kerdes: "What does ORM mean?",
+valaszok: ["Object-Relational Mapping", "Online Resource Manager", "Open Runtime Model", "None"],
+helyesIndex: 0,
+kep: "backend.jpg"
+},
+
+{
+kerdes: "Which protocol is secure for data transfer?",
+valaszok: ["HTTP", "FTP", "HTTPS", "SMTP"],
+helyesIndex: 2,
+kep: "backend.jpg"
 },
 {
-  kerdes: "What is the capital of Paraguay?",
-  valaszok: ["Paraguay", "Uruguay", "Chile", "Ecuador"],
-  helyesIndex: 0,
-  kep: "foldrajz.jpg"
+kerdes: "What is the purpose of an API?",
+valaszok: ["Allows communication between software", "Is a programming language", "Database engine", "Web browser"],
+helyesIndex: 0,
+kep: "backend.jpg"
+},
+
+{
+kerdes: "Which HTTP method is used to update data?",
+valaszok: ["GET", "POST", "PUT", "DELETE"],
+helyesIndex: 2,
+kep: "backend.jpg"
+},
+
+{
+kerdes: "What is a 'hook' in backend programming?",
+valaszok: ["A way to catch errors", "A method to extend functionality", "Database query", "API endpoint"],
+helyesIndex: 1,
+kep: "backend.jpg"
+},
+
+{
+kerdes: "What language is used for backend scripting in Node.js?",
+valaszok: ["JavaScript", "Python", "PHP", "Ruby"],
+helyesIndex: 0,
+kep: "backend.jpg"
+},
+
+{
+kerdes: "What is caching?",
+valaszok: ["Storing data temporarily for faster access", "Database backup", "A programming technique", "None"],
+helyesIndex: 0,
+kep: "backend.jpg"
+},
+
+{
+kerdes: "Which of these is a backend framework?",
+valaszok: ["React", "Angular", "Django", "Vue"],
+helyesIndex: 2,
+kep: "backend.jpg"
+},
+
+{
+kerdes: "What does CRUD stand for?",
+valaszok: ["Create, Read, Update, Delete", "Create, Run, Use, Destroy", "Code, Run, Update, Debug", "None"],
+helyesIndex: 0,
+kep: "backend.jpg"
+},
+
+{
+kerdes: "What is a 'session' in web backend?",
+valaszok: ["Temporary data stored on server", "A database", "A programming language", "A file format"],
+helyesIndex: 0,
+kep: "backend.jpg"
+},
+
+{
+kerdes: "What does ORM mean?",
+valaszok: ["Object-Relational Mapping", "Online Resource Manager", "Open Runtime Model", "None"],
+helyesIndex: 0,
+kep: "backend.jpg"
+},
+
+{
+kerdes: "Which protocol is secure for data transfer?",
+valaszok: ["HTTP", "FTP", "HTTPS", "SMTP"],
+helyesIndex: 2,
+kep: "backend.jpg"
 },
 {
-  kerdes: "What is the capital of Bolivia?",
-  valaszok: ["Bolivia", "Peru", "Chile", "Paraguay"],
-  helyesIndex: 0,
-  kep: "foldrajz.jpg"
+kerdes: "What is middleware in backend development?",
+valaszok: ["Software that connects components", "Database", "Frontend code", "API endpoint"],
+helyesIndex: 0,
+kep: "backend.jpg"
 },
+
 {
-  kerdes: "What is the capital of Brazil?",
-  valaszok: ["Argentina", "Brazil", "Chile", "Peru"],
-  helyesIndex: 1,
-  kep: "foldrajz.jpg"
+kerdes: "Which database is NoSQL?",
+valaszok: ["MySQL", "MongoDB", "PostgreSQL", "SQLite"],
+helyesIndex: 1,
+kep: "backend.jpg"
 },
+
 {
-  kerdes: "What is the capital of Venezuela?",
-  valaszok: ["Venezuela", "Colombia", "Peru", "Ecuador"],
-  helyesIndex: 0,
-  kep: "foldrajz.jpg"
+kerdes: "What does REST stand for?",
+valaszok: ["Representational State Transfer", "Remote Execution Service Technology", "Rapid System Testing", "None"],
+helyesIndex: 0,
+kep: "backend.jpg"
 },
+
 {
-  kerdes: "What is the capital of Ecuador?",
-  valaszok: ["Colombia", "Peru", "Ecuador", "Chile"],
-  helyesIndex: 2,
-  kep: "foldrajz.jpg"
+kerdes: "Which language is commonly used for backend besides JavaScript?",
+valaszok: ["Python", "HTML", "CSS", "Swift"],
+helyesIndex: 0,
+kep: "backend.jpg"
 },
+
 {
-  kerdes: "What is the capital of Cuba?",
-  valaszok: ["Dominican Republic", "Cuba", "Mexico", "Puerto Rico"],
-  helyesIndex: 1,
-  kep: "foldrajz.jpg"
+kerdes: "What is a database index used for?",
+valaszok: ["Speed up queries", "Store data", "Encrypt data", "Visualize data"],
+helyesIndex: 0,
+kep: "backend.jpg"
 },
+
 {
-  kerdes: "What is the capital of the Bahamas?",
-  valaszok: ["Jamaica", "Barbados", "Bahamas", "Cuba"],
-  helyesIndex: 2,
-  kep: "foldrajz.jpg"
+kerdes: "What is SQL?",
+valaszok: ["Structured Query Language", "Simple Query Language", "Server Query List", "None"],
+helyesIndex: 0,
+kep: "backend.jpg"
 },
+
 {
-  kerdes: "What is the capital of Jamaica?",
-  valaszok: ["Haiti", "Jamaica", "Bahamas", "Trinidad and Tobago"],
-  helyesIndex: 1,
-  kep: "foldrajz.jpg"
+kerdes: "What is a token used for in backend?",
+valaszok: ["Authentication", "Database", "Frontend", "Programming language"],
+helyesIndex: 0,
+kep: "backend.jpg"
 },
+
 {
-  kerdes: "What is the capital of Haiti?",
-  valaszok: ["Dominican Republic", "Haiti", "Cuba", "Jamaica"],
-  helyesIndex: 1,
-  kep: "foldrajz.jpg"
+kerdes: "What does 'scaling' a backend mean?",
+valaszok: ["Handling more users/data", "Writing more code", "Fixing bugs", "None"],
+helyesIndex: 0,
+kep: "backend.jpg"
 },
+
 {
-  kerdes: "What is the capital of the Dominican Republic?",
-  valaszok: ["Puerto Rico", "Haiti", "Cuba", "Dominican Republic"],
-  helyesIndex: 3,
-  kep: "foldrajz.jpg"
+kerdes: "Which tool is used for API testing?",
+valaszok: ["Postman", "Photoshop", "GitHub", "Docker"],
+helyesIndex: 0,
+kep: "backend.jpg"
 },
+
 {
-  kerdes: "What is the capital of Canada?",
-  valaszok: ["Canada", "United States", "Mexico", "Greenland"],
-  helyesIndex: 0,
-  kep: "foldrajz.jpg"
+kerdes: "What is a 'microservice' architecture?",
+valaszok: ["Small, independent services", "Monolithic app", "Database", "Programming language"],
+helyesIndex: 0,
+kep: "backend.jpg"
 },
-{
-  kerdes: "What is the capital of the United States?",
-  valaszok: ["United States", "Canada", "Mexico", "Brazil"],
-  helyesIndex: 0,
-  kep: "foldrajz.jpg"
-},
-{
-  kerdes: "What is the capital of Iceland?",
-  valaszok: ["Norway", "Iceland", "Finland", "Greenland"],
-  helyesIndex: 1,
-  kep: "foldrajz.jpg"
-},
-{
-  kerdes: "What is the capital of Norway?",
-  valaszok: ["Norway", "Sweden", "Finland", "Denmark"],
-  helyesIndex: 0,
-  kep: "foldrajz.jpg"
-},
-{
-  kerdes: "What is the capital of Sweden?",
-  valaszok: ["Finland", "Norway", "Sweden", "Estonia"],
-  helyesIndex: 2,
-  kep: "foldrajz.jpg"
-},
-{
-  kerdes: "What is the capital of Finland?",
-  valaszok: ["Sweden", "Finland", "Estonia", "Norway"],
-  helyesIndex: 1,
-  kep: "foldrajz.jpg"
-},
-{
-  kerdes: "What is the capital of Denmark?",
-  valaszok: ["Denmark", "Sweden", "Norway", "Finland"],
-  helyesIndex: 0,
-  kep: "foldrajz.jpg"
-},
-{
-  kerdes: "What is the capital of Estonia?",
-  valaszok: ["Estonia", "Latvia", "Lithuania", "Finland"],
-  helyesIndex: 0,
-  kep: "foldrajz.jpg"
-},
-{
-  kerdes: "What is the capital of Latvia?",
-  valaszok: ["Lithuania", "Estonia", "Latvia", "Finland"],
-  helyesIndex: 2,
-  kep: "foldrajz.jpg"
-},
-{
-  kerdes: "What is the capital of Lithuania?",
-  valaszok: ["Latvia", "Lithuania", "Estonia", "Belarus"],
-  helyesIndex: 1,
-  kep: "foldrajz.jpg"
-},
-{
-  kerdes: "What is the capital of Poland?",
-  valaszok: ["Poland", "Ukraine", "Czech Republic", "Lithuania"],
-  helyesIndex: 0,
-  kep: "foldrajz.jpg"
-},
-{
-  kerdes: "What is the capital of the Czech Republic?",
-  valaszok: ["Czech Republic", "Slovakia", "Poland", "Austria"],
-  helyesIndex: 0,
-  kep: "foldrajz.jpg"
-},
-{
-  kerdes: "What is the capital of Slovakia?",
-  valaszok: ["Czech Republic", "Hungary", "Slovakia", "Austria"],
-  helyesIndex: 2,
-  kep: "foldrajz.jpg"
-},
-{
-  kerdes: "What is the capital of Austria?",
-  valaszok: ["Switzerland", "Austria", "Hungary", "Germany"],
-  helyesIndex: 1,
-  kep: "foldrajz.jpg"
-},
-{
-  kerdes: "What is the capital of Hungary?",
-  valaszok: ["Austria", "Romania", "Hungary", "Croatia"],
-  helyesIndex: 2,
-  kep: "foldrajz.jpg"
-},
-{
-  kerdes: "What is the capital of Slovenia?",
-  valaszok: ["Slovakia", "Slovenia", "Croatia", "Serbia"],
-  helyesIndex: 1,
-  kep: "foldrajz.jpg"
-},
-{
-  kerdes: "What is the capital of Croatia?",
-  valaszok: ["Serbia", "Slovenia", "Croatia", "Bosnia-Herzegovina"],
-  helyesIndex: 2,
-  kep: "foldrajz.jpg"
-},
-{
-  kerdes: "What is the capital of Bosnia-Herzegovina?",
-  valaszok: ["Montenegro", "Bosnia-Herzegovina", "Croatia", "Albania"],
-  helyesIndex: 1,
-  kep: "foldrajz.jpg"
-},
-{
-  kerdes: "What is the capital of Serbia?",
-  valaszok: ["Kosovo", "Serbia", "Macedonia", "Montenegro"],
-  helyesIndex: 1,
-  kep: "foldrajz.jpg"
-},
-{
-  kerdes: "What is the capital of Montenegro?",
-  valaszok: ["Serbia", "Kosovo", "Montenegro", "Bosnia-Herzegovina"],
-  helyesIndex: 2,
-  kep: "foldrajz.jpg"
-},
-{
-  kerdes: "What is the capital of Albania?",
-  valaszok: ["Kosovo", "Albania", "Macedonia", "Montenegro"],
-  helyesIndex: 1,
-  kep: "foldrajz.jpg"
-},
-{
-  kerdes: "What is the capital of Macedonia?",
-  valaszok: ["Albania", "Macedonia", "Kosovo", "Serbia"],
-  helyesIndex: 1,
-  kep: "foldrajz.jpg"
-},
-{
-  kerdes: "What is the capital of Kosovo?",
-  valaszok: ["Montenegro", "Serbia", "Kosovo", "Albania"],
-  helyesIndex: 2,
-  kep: "foldrajz.jpg"
-},
+
 
 
   

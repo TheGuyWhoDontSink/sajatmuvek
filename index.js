@@ -4670,7 +4670,828 @@ wrongSound.volume = 0.6;
     helyesIndex: 0,
     kep: "iskola.jpg"
   },
-  
+   {
+    kerdes: "Melyik videojátékban szerepel Mario karaktere?",
+    valaszok: ["Sonic", "Zelda", "Super Mario", "Pac-Man"],
+    helyesIndex: 2,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik cég fejlesztette a Minecraft nevű játékot?",
+    valaszok: ["Mojang", "Epic Games", "Ubisoft", "Valve"],
+    helyesIndex: 0,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Mi a fő cél a Tetris játékban?",
+    valaszok: ["Autóverseny", "Kártyák rendezése", "Kockák elhelyezése", "Lövöldözés"],
+    helyesIndex: 2,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játék főhőse egy elektromos egér?",
+    valaszok: ["Sonic", "Crash Bandicoot", "Pikachu", "Donkey Kong"],
+    helyesIndex: 2,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Mi a neve a League of Legends játék fejlesztőjének?",
+    valaszok: ["Riot Games", "Valve", "Activision", "Rockstar"],
+    helyesIndex: 0,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban szerepel a 'Creeper' nevű ellenség?",
+    valaszok: ["Terraria", "Minecraft", "Roblox", "Fortnite"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik videojáték-sorozatban található meg a Hyrule Királyság?",
+    valaszok: ["Final Fantasy", "The Legend of Zelda", "Dark Souls", "Assassin’s Creed"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Mi a cél a Pac-Man játékban?",
+    valaszok: ["Szörnyeket legyőzni", "Lövöldözni", "Pöttyöket megenni", "Kockákat pakolni"],
+    helyesIndex: 2,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban harcolhatunk zombik ellen egy nyitott világban?",
+    valaszok: ["Minecraft", "Stardew Valley", "The Sims", "Portal"],
+    helyesIndex: 0,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Ki a főszereplő a God of War játékokban?",
+    valaszok: ["Kratos", "Zeusz", "Herkules", "Ares"],
+    helyesIndex: 0,
+    kep: "gamer.jpg"
+  },
+   {
+    kerdes: "Melyik játékban szerepel a karakter Mario?",
+    valaszok: ["Zelda", "Minecraft", "Super Mario", "Fortnite"],
+    helyesIndex: 2,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban harcolhatunk Creeper ellen?",
+    valaszok: ["Call of Duty", "Minecraft", "Valorant", "PUBG"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játék főhőse Geralt of Rivia?",
+    valaszok: ["Dark Souls", "The Witcher", "Skyrim", "Diablo"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban gyűjthetsz pokémonokat?",
+    valaszok: ["Digimon", "Yu-Gi-Oh!", "Pokémon", "Tamagotchi"],
+    helyesIndex: 2,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Mi a fő cél a Tetris játékban?",
+    valaszok: ["Szörnyek legyőzése", "Sorok eltüntetése", "Kockák gyűjtése", "Időmérés"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban található Hyrule királysága?",
+    valaszok: ["Zelda", "Elden Ring", "Final Fantasy", "Dragon Age"],
+    helyesIndex: 0,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játéksorozatban szerepel Master Chief?",
+    valaszok: ["Halo", "DOOM", "Call of Duty", "Half-Life"],
+    helyesIndex: 0,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Mi a cél a Pac-Man játékban?",
+    valaszok: ["Szellemek elkapása", "Gyümölcsök felszedése", "Pontok gyűjtése és menekülés", "Kijutás a labirintusból"],
+    helyesIndex: 2,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban szerepel egy térkép nevű Erangel?",
+    valaszok: ["Warzone", "PUBG", "Free Fire", "Apex Legends"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban található a karakter: Lara Croft?",
+    valaszok: ["Uncharted", "Tomb Raider", "Assassin’s Creed", "Far Cry"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Mi a főszereplő neve a GTA V-ben?",
+    valaszok: ["Carl", "Tommy", "Franklin", "Ezio"],
+    helyesIndex: 2,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játék híres a 'Victory Royale' kifejezésről?",
+    valaszok: ["Fortnite", "League of Legends", "Valorant", "CS:GO"],
+    helyesIndex: 0,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban irányíthatsz egy farmot?",
+    valaszok: ["Harvest Moon", "FIFA", "The Sims", "DOOM"],
+    helyesIndex: 0,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik karakter nem szerepel a Super Smash Bros játékban?",
+    valaszok: ["Link", "Mario", "Pikachu", "Kratos"],
+    helyesIndex: 3,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játék híres a portálfegyverről?",
+    valaszok: ["Half-Life", "Portal", "BioShock", "Prey"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Mi a fő cél a Sims játékban?",
+    valaszok: ["Karakterek építése és irányítása", "Autók versenyeztetése", "Űrhajó irányítása", "Fegyverek fejlesztése"],
+    helyesIndex: 0,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban harcolhatsz zombik ellen?",
+    valaszok: ["The Sims", "Resident Evil", "Tetris", "Gran Turismo"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játék fejlesztője a Mojang?",
+    valaszok: ["Terraria", "Minecraft", "Roblox", "Among Us"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik karakter szerepel a League of Legends-ben?",
+    valaszok: ["Tracer", "Jinx", "Master Chief", "Geralt"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Mi a cél az Among Us játékban?",
+    valaszok: ["Föld meghódítása", "Űrhajó vezetése", "Imposztor megtalálása", "Pénz gyűjtése"],
+    helyesIndex: 2,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban van 'Battle Pass' rendszer?",
+    valaszok: ["Valorant", "Minecraft", "Tetris", "Skyrim"],
+    helyesIndex: 0,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játék híres a 'Nuke' nevű pályáról?",
+    valaszok: ["CS:GO", "Overwatch", "League of Legends", "Dota 2"],
+    helyesIndex: 0,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik videojátékban szerepel Kratos?",
+    valaszok: ["Halo", "God of War", "Uncharted", "Far Cry"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban lehet házakat építeni kockákból?",
+    valaszok: ["Minecraft", "Fortnite", "Roblox", "The Sims"],
+    helyesIndex: 0,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Mi a fő cél a Call of Duty játékokban?",
+    valaszok: ["Túlélés", "Kézművesség", "Lövöldözés és küldetések", "Versenyzés"],
+    helyesIndex: 2,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban versenyezhetsz autókkal?",
+    valaszok: ["Need for Speed", "CS:GO", "The Witcher", "Minecraft"],
+    helyesIndex: 0,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban létezik a karakter: Ezio Auditore?",
+    valaszok: ["Skyrim", "Assassin's Creed", "Overwatch", "FIFA"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban lehet focizni?",
+    valaszok: ["NBA 2K", "FIFA", "GTA", "Sims"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban van legendás karakter: Link?",
+    valaszok: ["Mario Kart", "Zelda", "Halo", "League of Legends"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban található a térkép: Verdansk?",
+    valaszok: ["PUBG", "Warzone", "Apex Legends", "Overwatch"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játék főhőse Nathan Drake?",
+    valaszok: ["The Last of Us", "Uncharted", "Far Cry", "God of War"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban használhatsz ender pearl-t?",
+    valaszok: ["Roblox", "Minecraft", "Among Us", "Terraria"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban szerepel a karakter: Aloy?",
+    valaszok: ["God of War", "Horizon Zero Dawn", "Tomb Raider", "Destiny"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban van a 'Dust 2' nevű pálya?",
+    valaszok: ["Valorant", "Call of Duty", "CS:GO", "Overwatch"],
+    helyesIndex: 2,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban irányíthatsz egy bányászt karaktert?",
+    valaszok: ["Terraria", "Stardew Valley", "Deep Rock Galactic", "The Forest"],
+    helyesIndex: 2,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban szerepel a karakter: Sonic?",
+    valaszok: ["Mario", "Rayman", "Crash Bandicoot", "Sonic the Hedgehog"],
+    helyesIndex: 3,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban szerepel a Vault Boy kabalafigura?",
+    valaszok: ["Metro", "Fallout", "Half-Life", "Borderlands"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban szerepel egy kockás világ, amit felfedezhetsz?",
+    valaszok: ["Minecraft", "Roblox", "Terraria", "Lego Worlds"],
+    helyesIndex: 0,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban lehet Pokémonokat harcoltatni egymás ellen?",
+    valaszok: ["Yu-Gi-Oh!", "Pokémon", "Digimon", "Animal Crossing"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban szerepel Tracer karakter?",
+    valaszok: ["Valorant", "Overwatch", "Paladins", "Apex Legends"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban szerepel a karakter: Arthur Morgan?",
+    valaszok: ["Red Dead Redemption 2", "GTA V", "Far Cry 5", "The Witcher 3"],
+    helyesIndex: 0,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban harcolhatsz sárkányokkal egy fantasy világban?",
+    valaszok: ["Fallout", "Skyrim", "Valorant", "PUBG"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban használhatsz glidert ugrás után?",
+    valaszok: ["CS:GO", "Minecraft", "Fortnite", "Valorant"],
+    helyesIndex: 2,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban van kalózos témájú világ?",
+    valaszok: ["Sea of Thieves", "Skyrim", "Far Cry 4", "Cyberpunk 2077"],
+    helyesIndex: 0,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban szerepelnek inkling nevű karakterek?",
+    valaszok: ["Splatoon", "Mario Kart", "Sonic", "Mega Man"],
+    helyesIndex: 0,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban található a Vault rendszer?",
+    valaszok: ["Apex Legends", "Borderlands", "Fallout", "Gears of War"],
+    helyesIndex: 2,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban lehet tárgyakat kraftolni túléléshez?",
+    valaszok: ["The Forest", "FIFA", "Among Us", "Need for Speed"],
+    helyesIndex: 0,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban található Nook nevű karakter?",
+    valaszok: ["Pokémon", "Minecraft", "Animal Crossing", "Zelda"],
+    helyesIndex: 2,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játék szól egy posztapokaliptikus fertőzésről?",
+    valaszok: ["The Last of Us", "League of Legends", "Cyberpunk", "Minecraft"],
+    helyesIndex: 0,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban irányíthatod Sackboy karaktert?",
+    valaszok: ["Ratchet & Clank", "LittleBigPlanet", "God of War", "Knack"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játék főleg szörnyek vadászatáról szól?",
+    valaszok: ["Horizon", "Monster Hunter", "Bloodborne", "DOOM"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban lehet zenét játszani műanyag gitárral?",
+    valaszok: ["Just Dance", "Guitar Hero", "Rock Band", "Beat Saber"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban szerepel a karakter: Ellie?",
+    valaszok: ["The Last of Us", "Life is Strange", "Detroit", "Beyond: Two Souls"],
+    helyesIndex: 0,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban kell parkourozni és zombi támadásokat túlélni?",
+    valaszok: ["Dead Island", "Left 4 Dead", "Dying Light", "Back 4 Blood"],
+    helyesIndex: 2,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban használhatsz különleges képességeket lövöldözés közben?",
+    valaszok: ["Valorant", "Minecraft", "Among Us", "Fall Guys"],
+    helyesIndex: 0,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban lehet horgászni és termeszteni?",
+    valaszok: ["FIFA", "Hades", "Stardew Valley", "Overcooked"],
+    helyesIndex: 2,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban lehet különböző kasztok közül választani, mint pl. varázsló vagy harcos?",
+    valaszok: ["World of Warcraft", "The Sims", "Need for Speed", "FIFA"],
+    helyesIndex: 0,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban lehet egy várost irányítani és építeni?",
+    valaszok: ["Cities: Skylines", "Tetris", "Rocket League", "Dark Souls"],
+    helyesIndex: 0,
+    kep: "gamer.jpg"
+  },
+   {
+    kerdes: "Melyik játékban versenyezhetsz autókkal egy nyílt világban?",
+    valaszok: ["Need for Speed", "Gran Turismo", "Forza Horizon", "Trackmania"],
+    helyesIndex: 2,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban van a 'Battle Royale' játékmód?",
+    valaszok: ["FIFA", "Overwatch", "Fortnite", "Assassin’s Creed"],
+    helyesIndex: 2,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban játszhatsz egy szamuráj harcossal?",
+    valaszok: ["Ghost of Tsushima", "Sekiro", "Nioh", "Mindhárom"],
+    helyesIndex: 3,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban található a 'Creeper' ellenség?",
+    valaszok: ["Terraria", "Minecraft", "Rust", "Roblox"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban harcolhatsz görög istenek ellen?",
+    valaszok: ["The Witcher", "God of War", "Assassin’s Creed Odyssey", "Hades"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban lehet saját karaktert létrehozni egy fantasy világban?",
+    valaszok: ["GTA V", "The Sims", "Skyrim", "CS:GO"],
+    helyesIndex: 2,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban találkozhatsz Geralt of Rivia-val?",
+    valaszok: ["The Witcher", "Skyrim", "Dark Souls", "Red Dead Redemption"],
+    helyesIndex: 0,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban irányíthatsz egy szamurájt Mongol invázió alatt?",
+    valaszok: ["Sekiro", "Ghost of Tsushima", "Nioh 2", "Dynasty Warriors"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban választhatsz hőst, és képességekkel harcolhatsz online csapatban?",
+    valaszok: ["Valorant", "Overwatch", "Apex Legends", "Mindhárom"],
+    helyesIndex: 3,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban található a 'Nuka-Cola' ital?",
+    valaszok: ["Cyberpunk 2077", "Half-Life", "Fallout", "GTA V"],
+    helyesIndex: 2,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban fedezhetsz fel egy víz alatti várost?",
+    valaszok: ["Subnautica", "BioShock", "Aquanox", "Mindhárom"],
+    helyesIndex: 3,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban szerepel Bowser mint főellenség?",
+    valaszok: ["Zelda", "Donkey Kong", "Mario", "Crash Bandicoot"],
+    helyesIndex: 2,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban kell elbújni a gyilkos elől és javítani generátorokat?",
+    valaszok: ["Phasmophobia", "Dead by Daylight", "The Forest", "Outlast"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játék sorozatban szerepel Kratos?",
+    valaszok: ["Halo", "God of War", "Doom", "Assassin's Creed"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban versenyezhetsz rakéta-hajtású autókkal fociban?",
+    valaszok: ["WipeOut", "Trackmania", "Rocket League", "Split/Second"],
+    helyesIndex: 2,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban kell ügyességi pályákon átrohanni több játékossal?",
+    valaszok: ["Among Us", "Fall Guys", "Human Fall Flat", "Overcooked"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban szórakoztathatsz állatokat egy kávézóban?",
+    valaszok: ["Stardew Valley", "Neko Atsume", "Animal Crossing", "Cafe Simulator"],
+    helyesIndex: 2,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban építhetsz parkokat és hullámvasutakat?",
+    valaszok: ["Zoo Tycoon", "RollerCoaster Tycoon", "Planet Coaster", "Mindhárom"],
+    helyesIndex: 3,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játék sorozatban van Master Chief?",
+    valaszok: ["Gears of War", "Call of Duty", "Halo", "Mass Effect"],
+    helyesIndex: 2,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban kell egy űrhajón túlélni és leleplezni a csalókat?",
+    valaszok: ["Among Us", "Starbound", "Dead Space", "Outer Wilds"],
+    helyesIndex: 0,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban szerepel Claptrap nevű robot?",
+    valaszok: ["Destiny", "Borderlands", "Mass Effect", "Titanfall"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban lehet alkimista italokat készíteni?",
+    valaszok: ["Potion Craft", "Skyrim", "Witcher 3", "Mindhárom"],
+    helyesIndex: 3,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban van főszerepben egy francia forradalmár?",
+    valaszok: ["Assassin's Creed Unity", "Red Dead Redemption", "Kingdom Come", "Valiant Hearts"],
+    helyesIndex: 0,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban szerepel egy rózsaszín szörny: Kirby?",
+    valaszok: ["Donkey Kong", "Kirby", "Yoshi's Island", "Zelda"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban kell hackelni rendszereket?",
+    valaszok: ["Watch Dogs", "Cyberpunk 2077", "Deus Ex", "Mindhárom"],
+    helyesIndex: 3,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban lehet bázist építeni a túléléshez egy idegen bolygón?",
+    valaszok: ["Astroneer", "Subnautica", "No Man’s Sky", "Mindhárom"],
+    helyesIndex: 3,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban élnek gombalények és teknősök?",
+    valaszok: ["Zelda", "Sonic", "Mario", "Pikmin"],
+    helyesIndex: 2,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban szerepel egy zombis város neve: Raccoon City?",
+    valaszok: ["Resident Evil", "Dying Light", "Left 4 Dead", "The Evil Within"],
+    helyesIndex: 0,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban található a karakter: Ezio Auditore?",
+    valaszok: ["God of War", "The Witcher", "Assassin's Creed", "Elden Ring"],
+    helyesIndex: 2,
+    kep: "gamer.jpg"
+  },
+    {
+    kerdes: "Melyik videojátékban szerepel a karakter: Mario?",
+    valaszok: ["Sonic", "Zelda", "Mario Bros", "Halo"],
+    helyesIndex: 2,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Milyen típusú játék a Minecraft?",
+    valaszok: ["Verseny", "Túlélő-sandbox", "Stratégiai", "Kártyajáték"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játék sorozat főhőse Master Chief?",
+    valaszok: ["Call of Duty", "Halo", "Doom", "Overwatch"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban harcolhatunk Creeper ellen?",
+    valaszok: ["Terraria", "Minecraft", "Roblox", "Fortnite"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik stúdió készítette a The Witcher játékokat?",
+    valaszok: ["Bethesda", "CD Projekt Red", "Ubisoft", "EA"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játék főhőse Kratos?",
+    valaszok: ["God of War", "Dark Souls", "Assassin's Creed", "Tomb Raider"],
+    helyesIndex: 0,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban van a 'Nuke' nevű pálya?",
+    valaszok: ["Call of Duty", "PUBG", "CS:GO", "Valorant"],
+    helyesIndex: 2,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban szerepel a Triforce?",
+    valaszok: ["Final Fantasy", "Zelda", "Skyrim", "God of War"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik karakter NEM szerepel a Fortnite-ban?",
+    valaszok: ["Lara Croft", "Batman", "Peach hercegnő", "Spider-Man"],
+    helyesIndex: 2,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik évben jelent meg a GTA V?",
+    valaszok: ["2011", "2013", "2015", "2017"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+ {
+    kerdes: "Melyik videojátékban szerepel Mario, a vízvezeték-szerelő?",
+    valaszok: ["Zelda", "Sonic", "Mario", "Donkey Kong"],
+    helyesIndex: 2,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik cég készítette a PlayStation konzolt?",
+    valaszok: ["Microsoft", "Sony", "Nintendo", "Sega"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban harcolhatunk creeper-ek ellen?",
+    valaszok: ["Terraria", "Roblox", "Minecraft", "Fortnite"],
+    helyesIndex: 2,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Mi a fő cél a Tetris játékban?",
+    valaszok: ["Építkezés", "Lövöldözés", "Sorok eltüntetése", "Színek párosítása"],
+    helyesIndex: 2,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játék főszereplője egy kék sündisznó?",
+    valaszok: ["Mario", "Crash", "Kirby", "Sonic"],
+    helyesIndex: 3,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban találkozhatunk a Pokémonszörnyekkel?",
+    valaszok: ["Zelda", "Digimon", "Pokemon", "Yu-Gi-Oh!"],
+    helyesIndex: 2,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Hány játékos lehet egyszerre egy Among Us meccsben?",
+    valaszok: ["4", "10", "8", "6"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban szerepel Kratos?",
+    valaszok: ["Halo", "God of War", "Doom", "Elden Ring"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik videojátékban kell túlélni egy zombiapokalipszist?",
+    valaszok: ["Forza", "Resident Evil", "Stardew Valley", "Mario Kart"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Mi a Fortnite játékmódja?",
+    valaszok: ["Battle Royale", "RPG", "Kártyajáték", "Puzzle"],
+    helyesIndex: 0,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik stúdió készítette a Grand Theft Auto sorozatot?",
+    valaszok: ["Rockstar Games", "Ubisoft", "EA", "Activision"],
+    helyesIndex: 0,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Milyen műfaj a League of Legends?",
+    valaszok: ["FPS", "MOBA", "Platform", "Kaland"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játék főszereplője Link?",
+    valaszok: ["Mario", "Zelda", "Final Fantasy", "Metroid"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Mi a neve a híres kockaépítő játéknak?",
+    valaszok: ["Roblox", "Minecraft", "Lego Worlds", "Sims"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik sorozatban szerepel Master Chief?",
+    valaszok: ["Call of Duty", "Halo", "Gears of War", "Overwatch"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Milyen típusú játék a FIFA?",
+    valaszok: ["Verseny", "Fociszimulátor", "Puzzle", "RPG"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban szerepel a Triforce?",
+    valaszok: ["Zelda", "Final Fantasy", "Skyrim", "Dark Souls"],
+    helyesIndex: 0,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játéksorozatban gyűjthetsz csillagokat?",
+    valaszok: ["Sonic", "Minecraft", "Super Mario", "Halo"],
+    helyesIndex: 2,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban építhetsz és harcolhatsz egy szigeten?",
+    valaszok: ["Call of Duty", "Fortnite", "Overwatch", "CS:GO"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Mi a fő cél a The Sims játékban?",
+    valaszok: ["Felfedezés", "Harcolás", "Életszimuláció", "Kincskeresés"],
+    helyesIndex: 2,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik karakter híres a Street Fighter sorozatból?",
+    valaszok: ["Ryu", "Mario", "Kirby", "Link"],
+    helyesIndex: 0,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban használsz Pokélabdát?",
+    valaszok: ["Digimon", "Pokemon", "Zelda", "Yu-Gi-Oh!"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Milyen játékműfaj a Call of Duty?",
+    valaszok: ["RPG", "Stratégia", "FPS", "MOBA"],
+    helyesIndex: 2,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban található a Hyrule királyság?",
+    valaszok: ["Skyrim", "Zelda", "Final Fantasy", "Dark Souls"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Ki a főgonosz a Bowser nevű karakterrel szemben?",
+    valaszok: ["Mario", "Zelda", "Luigi", "Donkey Kong"],
+    helyesIndex: 0,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban gyűjthetünk bányászati nyersanyagokat?",
+    valaszok: ["Sims", "Minecraft", "Roblox", "Valorant"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Mi a cél a Pac-Man játékban?",
+    valaszok: ["Zombik lövöldözése", "Szellemek gyűjtése", "Pontok gyűjtése és menekülés", "Főzés"],
+    helyesIndex: 2,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játék szól egy poszt-apokaliptikus világban való túlélésről?",
+    valaszok: ["The Last of Us", "Super Mario", "Tetris", "FIFA"],
+    helyesIndex: 0,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Milyen műfajba tartozik az Animal Crossing?",
+    valaszok: ["Akció", "Életszimulátor", "Lövöldözős", "Logikai"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
+  {
+    kerdes: "Melyik játékban található meg a 'Redstone' nevű anyag?",
+    valaszok: ["Zelda", "Minecraft", "FIFA", "Halo"],
+    helyesIndex: 1,
+    kep: "gamer.jpg"
+  },
 
 ];
 
