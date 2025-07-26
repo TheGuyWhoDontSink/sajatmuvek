@@ -22,7 +22,8 @@ const szabalyCim = document.getElementById("szabalyCim");
 const szabalyLista = document.getElementById("szabalyLista");
 const szabaly1 = document.getElementById("szabaly1");
 const szabaly2 = document.getElementById("szabaly2");
-
+const hatterem = document.getElementById("hatterem");
+const originalColor = hatterem.style.backgroundColor || window.getComputedStyle(hatterem).backgroundColor;
 const gombos1 = document.getElementById("gombos1");
 const gombos2 = document.getElementById("gombos2");
 const gombos3 = document.getElementById("gombos3");
@@ -4302,6 +4303,998 @@ valaszok: ["Small, independent services", "Monolithic app", "Database", "Program
 helyesIndex: 0,
 kep: "backend.jpg"
 },
+{
+  kerdes: "What is the main function of a car's catalytic converter?",
+  valaszok: ["Increase speed", "Reduce emissions", "Improve fuel economy", "Boost horsepower"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which company manufactures the Mustang?",
+  valaszok: ["Chevrolet", "Ford", "Dodge", "Toyota"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What type of engine is commonly found in hybrid cars?",
+  valaszok: ["Gasoline and electric", "Diesel only", "Electric only", "Gasoline only"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What does ABS stand for in car safety systems?",
+  valaszok: ["Automatic Braking System", "Anti-lock Braking System", "Air Bag System", "Automatic Balance System"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which car brand uses a blue oval as its logo?",
+  valaszok: ["BMW", "Ford", "Volkswagen", "Toyota"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What does the acronym 'SUV' stand for?",
+  valaszok: ["Sport Utility Vehicle", "Small Urban Vehicle", "Super Utility Van", "Special User Vehicle"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which country is home to the car brand Ferrari?",
+  valaszok: ["Germany", "Italy", "France", "USA"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What does horsepower measure in a car?",
+  valaszok: ["Engine temperature", "Engine power output", "Fuel efficiency", "Weight"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which company makes the Civic model?",
+  valaszok: ["Toyota", "Honda", "Nissan", "Mazda"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What type of drivetrain sends power to all four wheels?",
+  valaszok: ["FWD", "RWD", "4WD", "AWD"],
+  helyesIndex: 3,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which brand is famous for the 'Beetle' car?",
+  valaszok: ["Volkswagen", "Ford", "Chevrolet", "Fiat"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What is the name of the German car manufacturer known for the '3 Series'?",
+  valaszok: ["Audi", "BMW", "Mercedes-Benz", "Volkswagen"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What fuel type does a diesel engine use?",
+  valaszok: ["Gasoline", "Diesel", "Electric", "Hybrid"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What does a turbocharger do?",
+  valaszok: ["Improves engine power", "Reduces emissions", "Improves fuel economy", "Controls steering"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which company produces the Wrangler SUV?",
+  valaszok: ["Jeep", "Toyota", "Ford", "Honda"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What is the function of a car’s alternator?",
+  valaszok: ["Charge the battery", "Control speed", "Regulate fuel", "Cool the engine"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which car manufacturer uses a three-pointed star as its logo?",
+  valaszok: ["Audi", "Mercedes-Benz", "BMW", "Lexus"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What is the most common layout for sports cars?",
+  valaszok: ["Front-engine, rear-wheel drive", "Front-engine, front-wheel drive", "Rear-engine, rear-wheel drive", "Mid-engine, all-wheel drive"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What does 'MPG' stand for?",
+  valaszok: ["Miles Per Gallon", "Motor Power Grade", "Maximum Performance Gear", "Miles Per Gear"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What is a 'sedan'?",
+  valaszok: ["A two-door car", "A four-door passenger car", "A pickup truck", "An SUV"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which Japanese company produces the Supra sports car?",
+  valaszok: ["Nissan", "Honda", "Toyota", "Mazda"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What is the purpose of the muffler in a car?",
+  valaszok: ["Reduce noise", "Improve speed", "Increase power", "Cool engine"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which company is known for the Camaro?",
+  valaszok: ["Ford", "Chevrolet", "Dodge", "Toyota"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What is the benefit of all-wheel drive (AWD)?",
+  valaszok: ["Better off-road traction", "Improved fuel efficiency", "Faster acceleration", "Reduced maintenance"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What is the typical seating capacity of a minivan?",
+  valaszok: ["2-4", "4-6", "6-8", "8-10"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which car brand has a logo with four interlinked rings?",
+  valaszok: ["BMW", "Audi", "Mercedes-Benz", "Volkswagen"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which country is the origin of Volvo?",
+  valaszok: ["Sweden", "Germany", "Japan", "USA"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which car part controls the direction of the vehicle?",
+  valaszok: ["Accelerator", "Brake", "Steering wheel", "Clutch"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What type of car is a 'convertible'?",
+  valaszok: ["With a removable roof", "With four doors", "Electric car", "SUV"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which fuel type is generally cheaper but less efficient?",
+  valaszok: ["Diesel", "Gasoline", "Electric", "Hydrogen"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which automaker produces the Focus model?",
+  valaszok: ["Honda", "Ford", "Volkswagen", "Chevrolet"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which car is known as the 'Beemer'?",
+  valaszok: ["BMW", "Audi", "Mercedes-Benz", "Lexus"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What is 'torque' in car terminology?",
+  valaszok: ["Power output", "Rotational force", "Speed", "Fuel efficiency"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which car company makes the WRX model?",
+  valaszok: ["Subaru", "Mazda", "Nissan", "Toyota"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What system helps prevent skidding on slippery roads?",
+  valaszok: ["ABS", "ESP", "GPS", "TPMS"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which country is the origin of Hyundai?",
+  valaszok: ["China", "South Korea", "Japan", "India"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What is the main material used for car tires?",
+  valaszok: ["Plastic", "Rubber", "Metal", "Glass"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which part of the car absorbs impact during a collision?",
+  valaszok: ["Bumper", "Engine", "Windshield", "Exhaust"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What does 'RWD' mean?",
+  valaszok: ["Rear-Wheel Drive", "Right-Wheel Drive", "Rapid Wheel Drive", "Remote Wheel Drive"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which company produces the Corvette?",
+  valaszok: ["Ford", "Chevrolet", "Dodge", "Tesla"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which fuel is used by electric cars?",
+  valaszok: ["Gasoline", "Diesel", "Electricity", "Hydrogen"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What is the term for the rotating parts connected to the wheels?",
+  valaszok: ["Axles", "Brakes", "Steering", "Mirrors"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which country is home to the car brand Peugeot?",
+  valaszok: ["France", "Germany", "Italy", "Japan"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What is the name of the mechanism that changes gears in a manual car?",
+  valaszok: ["Accelerator", "Clutch", "Brake", "Gear lever"],
+  helyesIndex: 3,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which car brand uses a prancing horse as its logo?",
+  valaszok: ["Lamborghini", "Ferrari", "Maserati", "Porsche"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which company produces the Golf model?",
+  valaszok: ["Volkswagen", "Ford", "Honda", "Toyota"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What does 'EV' stand for in cars?",
+  valaszok: ["Electric Vehicle", "Engine Valve", "Extra Voltage", "Energy Vehicle"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What safety feature inflates during a crash to protect passengers?",
+  valaszok: ["Seatbelt", "Airbag", "ABS", "ESP"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which car company is famous for the Prius?",
+  valaszok: ["Honda", "Toyota", "Nissan", "Ford"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What is the purpose of engine oil?",
+  valaszok: ["Cool engine", "Lubricate parts", "Clean air", "Store fuel"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which car brand's logo features a bowtie?",
+  valaszok: ["Chevrolet", "Ford", "Toyota", "Honda"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What type of fuel is commonly used in Formula 1 racing cars?",
+  valaszok: ["Diesel", "Petrol", "Electric", "Nitrous oxide"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What is the maximum number of doors on a coupe?",
+  valaszok: ["2", "3", "4", "5"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What does the speedometer display?",
+  valaszok: ["Engine RPM", "Speed", "Fuel level", "Temperature"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which company manufactures the car model 'Impreza'?",
+  valaszok: ["Subaru", "Toyota", "Honda", "Nissan"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What does a car’s tachometer measure?",
+  valaszok: ["Speed", "Fuel consumption", "Engine RPM", "Battery voltage"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which car manufacturer uses a blue and white roundel as its logo?",
+  valaszok: ["Audi", "BMW", "Mercedes-Benz", "Volkswagen"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which component stores electrical energy in a car?",
+  valaszok: ["Starter", "Battery", "Alternator", "Fuel tank"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which automaker produces the Accord?",
+  valaszok: ["Toyota", "Honda", "Mazda", "Nissan"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What is the name of the car part that connects the steering wheel to the wheels?",
+  valaszok: ["Axle", "Steering column", "Drive shaft", "Control arm"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which company makes the F-150 pickup truck?",
+  valaszok: ["Chevrolet", "Ford", "Dodge", "Toyota"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What does the term 'horsepower' relate to?",
+  valaszok: ["Fuel efficiency", "Engine power", "Weight", "Engine size"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which part of the car controls air flow into the engine?",
+  valaszok: ["Radiator", "Throttle", "Alternator", "Catalytic converter"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What is a ‘hatchback’?",
+  valaszok: ["Car with a rear door that swings upwards", "Two-door coupe", "Convertible", "Pickup truck"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which car brand produces the model ‘Camry’?",
+  valaszok: ["Toyota", "Honda", "Ford", "Nissan"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which company is famous for the '911' sports car?",
+  valaszok: ["Porsche", "Ferrari", "Lamborghini", "Maserati"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What is the function of a car’s radiator?",
+  valaszok: ["Cool the engine", "Heat the cabin", "Control fuel flow", "Charge the battery"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which part of a car prevents the wheels from locking up during braking?",
+  valaszok: ["ABS", "Airbag", "Catalytic converter", "Differential"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What does the acronym 'TPMS' stand for?",
+  valaszok: ["Tire Pressure Monitoring System", "Total Power Management System", "Transmission Performance Monitoring System", "Traction Power Measuring System"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which car company produces the ‘Altima’?",
+  valaszok: ["Toyota", "Honda", "Nissan", "Ford"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What type of vehicle is a ‘pickup truck’?",
+  valaszok: ["Passenger car", "Light truck with an open cargo bed", "SUV", "Convertible"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which automaker is known for the luxury brand Lexus?",
+  valaszok: ["Honda", "Toyota", "Nissan", "Mazda"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What does the clutch do in a manual car?",
+  valaszok: ["Stops the car", "Changes gears", "Disengages the engine from the transmission", "Controls acceleration"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which country is home to car manufacturer Fiat?",
+  valaszok: ["Italy", "Germany", "France", "Spain"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What does the fuel injector do?",
+  valaszok: ["Injects air into the engine", "Injects fuel into the engine", "Controls exhaust emissions", "Ignites fuel"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which car manufacturer produces the ‘Charger’?",
+  valaszok: ["Dodge", "Ford", "Chevrolet", "Tesla"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What is ‘crumple zone’ in car safety?",
+  valaszok: ["Area designed to absorb impact in a crash", "The steering system", "Engine compartment", "Fuel tank"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which part of the car provides power to the wheels?",
+  valaszok: ["Engine", "Transmission", "Differential", "Axles"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which company makes the Tesla Model S?",
+  valaszok: ["Tesla", "BMW", "Audi", "Nissan"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What is the term for the car’s electrical system voltage?",
+  valaszok: ["6 volts", "12 volts", "24 volts", "48 volts"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which of these is a luxury British car brand?",
+  valaszok: ["Jaguar", "Volkswagen", "Honda", "Hyundai"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What kind of engine uses spark plugs?",
+  valaszok: ["Diesel engine", "Gasoline engine", "Electric motor", "Hydrogen engine"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What is the name of the system that distributes power between wheels on an axle?",
+  valaszok: ["Transmission", "Differential", "Drive shaft", "Clutch"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which country is home to the car brand Kia?",
+  valaszok: ["South Korea", "Japan", "China", "USA"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What kind of fuel do plug-in hybrid cars use?",
+  valaszok: ["Electricity only", "Gasoline only", "Both electricity and gasoline", "Diesel only"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which car brand uses the slogan ‘The Ultimate Driving Machine’?",
+  valaszok: ["Audi", "BMW", "Mercedes-Benz", "Lexus"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What is the purpose of the car’s muffler?",
+  valaszok: ["Reduce engine noise", "Increase speed", "Control emissions", "Cool the engine"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which car company produces the Mustang?",
+  valaszok: ["Ford", "Chevrolet", "Dodge", "Nissan"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What does ‘RPM’ stand for?",
+  valaszok: ["Rotations per minute", "Revolutions per mile", "Resistance per meter", "Rotations per meter"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which company produces the ‘Civic’?",
+  valaszok: ["Honda", "Toyota", "Nissan", "Mazda"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What type of drivetrain is typically found in front-wheel drive cars?",
+  valaszok: ["Engine powers front wheels", "Engine powers rear wheels", "Engine powers all wheels", "Engine powers no wheels"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which car manufacturer produces the ‘Explorer’ SUV?",
+  valaszok: ["Ford", "Chevrolet", "Jeep", "Toyota"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What is the function of a catalytic converter?",
+  valaszok: ["Reduce exhaust emissions", "Increase engine power", "Cool the engine", "Store fuel"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which car brand is famous for the ‘Boxster’ model?",
+  valaszok: ["Porsche", "BMW", "Audi", "Mercedes-Benz"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What is the typical fuel type for diesel engines?",
+  valaszok: ["Gasoline", "Diesel", "Electricity", "Hydrogen"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which company produces the ‘Corvette’?",
+  valaszok: ["Chevrolet", "Ford", "Dodge", "Tesla"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What type of car has a body style with a fixed roof and two doors?",
+  valaszok: ["Coupe", "Convertible", "Sedan", "Hatchback"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What device ignites the fuel-air mixture in a gasoline engine?",
+  valaszok: ["Fuel injector", "Spark plug", "Battery", "Alternator"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which brand produces the ‘CX-5’ SUV?",
+  valaszok: ["Mazda", "Honda", "Toyota", "Nissan"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What is ‘horsepower’ a measure of?",
+  valaszok: ["Engine power output", "Fuel efficiency", "Engine size", "Weight of the car"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which company produces the ‘Silverado’ pickup truck?",
+  valaszok: ["Chevrolet", "Ford", "RAM", "Toyota"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What does ‘ABS’ stand for in cars?",
+  valaszok: ["Anti-lock Braking System", "Automatic Braking System", "Automatic Balance System", "Anti-slip Braking System"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which car manufacturer is based in Wolfsburg, Germany?",
+  valaszok: ["Volkswagen", "BMW", "Mercedes-Benz", "Audi"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What is the purpose of airbags in cars?",
+  valaszok: ["Provide comfort", "Assist with steering", "Protect occupants during collisions", "Improve fuel efficiency"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What kind of engine does a Tesla use?",
+  valaszok: ["Internal combustion engine", "Electric motor", "Hybrid engine", "Diesel engine"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which car brand has a logo with four interlocking rings?",
+  valaszok: ["Audi", "BMW", "Mercedes-Benz", "Volkswagen"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What does ‘SUV’ stand for?",
+  valaszok: ["Sport Utility Vehicle", "Super Urban Vehicle", "Standard Utility Van", "Special Use Vehicle"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which automaker produces the ‘Accord’?",
+  valaszok: ["Honda", "Toyota", "Nissan", "Mazda"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What is a ‘hybrid car’?",
+  valaszok: ["Car that uses gasoline only", "Car that uses electric power only", "Car that combines gasoline and electric power", "Car powered by diesel"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which car model is known as a classic muscle car by Dodge?",
+  valaszok: ["Charger", "Camaro", "Mustang", "Corvette"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What kind of fluid is used in a car’s transmission?",
+  valaszok: ["Engine oil", "Transmission fluid", "Brake fluid", "Coolant"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which company produces the ‘Golf’ model?",
+  valaszok: ["Volkswagen", "Audi", "BMW", "Mercedes-Benz"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What is the main purpose of a car’s suspension system?",
+  valaszok: ["Reduce fuel consumption", "Increase engine power", "Absorb shocks from road", "Control steering"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which automaker produces the ‘CX-9’ SUV?",
+  valaszok: ["Mazda", "Toyota", "Honda", "Nissan"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What does the odometer in a car measure?",
+  valaszok: ["Engine temperature", "Fuel level", "Distance traveled", "Speed"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which of these is a Japanese car brand?",
+  valaszok: ["Ford", "Toyota", "BMW", "Volvo"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which car model is produced by Tesla?",
+  valaszok: ["Model S", "Civic", "Camry", "Mustang"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What part of a car connects the engine to the wheels?",
+  valaszok: ["Axle", "Transmission", "Clutch", "Drive shaft"],
+  helyesIndex: 3,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which company produces the ‘Explorer’?",
+  valaszok: ["Ford", "Chevrolet", "Jeep", "Nissan"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What does the alternator do?",
+  valaszok: ["Charge the battery", "Start the engine", "Cool the engine", "Control the brakes"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which car manufacturer produces the ‘Wrangler’?",
+  valaszok: ["Jeep", "Ford", "Chevrolet", "Toyota"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What is the color of the ‘check engine’ warning light?",
+  valaszok: ["Green", "Yellow/Amber", "Red", "Blue"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What kind of vehicle is a sedan?",
+  valaszok: ["Two-door sports car", "Four-door passenger car", "Open-top vehicle", "Pickup truck"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What does ‘MPG’ stand for?",
+  valaszok: ["Miles per gallon", "Maximum power gain", "Motor performance grade", "Manual power gear"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which car brand is known for the ‘Golf’ and ‘Passat’ models?",
+  valaszok: ["Volkswagen", "Audi", "BMW", "Mercedes-Benz"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which country is the origin of Mercedes-Benz?",
+  valaszok: ["Germany", "France", "Italy", "USA"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which automaker produces the ‘RAV4’?",
+  valaszok: ["Toyota", "Honda", "Nissan", "Mazda"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What is the main purpose of a turbocharger?",
+  valaszok: ["Increase fuel efficiency", "Boost engine power", "Reduce emissions", "Cool the engine"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which car model is known as the best-selling electric vehicle?",
+  valaszok: ["Tesla Model 3", "Nissan Leaf", "Chevrolet Bolt", "BMW i3"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What does the term ‘horsepower’ measure in a car?",
+  valaszok: ["Speed", "Engine power", "Weight", "Fuel capacity"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which car brand is famous for the ‘Impreza’ model?",
+  valaszok: ["Subaru", "Toyota", "Honda", "Mazda"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What type of engine uses both an electric motor and gasoline engine?",
+  valaszok: ["Diesel engine", "Electric vehicle", "Hybrid engine", "Turbine engine"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which company manufactures the ‘Model X’ electric SUV?",
+  valaszok: ["Tesla", "Nissan", "Ford", "BMW"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What is the main function of an engine’s radiator?",
+  valaszok: ["Cool engine coolant", "Increase horsepower", "Store fuel", "Power the battery"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which car manufacturer uses a blue oval logo?",
+  valaszok: ["Ford", "Volkswagen", "BMW", "Hyundai"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What does ‘EV’ stand for in automotive terms?",
+  valaszok: ["Electric Vehicle", "Engine Valve", "Emission Vehicle", "Energy Volume"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which automaker produces the ‘F-150’ truck?",
+  valaszok: ["Ford", "Chevrolet", "RAM", "Toyota"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which car part is responsible for changing gears in a manual transmission?",
+  valaszok: ["Clutch", "Brake", "Throttle", "Axle"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What is the term for the distance between the front and rear axles of a car?",
+  valaszok: ["Wheelbase", "Track width", "Overhang", "Ground clearance"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which car manufacturer is known for the ‘911’ sports car?",
+  valaszok: ["Porsche", "Ferrari", "Lamborghini", "Maserati"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What is the main purpose of a car’s muffler?",
+  valaszok: ["Reduce engine noise", "Increase speed", "Cool the engine", "Charge the battery"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which automaker produces the ‘Altima’?",
+  valaszok: ["Nissan", "Toyota", "Honda", "Mazda"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What does ‘RPM’ stand for?",
+  valaszok: ["Revolutions Per Minute", "Road Performance Meter", "Rotations Per Motor", "Rated Power Measure"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which car brand is known for the ‘Mustang’?",
+  valaszok: ["Ford", "Chevrolet", "Dodge", "Tesla"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What system helps prevent skidding during sudden turns?",
+  valaszok: ["ABS", "ESC", "TPS", "ECU"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which automaker produces the ‘CR-V’ SUV?",
+  valaszok: ["Honda", "Toyota", "Mazda", "Nissan"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What kind of fuel does a diesel engine use?",
+  valaszok: ["Diesel", "Gasoline", "Electricity", "Hydrogen"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What part controls the flow of air and fuel into the engine?",
+  valaszok: ["Carburetor", "Fuel injector", "Throttle body", "Catalytic converter"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which car manufacturer uses the ‘Three-pointed star’ logo?",
+  valaszok: ["Mercedes-Benz", "BMW", "Audi", "Volkswagen"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What kind of drivetrain powers all four wheels simultaneously?",
+  valaszok: ["RWD", "FWD", "AWD", "2WD"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What is the main purpose of anti-lock brakes (ABS)?",
+  valaszok: ["Prevent wheel lockup", "Increase braking power", "Improve fuel economy", "Cool the brakes"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which company produces the ‘Civic’?",
+  valaszok: ["Honda", "Toyota", "Ford", "Nissan"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which car is known for the iconic ‘Prancing Horse’ logo?",
+  valaszok: ["Ferrari", "Lamborghini", "Porsche", "Maserati"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What does the term ‘turbo’ refer to?",
+  valaszok: ["A type of engine cooling", "A forced induction device", "A kind of fuel", "A transmission type"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which car brand produces the ‘Model 3’?",
+  valaszok: ["Tesla", "BMW", "Audi", "Mercedes-Benz"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which country is home to Ferrari?",
+  valaszok: ["Italy", "Germany", "USA", "France"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What does the ‘check oil’ warning light mean?",
+  valaszok: ["Low oil level or pressure", "Engine overheating", "Brake failure", "Low battery"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which car part measures vehicle speed?",
+  valaszok: ["Odometer", "Speedometer", "Tachometer", "Fuel gauge"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What does the ‘turbocharger’ do?",
+  valaszok: ["Increases air pressure in the engine", "Reduces fuel consumption", "Cools the engine", "Filters exhaust gases"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which automaker produces the ‘CX-3’?",
+  valaszok: ["Mazda", "Honda", "Toyota", "Nissan"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What is the purpose of the catalytic converter?",
+  valaszok: ["Reduce harmful emissions", "Increase engine power", "Cool the engine", "Charge the battery"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What type of fuel do gasoline engines use?",
+  valaszok: ["Diesel", "Petrol", "Electricity", "Hydrogen"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which car brand is known for the ‘Explorer’ SUV?",
+  valaszok: ["Ford", "Chevrolet", "Jeep", "Toyota"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "What type of vehicle is a hatchback?",
+  valaszok: ["Two-door coupe", "Car with a rear door that swings upward", "Pickup truck", "Convertible"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Which company produces the ‘Camry’?",
+  valaszok: ["Toyota", "Honda", "Ford", "Chevrolet"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+
+
 
 
 
@@ -4319,7 +5312,20 @@ kep: "backend.jpg"
   let pontok = 0;
   let eletek = 3;
   let kerdessz1 = 1;
+function flashColor(color) {
+  hatterem.style.backgroundColor = color;
+  setTimeout(() => {
+    hatterem.style.backgroundColor = originalColor;
+  }, 1000); // 1 second
+}
 
+function flashChartreuseOnCorrectAnswer() {
+  flashColor("Chartreuse");
+}
+
+function flashRedOnWrongAnswer() {
+  flashColor("red");
+};
   startButton.addEventListener("click", startGame);
 
   function startGame() {
@@ -4407,6 +5413,7 @@ document.querySelector("#pontokSzama")?.classList.add("hidden");
 setTimeout(() => {
   pipahozzaadas.classList.add("hidden5");
 }, 1000);
+flashChartreuseOnCorrectAnswer();
           // Pontok növelése
           pontok++;
           pontokElem.textContent = pontok;
@@ -4439,7 +5446,7 @@ setTimeout(() => {
       
           pipak = 0;
           pipakElem.textContent = pipak;
-
+flashRedOnWrongAnswer();
           // Élet csökkentése
           eletek--;
           eletekElem.textContent = eletek;

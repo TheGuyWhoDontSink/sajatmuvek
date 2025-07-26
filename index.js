@@ -27,6 +27,10 @@ const gombos1 = document.getElementById("gombos1");
 const gombos2 = document.getElementById("gombos2");
 const gombos3 = document.getElementById("gombos3");
 const gombos4 = document.getElementById("gombos4");
+const hatterem = document.getElementById("hatterem");
+const originalColor = hatterem.style.backgroundColor || window.getComputedStyle(hatterem).backgroundColor;
+const hatterem1 = document.getElementById("hatterem1");
+const originalColor1 = hatterem1.style.backgroundColor || window.getComputedStyle(hatterem1).backgroundColor;
 const pipahozzaadas = document.getElementById("pipahozzaadas");
 const pipahozzaadasertek = document.getElementById("pipahozzaadasertek");
 const pipalevonas = document.getElementById("pipalevonas");
@@ -5492,7 +5496,824 @@ wrongSound.volume = 0.6;
     helyesIndex: 1,
     kep: "gamer.jpg"
   },
+ {
+    kerdes: "Melyik autómárka gyártja a Mustangot?",
+    valaszok: ["Chevrolet", "Ford", "Dodge", "Chrysler"],
+    helyesIndex: 1,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Milyen meghajtású a Tesla autó?",
+    valaszok: ["Dízel", "Hibrid", "Elektromos", "Benzines"],
+    helyesIndex: 2,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Melyik országban alapították a BMW-t?",
+    valaszok: ["Franciaország", "Németország", "Olaszország", "Japán"],
+    helyesIndex: 1,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Mi a Ferrari logóján látható állat?",
+    valaszok: ["Oroszlán", "Ló", "Sas", "Párduc"],
+    helyesIndex: 1,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Milyen típusú motor van egy Formula 1-es autóban?",
+    valaszok: ["V6 turbó hibrid", "V12 szívómotor", "V8 kompresszoros", "Boxer motor"],
+    helyesIndex: 0,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Melyik cég gyártja a Corolla modellt?",
+    valaszok: ["Toyota", "Honda", "Nissan", "Mazda"],
+    helyesIndex: 0,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Melyik autógyártó logója tartalmaz egy háromágú csillagot?",
+    valaszok: ["Audi", "Mercedes-Benz", "Subaru", "Volkswagen"],
+    helyesIndex: 1,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Mi a neve a Lamborghini SUV modelljének?",
+    valaszok: ["Aventador", "Huracán", "Urus", "Gallardo"],
+    helyesIndex: 2,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Melyik márka tartozik a Volkswagen csoporthoz?",
+    valaszok: ["BMW", "Fiat", "Audi", "Peugeot"],
+    helyesIndex: 2,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Hány kereke van egy tipikus személyautónak?",
+    valaszok: ["2", "3", "4", "6"],
+    helyesIndex: 2,
+    kep: "auto.jpg"
+  },
 
+  // 10 done, 190 to go...
+  {
+    kerdes: "Melyik sportautógyártó származik Olaszországból?",
+    valaszok: ["Porsche", "Lamborghini", "Bugatti", "Aston Martin"],
+    helyesIndex: 1,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Melyik gyártó készíti a Civic modellt?",
+    valaszok: ["Honda", "Mazda", "Toyota", "Suzuki"],
+    helyesIndex: 0,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Mi a sebességváltó szerepe az autóban?",
+    valaszok: ["Zenelejátszás", "Kormányzás", "Teljesítmény szabályozása", "Fékezés"],
+    helyesIndex: 2,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Melyik országban gyártják a Volvót?",
+    valaszok: ["Dánia", "Svédország", "Finnország", "Norvégia"],
+    helyesIndex: 1,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Mi az ABS rendszer funkciója?",
+    valaszok: ["Gyorsítás", "Fékrásegítés", "Kormányzás", "Légzsák aktiválás"],
+    helyesIndex: 1,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Mi történik, ha elfogy a motorolaj?",
+    valaszok: ["Semmi", "Megáll az autó", "Sérülhet a motor", "Felrobban az autó"],
+    helyesIndex: 2,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Mi a neve a Porsche SUV modelljének?",
+    valaszok: ["Macan", "Taycan", "Panamera", "911"],
+    helyesIndex: 0,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Melyik cég gyártotta a Beetle modellt?",
+    valaszok: ["Opel", "Ford", "Volkswagen", "Citroën"],
+    helyesIndex: 2,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Melyik autómárkának van négy gyűrű a logójában?",
+    valaszok: ["Audi", "BMW", "Jaguar", "Tesla"],
+    helyesIndex: 0,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Mi a lóerő mértékegysége?",
+    valaszok: ["Newton", "Kilowatt", "HP", "Nm"],
+    helyesIndex: 2,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Mi a Tesla önvezető rendszerének neve?",
+    valaszok: ["AutoPilot", "DriveSafe", "SelfGo", "SmartPilot"],
+    helyesIndex: 0,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Melyik az első sorozatgyártású hibrid autó?",
+    valaszok: ["Toyota Prius", "Honda Insight", "Ford Fusion", "Nissan Leaf"],
+    helyesIndex: 0,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Mi a neve az autón lévő gumirétegnek?",
+    valaszok: ["Kerék", "Felnirész", "Gumiabroncs", "Csapágy"],
+    helyesIndex: 2,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Mit jelez az üzemanyagmérő?",
+    valaszok: ["Olajszintet", "Motorhőmérsékletet", "Sebességet", "Tank állapotát"],
+    helyesIndex: 3,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Melyik gyártó adta ki a GTR modellt?",
+    valaszok: ["Toyota", "Nissan", "Subaru", "Mazda"],
+    helyesIndex: 1,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Mi történik, ha túl magas a guminyomás?",
+    valaszok: ["Csökken a tapadás", "Megnő a fogyasztás", "Lassabban megy az autó", "Törik a fék"],
+    helyesIndex: 0,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Milyen típusú jármű a pickup?",
+    valaszok: ["Személyautó", "Teherautó", "Motorkerékpár", "Traktor"],
+    helyesIndex: 1,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Melyik gyártó logója egy stilizált P betű?",
+    valaszok: ["Peugeot", "Pontiac", "Porsche", "Polestar"],
+    helyesIndex: 3,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Mi a neve az első kerék hajtásnak angolul?",
+    valaszok: ["RWD", "AWD", "FWD", "4WD"],
+    helyesIndex: 2,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Milyen hajtású az összkerékmeghajtásos autó?",
+    valaszok: ["FWD", "AWD", "RWD", "CVT"],
+    helyesIndex: 1,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Melyik gyártó készíti a Fiesta modellt?",
+    valaszok: ["Ford", "Fiat", "Renault", "Seat"],
+    helyesIndex: 0,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Mit jelent a km/h mértékegység?",
+    valaszok: ["Kalóriát óránként", "Kilométer óránként", "Kilogramm óránként", "Külső nyomást"],
+    helyesIndex: 1,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Mi a szerepe az olajszűrőnek?",
+    valaszok: ["Hűt", "Ken", "Szűri az olajat", "Kondicionál"],
+    helyesIndex: 2,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Melyik márkának van oroszlános logója?",
+    valaszok: ["Opel", "Peugeot", "Renault", "Skoda"],
+    helyesIndex: 1,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Mi a neve a sebesség automatikus megtartását segítő rendszernek?",
+    valaszok: ["Tempomat", "ABS", "ESP", "Lézerradar"],
+    helyesIndex: 0,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Melyik cég gyártja a Model Y-t?",
+    valaszok: ["Tesla", "Rivian", "Lucid", "Nissan"],
+    helyesIndex: 0,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Melyik gyártó készíti a Q7-es modellt?",
+    valaszok: ["BMW", "Mercedes", "Audi", "Volkswagen"],
+    helyesIndex: 2,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Mit jelent a 4x4 felirat egy autón?",
+    valaszok: ["4 ülés, 4 ajtó", "Négyhengeres motor", "Összkerékhajtás", "Négyfokozatú váltó"],
+    helyesIndex: 2,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Mi az SUV rövidítés jelentése?",
+    valaszok: ["Sport Utility Vehicle", "Super Urban Van", "Speed Unit Vehicle", "Strong Universal Vehicle"],
+    helyesIndex: 0,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Melyik cég gyártja a Land Cruiser modellt?",
+    valaszok: ["Mitsubishi", "Toyota", "Nissan", "Subaru"],
+    helyesIndex: 1,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Mit jelent a 'turbo' jelölés egy autón?",
+    valaszok: ["Erősebb fék", "Automata váltó", "Turbófeltöltő", "Sport kipufogó"],
+    helyesIndex: 2,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Miért használnak LED lámpákat az autókban?",
+    valaszok: ["Szebbek", "Tartósabbak és energiatakarékosak", "Olcsóbbak", "Erősebb hangjuk van"],
+    helyesIndex: 1,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Melyik márka készíti az X5-ös modellt?",
+    valaszok: ["Mercedes", "BMW", "Audi", "Volkswagen"],
+    helyesIndex: 1,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Melyik ország híres a muscle car-okról?",
+    valaszok: ["Japán", "Egyesült Államok", "Németország", "Olaszország"],
+    helyesIndex: 1,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Melyik az a versenysorozat, ahol NASCAR autók indulnak?",
+    valaszok: ["IndyCar", "F1", "NASCAR", "WRC"],
+    helyesIndex: 2,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Melyik márka készíti az Optima modellt?",
+    valaszok: ["Hyundai", "Kia", "Nissan", "Chevrolet"],
+    helyesIndex: 1,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Mit jelent a 'driftelés' az autósportban?",
+    valaszok: ["Egyenes gyorsítás", "Fékezés", "Kanyarban való csúszás", "Ugrás"],
+    helyesIndex: 2,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Mi a nitrogén-oxidok (NOx) fő kibocsátója autókban?",
+    valaszok: ["Fékrendszer", "Üzemanyag-égés", "Gumiabroncs", "Klíma"],
+    helyesIndex: 1,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Melyik gyártó készíti a Logan modellt?",
+    valaszok: ["Fiat", "Dacia", "Seat", "Opel"],
+    helyesIndex: 1,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Mi jellemző a dízelmotorra?",
+    valaszok: ["Gyorsabb fordulatszám", "Több henger", "Nagyobb nyomaték alacsony fordulaton", "Kevésbé erős"],
+    helyesIndex: 2,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Mi a kipufogórendszer szerepe?",
+    valaszok: ["Hűtés", "Zajcsökkentés és füst elvezetése", "Üzemanyag-szűrés", "Sebesség növelése"],
+    helyesIndex: 1,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Miért használunk légzsákot?",
+    valaszok: ["Kényelem", "Zenelejátszás", "Balesetvédelmi okokból", "Jobb gyorsulás"],
+    helyesIndex: 2,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Melyik évben alakult a Ford Motor Company?",
+    valaszok: ["1888", "1903", "1921", "1895"],
+    helyesIndex: 1,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Mi a lóerő angol rövidítése?",
+    valaszok: ["WH", "KW", "HP", "NM"],
+    helyesIndex: 2,
+    kep: "auto.jpg"
+  },
+  {
+    kerdes: "Mi jellemzi a kabrió autókat?",
+    valaszok: ["Négyajtós", "Nagy csomagtér", "Lehajtható tető", "Elektromos hajtás"],
+    helyesIndex: 2,
+    kep: "auto.jpg"
+  },
+  {
+  kerdes: "Melyik autógyártó logója tartalmaz egy oroszlánt?",
+  valaszok: ["Peugeot", "Renault", "Citroën", "Fiat"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Melyik országban található a Ferrari központja?",
+  valaszok: ["Franciaország", "Németország", "Olaszország", "Spanyolország"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Mi a neve a híres német autópályának, ahol sok szakaszon nincs sebességkorlátozás?",
+  valaszok: ["Autostrada", "Autobahn", "Expressway", "Freeway"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Milyen típusú jármű a Tesla Model X?",
+  valaszok: ["Sedan", "Hatchback", "SUV", "Pickup"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Melyik autómárka gyártja a 'Mustang' nevű modellt?",
+  valaszok: ["Chevrolet", "Ford", "Dodge", "Tesla"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Mit jelent az ABS rövidítés az autókban?",
+  valaszok: ["Automatic Battery System", "Anti-lock Braking System", "Auto Balance Sensor", "Air Brake Support"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Melyik márka származik Japánból?",
+  valaszok: ["Kia", "Hyundai", "Mazda", "Opel"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Mi a különbség a dízel és a benzines motor között?",
+  valaszok: ["Csak a hangjuk", "Más üzemanyaggal működnek", "Dízel gyorsabb", "Benzines nem használ olajat"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Melyik márka gyártja a híres '911' modellt?",
+  valaszok: ["Lamborghini", "BMW", "Porsche", "Audi"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Milyen autótípus a 'pickup'?",
+  valaszok: ["Terepjáró", "Teherautó", "Személyautó", "Sportautó"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Melyik cég készíti a 'Civic' nevű autót?",
+  valaszok: ["Toyota", "Mazda", "Honda", "Nissan"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Mit jelent az SUV rövidítés?",
+  valaszok: ["Super Utility Van", "Sport Utility Vehicle", "Speed Urban Vehicle", "Small Urban Van"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Melyik autómárka használja a 'Zoom-Zoom' szlogent?",
+  valaszok: ["Toyota", "Mazda", "Kia", "Nissan"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Milyen típusú motor hajtja az elektromos autót?",
+  valaszok: ["Benzines", "Dízel", "Villanymotor", "Gőzmotor"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Melyik ország a Volkswagen származási helye?",
+  valaszok: ["Franciaország", "Olaszország", "Németország", "Svédország"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Mi a célja a légzsáknak egy autóban?",
+  valaszok: ["Kényelmesebb ülés", "Jobb hangzás", "Védelem ütközés esetén", "Üzemanyag-takarékosság"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Melyik márka híres a 'Quattro' összkerék-meghajtásról?",
+  valaszok: ["BMW", "Audi", "Mercedes", "Volvo"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Mi az a hibrid autó?",
+  valaszok: ["Elektromos és benzines motorral működik", "Csak dízellel megy", "Kézi váltós", "Gázüzemű"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Melyik a legismertebb olasz sportautó márka?",
+  valaszok: ["BMW", "Porsche", "Ferrari", "Chevrolet"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Mit mutat az autó fordulatszámmérője?",
+  valaszok: ["Sebességet", "Futásteljesítményt", "Motor fordulatszámát", "Üzemanyagszintet"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Mi a funkciója az ABS rendszernek az autóban?",
+  valaszok: ["Gyorsulást segít", "Kormányzást segíti", "Fékek blokkolását akadályozza", "Fogyasztást csökkenti"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Melyik cég gyártja a Mustang modellt?",
+  valaszok: ["Chevrolet", "Ford", "Dodge", "Tesla"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Melyik márka logója egy háromágú csillag?",
+  valaszok: ["Audi", "Mercedes-Benz", "Volkswagen", "Opel"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Mit jelent a kormánykeréken az 'SRS' felirat?",
+  valaszok: ["Sebességmérő", "Légzsákrendszer", "Hangvezérlés", "Tempomat"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Melyik autó volt a 'Vissza a jövőbe' filmben?",
+  valaszok: ["Toyota Supra", "Pontiac Firebird", "DeLorean DMC-12", "Chevrolet Camaro"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Hány kereke van egy tipikus személyautónak?",
+  valaszok: ["2", "3", "4", "6"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Mi a Tesla autók fő energiaforrása?",
+  valaszok: ["Benzin", "Dízel", "Napenergia", "Elektromosság"],
+  helyesIndex: 3,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Milyen típusú autó a Lamborghini Aventador?",
+  valaszok: ["Családi autó", "SUV", "Sportautó", "Pickup"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Melyik ország gyártja a Toyota autókat?",
+  valaszok: ["Kína", "Korea", "Japán", "USA"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Mi történik, ha az autó túlhevül?",
+  valaszok: ["Gyorsabban megy", "Leállhat a motor", "Csökken a fogyasztás", "Nő a fékerő"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Milyen meghajtás jellemző a legtöbb sportautóra?",
+  valaszok: ["Elsőkerék-meghajtás", "Hátsókerék-meghajtás", "Négykerék-meghajtás", "Lánchajtás"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Mit jelent a 'Hybrid' felirat az autón?",
+  valaszok: ["Kétféle hajtású", "Színes fényezésű", "Versenyautó", "Terepjáró"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Melyik alkatrész felelős a motor hűtéséért?",
+  valaszok: ["Kuplung", "Radiátor", "Féktárcsa", "Kipufogó"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Mit mér az autó kilométerórája?",
+  valaszok: ["Fordulatot", "Sebességet", "Időt", "Fékerőt"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Melyik márka származik Dél-Koreából?",
+  valaszok: ["Peugeot", "Hyundai", "Fiat", "Renault"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Mi a funkciója az indexlámpának?",
+  valaszok: ["Fékjelzés", "Haladás irányának jelzése", "Sebességmérés", "Zenehallgatás"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Melyik márkát azonosítjuk a ló logóval?",
+  valaszok: ["Porsche", "Ferrari", "Ford", "Lamborghini"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Mit jelent a TDI a dízelmotorokon?",
+  valaszok: ["Turbo Direct Injection", "Total Diesel Injection", "Turbo Drive Integration", "Twin Diesel Ignition"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Melyik márkát hozta létre Elon Musk?",
+  valaszok: ["Tesla", "Ford", "BMW", "Toyota"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Mi a funkciója az autó kipufogórendszerének?",
+  valaszok: ["Hűtés", "Zajcsökkentés és füst elvezetése", "Világítás", "Olajcsere"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Mi történik, ha elfogy az olaj a motorban?",
+  valaszok: ["Semmi", "Fogyasztás csökken", "A motor tönkremegy", "Több lesz a teljesítmény"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Melyik gyártó használja a 'M' betűs sportmodelleket?",
+  valaszok: ["Audi", "Mercedes", "BMW", "Volvo"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Mi a szerepe a kuplungnak?",
+  valaszok: ["Hűt", "Kormányoz", "Kapcsolja a motort és a váltót", "Fékez"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Melyik márka gyártja a 'Camry' modellt?",
+  valaszok: ["Mazda", "Nissan", "Toyota", "Kia"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Mi jellemző egy kabrió autóra?",
+  valaszok: ["Nagy csomagtartó", "Terepgumi", "Nyitható tető", "Túlsúlyos karosszéria"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Mi a szerepe a futóműnek?",
+  valaszok: ["Hangrendszer", "Kerékfelfüggesztés és rugózás", "Fékellenőrzés", "Üzemanyag-tárolás"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Mit jelent a 'manual transmission' kifejezés?",
+  valaszok: ["Automata váltó", "Kézi váltó", "Légkondicionáló", "Hangkártya"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Melyik országban készülnek a Volvo autók?",
+  valaszok: ["Németország", "Svédország", "Franciaország", "Anglia"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Mi az első dolog, amit indulás előtt be kell kötni?",
+  valaszok: ["Sebességváltó", "Öv", "Kormány", "Motorháztető"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Mi a funkciója a differenciálnak?",
+  valaszok: ["Zenelejátszás", "Kerekek közti nyomaték elosztás", "Világítás", "Motorolaj hűtése"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Mi történik, ha túl alacsony a guminyomás?",
+  valaszok: ["Jobban tapad", "Csökken a fogyasztás", "Nő a kopás és a balesetveszély", "Hangosabb lesz"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Miért fontos a rendszeres olajcsere?",
+  valaszok: ["Szebb lesz a motor", "Nő a fogyasztás", "Megőrzi a motor élettartamát", "Gyorsabb lesz az autó"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Melyik modell tartozik a Porsche márkához?",
+  valaszok: ["Civic", "Mustang", "911", "Corolla"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Mi a turbó szerepe a motorban?",
+  valaszok: ["Légkondit szabályoz", "Sebességet csökkent", "Több levegőt juttat a motorba", "Üléseket melegít"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Mit mutat az üzemanyagszint-mérő?",
+  valaszok: ["Sebességet", "Üzemanyag mennyiségét", "Olajnyomást", "Légnyomást"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Melyik alkatrész felel a világításért?",
+  valaszok: ["Akkumulátor", "Hűtőventilátor", "Lámpatest", "Kipufogó"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Mi a funkciója a katalizátornak?",
+  valaszok: ["Sebesség növelése", "Szennyezőanyagok csökkentése", "Tartály tisztítása", "Hangosabb motor"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Melyik márka autója a Fiesta?",
+  valaszok: ["Opel", "Ford", "Citroën", "Kia"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Milyen hajtással működik általában egy pickup?",
+  valaszok: ["Elsőkerék", "Hátsókerék", "Összkerék", "Lánchajtás"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Melyik márkának van 'GT-R' modellje?",
+  valaszok: ["Mazda", "Subaru", "Nissan", "Toyota"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Mi történik, ha nem működik a generátor?",
+  valaszok: ["Nem indul a motor", "Túlmelegszik az ülés", "Nincs világítás és töltés", "Hangos lesz a kipufogó"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Melyik autómárka logója egy stilizált ló?",
+  valaszok: ["Ferrari", "Peugeot", "Ford", "Lamborghini"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Milyen üzemanyaggal működik egy tipikus dízelmotor?",
+  valaszok: ["Benzin", "Gáz", "Dízel", "Elektromos áram"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Melyik autómárka gyártja a Model S típust?",
+  valaszok: ["Toyota", "Tesla", "BMW", "Audi"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Milyen meghajtású a legtöbb versenyautó?",
+  valaszok: ["Elsőkerék-meghajtású", "Hátsókerék-meghajtású", "Összkerék-meghajtású", "Lánchajtású"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Mit jelent a 'hibrid' autó?",
+  valaszok: ["Kétféle hajtással működik", "Két motorháztetője van", "Két kormánya van", "Két kipufogója van"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Melyik országban alapították a Toyota céget?",
+  valaszok: ["Dél-Korea", "Japán", "Kína", "USA"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Mi az ABS célja az autóban?",
+  valaszok: ["Gyorsítás", "Fékek blokkolásának megelőzése", "Kormányzás", "Üzemanyag-fogyasztás csökkentése"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Melyik autómárka szlogenje: „Das Auto”?",
+  valaszok: ["BMW", "Volkswagen", "Opel", "Audi"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Melyik az első sorozatgyártású elektromos autó a Nissan-tól?",
+  valaszok: ["Nissan Maxima", "Nissan Note", "Nissan Leaf", "Nissan Pulsar"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Mit mér a sebességmérő az autóban?",
+  valaszok: ["Fordulatszámot", "Sebességet", "Hőmérsékletet", "Üzemanyagszintet"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Milyen jármű a „pickup”?",
+  valaszok: ["Sportautó", "Teherautó platóval", "Busz", "Kisautó"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Mi a neve a Ford sportos modellcsaládjának?",
+  valaszok: ["ST", "RS", "GT", "M"],
+  helyesIndex: 0,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Mit jelent az ESP rövidítés egy autóban?",
+  valaszok: ["Elektromos szervókormány", "Elektronikus menetstabilizáló", "Energiatakarékos rendszer", "Elülső szenzor panel"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Melyik autómárka gyártja az Impreza modellt?",
+  valaszok: ["Suzuki", "Honda", "Subaru", "Mazda"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Melyik cég gyártja a Continental gumiabroncsokat?",
+  valaszok: ["Pirelli", "Michelin", "Continental", "Goodyear"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Mi a neve a BMW sportos részlegének?",
+  valaszok: ["S-Line", "AMG", "M", "RS"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Melyik országban van a Volvo székhelye?",
+  valaszok: ["Norvégia", "Svédország", "Finnország", "Dánia"],
+  helyesIndex: 1,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Mi a fő előnye az automata váltónak?",
+  valaszok: ["Gyorsabb sebesség", "Kevesebb gázfogyasztás", "Könnyebb vezetés", "Olcsóbb fenntartás"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Milyen hajtású a legtöbb traktor?",
+  valaszok: ["Hátsókerék-meghajtású", "Elsőkerék-meghajtású", "Összkerék-meghajtású", "Lánchajtású"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
+{
+  kerdes: "Mi a funkciója az olajszűrőnek?",
+  valaszok: ["Hűtés", "Tisztítás", "Szűrés", "Szigetelés"],
+  helyesIndex: 2,
+  kep: "auto.jpg"
+},
 ];
 
   let aktualisKerdesIndex = 0;
@@ -5504,7 +6325,20 @@ wrongSound.volume = 0.6;
   let pontok = 0;
   let eletek = 3;
   let kerdessz1 = 1;
+function flashColor(color) {
+  hatterem.style.backgroundColor = color;
+  setTimeout(() => {
+    hatterem.style.backgroundColor = originalColor;
+  }, 1000); // 1 second
+}
 
+function flashChartreuseOnCorrectAnswer() {
+  flashColor("Chartreuse");
+}
+
+function flashRedOnWrongAnswer() {
+  flashColor("red");
+};
   startButton.addEventListener("click", startGame);
 
   function startGame() {
@@ -5592,6 +6426,7 @@ document.querySelector("#pontokSzama")?.classList.add("hidden");
 setTimeout(() => {
   pipahozzaadas.classList.add("hidden5");
 }, 1000);
+flashChartreuseOnCorrectAnswer()
           // Pontok növelése
           pontok++;
           pontokElem.textContent = pontok;
@@ -5617,6 +6452,7 @@ setTimeout(() => {
           gomb.classList.add("rossz");
           wrongSound.currentTime = 0;
   wrongSound.play();
+  flashRedOnWrongAnswer();
 
           valaszGombok[aktKerdes.helyesIndex].classList.add("helyes");
 
