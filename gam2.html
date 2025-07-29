@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <link rel="stylesheet" href="./style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="home">
+     <div class="cimsor">
+               <a href="./index.html"><button class="gomb">Főoldal</button></a>
+    <a href="./cikkek.html"><button class="gomb">Cikkek</button></a>
+    <a href="./quiz.html"><button class="gomb"><img class="gomb" src="./image/giphy.gif" height="40px"></button></a>
+    </div>
+<div class="hatter1">
+    <div class="gamehatter">
+        <h1 class="gamebetu" id="jatekLeiras">A játék rövid leírása:</h1>
+<p class="gamebetu" id="jatekSzabaly" >Ebben a játékban különböző nyersanyagokat gyűjthetsz
+     kattintással, amelyek azonnal pénzzé alakulnak. A cél,
+      hogy 100$ - bol 1M$ legyen<br/>Kattints a „Start” gombra a játék elindításához!</p>
+    <button id="startGomb">start</button>
+    <div class="felsosor1" id="felsor">
+        <div class="felsosor2 hidden2">
+           <h1 class="gamebetu hidden2" id="penz">100</h1>
+       <h1 class="gamebetu hidden2" id="felsor1">*<img src="./image/gamdollar.png" height="50px"></h1>  
+        </div>
+  <div class="felsosor2 hidden2">
+    <h1 class="gamebetu sebzes hidden2" id="sebzes" >1</h1>
+   <h1 class="gamebetu hidden2" id="felsor2">*<img height="50px" src="./image/aasebzes.png"></h1>
+  </div> 
+    <h1 class="gamebetu sebzes hidden" id="sebzes1" >0</h1>
+   <h1 class="gamebetu hidden" id="felsor2">/S</h1>
+    </div>
+    <div class="hidden2" id="eletdoboz">
+<div class="eletresz1 hidden2" id="eletresz1"></div>
+<div class="eletresz2 hidden2" id="eletresz2"></div>
+<div class="eletresz3 hidden2" id="eletresz3"></div>
+<div class="eletresz4 hidden2" id="eletresz4"></div>
+<div class="eletresz5 hidden2" id="eletresz5"></div>
+    </div>
+    <div class="felsosor2 hidden2" id="felsorr">
+        <h3 class="gamebetu hidden2" id="maradoelet">10</h3>
+        <h3 class="gamebetu hidden2" id="felsorr1">/</h3>
+        <h3 class="gamebetu hidden2" id="teljeselet">10</h3>
+    </div>
+    <button class="anyaggame hidden2" id="anyagkep"><img src="./image/agamefa1.webp" height="200px" id="anyagkep1" ></button>
+    <h3 class="hiddened" id="ertek">1</h3>
+   
+    <div  id="egysor"><img src="./image/aabalta.png" height="30px" class="hidden2">
+    <h6 class="gamebetu hidden2">Balta+</h6>
+   <div class="arazas hidden2">
+    <h6 class="gamebetu ar hidden2">ár:</h6>
+    <h6 class="gamebetu hidden2" id="arertek1">10</h6>
+   </div> 
+    <h6 class="gamebetu sebez hidden2">+1<img src="./image/aasebzes.png" height="30px"></h6>
+    <button id="vetel" class="gombvetel hidden2">megvesz</button>
+    </div>
+ <div  id="egysor1"><img src="./image/aamelos.jpg" height="30px" class="hidden2">
+    <h6 class="gamebetu hidden2">Munkás</h6>
+   <div class="arazas hidden2">
+    <h6 class="gamebetu ar hidden2">ár:</h6>
+    <h6 class="gamebetu hidden2" id="arertek2">100</h6>
+   </div> 
+    <h6 class="gamebetu sebez hidden2" id="munkasero">1<img src="./image/aasebzes.png" height="30px">/S</h6>
+    <button id="vetel1" class="gombvetel1 hidden2">megvesz</button>
+    </div>
+     <div  id="egysor2"><img src="./image/agamefa1.webp" height="30px" class="hidden2">
+    <h6 class="gamebetu hidden2">Fa+</h6>
+   <div class="arazas hidden2">
+    <h6 class="gamebetu ar hidden2">ár:</h6>
+    <h6 class="gamebetu hidden2" id="arertek3">50</h6>
+   </div> 
+    <h6 class="gamebetu sebez hidden2" id="faertek">2<img src="./image/gamdollar.png" height="30px"></h6>
+    <button id="vetel2" class="gombvetel hidden2">megvesz</button>
+    </div>
+ <div  id="egysor3"><img src="./image/aacel.jpg" height="30px" class="hidden2">
+    <h6 class="gamebetu hidden2">cél</h6>
+   <div class="arazas hidden2">
+    <h6 class="gamebetu ar hidden2">ár:</h6>
+    <h6 class="gamebetu hidden2" id="arertek4">1000000</h6>
+   </div> 
+   
+    <button id="vetel3" class="gombvetel hidden2">megvesz</button>
+    </div>
+
+<h1 class="gamebetu hidden" id="jatekVege">Game Over</h1>
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+   
+    
+
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <script src="./game2.js" charset="utf-8"></script>
+</body>
+</html>

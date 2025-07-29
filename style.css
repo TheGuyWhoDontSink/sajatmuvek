@@ -203,3 +203,97 @@ text-decoration: overline;
         text-align: center;
         min-height: 50px;
     }
+   .gamehatter{
+       display: flex; 
+ 
+    height: fit-content;
+    flex-direction: column;
+   align-items: center;
+margin-top: 70px;
+background-size: 100% 100%;
+background-position: 0px 0px;
+background-image: linear-gradient(90deg, #080808db 0%, #070608d1 30%, #050505c9 98%);
+width: fit-content;
+
+border: 10px solid black;
+width: 360px;
+height: 650px;
+   }
+   .gamebetu{
+    color: white;
+   }
+   .felsosor1{
+    display: flex;
+    flex-direction: column;
+   }
+   .eletdoboz{
+    width: 100px;
+    display: flex;
+    border: 5px solid black;
+    height: 27px;
+    margin-top: 25px;
+   }
+   .eletresz1{
+    width: 18px;
+    height: 18px;
+    background-color: red;
+    border-right: 2px solid black;
+   }
+   .eletresz2{
+    width: 18px;
+    height: 18px;
+    background-color: red;
+    border-right: 2px solid black;
+   }
+   .eletresz3{
+    width: 18px;
+    height: 18px;
+    background-color: red;
+    border-right: 2px solid black;
+   }
+   .eletresz4{
+    width: 18px;
+    height: 18px;
+    background-color: red;
+    border-right: 2px solid black;
+   }
+   .eletresz5{
+    width: 18px;
+    height: 18px;
+    background-color: red;
+    border-right: 2px solid black;
+   }
+   .gombok{
+    margin-top: 20px;
+   }
+   .sebzes{
+    margin-left: 50px;
+   }
+   .anyaggame{
+    width: fit-content;
+    height: fit-content;
+   }
+   .felsor2{
+    display: flex;
+    background-color: lightblue;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    width: 360px;
+    justify-content: space-between;
+    margin-bottom: 2px;
+    border: 2px solid black;
+   }
+   .gombvetel{
+    height: 30px;
+   }
+
+     .gombvetel1{
+    height: 30px;
+   }
+   .arazas{
+    display: flex;
+   }
+   .felsosor2{
+    display: flex;
+   }
