@@ -38,6 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const gombgame = document.getElementById("gombgame");
   const sebzes1 = document.getElementById("sebzes1");
   const vetel1 = document.getElementById("vetel1");
+    const aruszint3 = document.getElementById("aruszint3");
   const vetel2 = document.getElementById("vetel2");
   const egysor = document.getElementById("egysor");
 const egysor1 = document.getElementById("egysor1");
@@ -58,7 +59,54 @@ backGroundMusic.volume = 0.5; // opcionális, halkabb háttérzene
   const alapSzín = "red";
   const feketeSzín = "black";
   const tel = 0;
+setInterval(() => {
 
+  if (aruszint3.innerHTML.trim() === "2") {
+    anyagkep1.src = "./image/aaafa.avif";
+  }
+   else if (aruszint3.innerHTML.trim() === "3") {
+    anyagkep1.src = "./image/aaafa1.avif";
+  }
+    else if (aruszint3.innerHTML.trim() === "4") {
+    anyagkep1.src = "./image/aaafa2.jpg";
+  }
+    else if (aruszint3.innerHTML.trim() === "5") {
+    anyagkep1.src = "./image/aaafa3.jpg";
+  }
+   else if (aruszint3.innerHTML.trim() === "6") {
+    anyagkep1.src = "./image/aaafa4.webp";
+  }
+  else if (aruszint3.innerHTML.trim() === "7") {
+    anyagkep1.src = "./image/aaafa5.webp";
+  }
+   else if (aruszint3.innerHTML.trim() === "8") {
+    anyagkep1.src = "./image/aaafa6.webp";
+  }
+  else if (aruszint3.innerHTML.trim() === "9") {
+    anyagkep1.src = "./image/aaafa7.webp";
+  }
+  else if (aruszint3.innerHTML.trim() === "10") {
+    anyagkep1.src = "./image/aaafa8.webp";
+  }
+  else if (aruszint3.innerHTML.trim() === "11") {
+    anyagkep1.src = "./image/aaafa9.jpeg";
+  }
+   else if (aruszint3.innerHTML.trim() === "12") {
+    anyagkep1.src = "./image/aaafa10.jpg";
+  }
+   else if (aruszint3.innerHTML.trim() === "13") {
+    anyagkep1.src = "./image/aaafa11.jpg";
+  }
+   else if (aruszint3.innerHTML.trim() === "14") {
+    anyagkep1.src = "./image/aaafa12.jpg";
+  }
+   else if (aruszint3.innerHTML.trim() === "15") {
+    anyagkep1.src = "./image/aaafa13.jpg";
+  }
+   else if (aruszint3.innerHTML.trim() === "16") {
+    anyagkep1.src = "./image/aaafa14.jpeg";
+  }
+}, 500); // ellenőrizd 0,5 másodpercenként
   // === AUTOMATIKUS SEBZÉS MÁSODPERCENKÉNT ===
   setInterval(() => {
     let jelenlegiElet = getRealValue(maradoelet);
@@ -123,6 +171,8 @@ vetel2.addEventListener("click", () => {
   let faErtek = parseFloat(faertek.innerText); // ha tört lehet
   let jelenlegiTeljesElet = parseInt(teljeselet.innerText);
   let jelenlegiMaradoElet = parseInt(maradoelet.innerText);
+  let arertek4a = parseInt(aruszint3.innerHTML);
+  
 
   if (aktualisPenz >= ar) {
     // Pénz levonása
@@ -133,9 +183,10 @@ vetel2.addEventListener("click", () => {
 
     // Ár duplázása
     arertek3.innerText = ar * 2;
+    aruszint3.innerHTML = arertek4a + 1;
 
     // Faérték növelése 1.5-szeresére (kerekítve)
-    let ujFaErtek = Math.round(faErtek * 1.5 * 10) / 10;
+    let ujFaErtek = Math.round(faErtek * 2 * 10) / 10;
     faertek.innerText = ujFaErtek;
 
     // Élet duplázása
@@ -182,7 +233,7 @@ vetel3.addEventListener("click", () => {
 
     if (aktualisPenz >= ar) {
       updateDisplay(penz, aktualisPenz - ar);
-      updateDisplay(sebzes, getRealValue(sebzes) + 1);
+      updateDisplay(sebzes, Math.floor(getRealValue(sebzes) * 1.5));
       updateDisplay(arertek1, Math.ceil(ar * 1.5));
     }
   });
