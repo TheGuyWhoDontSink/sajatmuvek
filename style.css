@@ -297,3 +297,29 @@ height: 650px;
    .felsosor2{
     display: flex;
    }
+.hatterg{
+    display: flex; 
+ 
+    height: fit-content;
+    flex-direction: column;
+   align-items: center;
+margin-top: 70px;
+background-color: #27d349;
+width: fit-content;
+padding: 20px;
+border: 10px solid darkgreen;
+min-width: 350px;
+}
+.hatterr{
+    display: flex; 
+ 
+    height: fit-content;
+    flex-direction: column;
+   align-items: center;
+margin-top: 70px;
+background-color: red;
+width: fit-content;
+padding: 20px;
+border: 10px solid darkred;
+min-width: 350px;
+}

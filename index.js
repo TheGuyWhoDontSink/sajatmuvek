@@ -13,6 +13,7 @@ const vegeSzoveg = document.getElementById("vegeSzoveg");
 const eredmenyPont = document.getElementById("eredmenyPont");
 const vegsoPontszam = document.getElementById("vegsoPontszam");
 const kerdessz = document.getElementById("kerdessz");
+const hatterElem = document.getElementById("hatterem1");
 
 const kerdessz2 = document.getElementById("kerdessz2");
 const kerdessz3 = document.getElementById("kerdessz3");
@@ -6404,8 +6405,8 @@ document.querySelector("#pontokSzama")?.classList.add("hidden");
     kerdesSzoveg.textContent = aktKerdes.kerdes;
 
     // Kép frissítése
-    const image1 = document.querySelectorAll("img")[0];
-    image1.setAttribute("src", "./image/" + aktKerdes.kep);
+    const kerdekep = document.querySelectorAll("img")[0];
+    kerdekep.setAttribute("src", "./image/" + aktKerdes.kep);
 
     valaszGombok.forEach((gomb, index) => {
       gomb.textContent = aktKerdes.valaszok[index];
@@ -6426,7 +6427,12 @@ document.querySelector("#pontokSzama")?.classList.add("hidden");
 setTimeout(() => {
   pipahozzaadas.classList.add("hidden5");
 }, 1000);
-flashChartreuseOnCorrectAnswer()
+hatterElem.classList.remove("hatter");
+hatterElem.classList.add("hatterg");
+setTimeout(() => {
+  hatterElem.classList.remove("hatterg");
+  hatterElem.classList.add("hatter");
+}, 1000);
           // Pontok növelése
           pontok++;
           pontokElem.textContent = pontok;
@@ -6452,7 +6458,13 @@ setTimeout(() => {
           gomb.classList.add("rossz");
           wrongSound.currentTime = 0;
   wrongSound.play();
-  flashRedOnWrongAnswer();
+hatterElem.classList.remove("hatter");
+hatterElem.classList.add("hatterr");
+
+setTimeout(() => {
+  hatterElem.classList.remove("hatterr");
+  hatterElem.classList.add("hatter");
+}, 1000);
 
           valaszGombok[aktKerdes.helyesIndex].classList.add("helyes");
 

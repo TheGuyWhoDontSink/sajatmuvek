@@ -13,6 +13,7 @@ const vegeSzoveg = document.getElementById("vegeSzoveg");
 const eredmenyPont = document.getElementById("eredmenyPont");
 const vegsoPontszam = document.getElementById("vegsoPontszam");
 const kerdessz = document.getElementById("kerdessz");
+const hatterElem = document.getElementById("hatterem1");
 
 const kerdessz2 = document.getElementById("kerdessz2");
 const kerdessz3 = document.getElementById("kerdessz3");
@@ -5312,20 +5313,9 @@ kep: "backend.jpg"
   let pontok = 0;
   let eletek = 3;
   let kerdessz1 = 1;
-function flashColor(color) {
-  hatterem.style.backgroundColor = color;
-  setTimeout(() => {
-    hatterem.style.backgroundColor = originalColor;
-  }, 1000); // 1 second
-}
 
-function flashChartreuseOnCorrectAnswer() {
-  flashColor("Chartreuse");
-}
 
-function flashRedOnWrongAnswer() {
-  flashColor("red");
-};
+
   startButton.addEventListener("click", startGame);
 
   function startGame() {
@@ -5413,7 +5403,13 @@ document.querySelector("#pontokSzama")?.classList.add("hidden");
 setTimeout(() => {
   pipahozzaadas.classList.add("hidden5");
 }, 1000);
-flashChartreuseOnCorrectAnswer();
+hatterElem.classList.remove("hatter");
+hatterElem.classList.add("hatterg");
+
+setTimeout(() => {
+  hatterElem.classList.remove("hatterg");
+  hatterElem.classList.add("hatter");
+}, 1000);
           // Pontok növelése
           pontok++;
           pontokElem.textContent = pontok;
@@ -5446,7 +5442,13 @@ setTimeout(() => {
       
           pipak = 0;
           pipakElem.textContent = pipak;
-flashRedOnWrongAnswer();
+hatterElem.classList.remove("hatter");
+hatterElem.classList.add("hatterr");
+
+setTimeout(() => {
+  hatterElem.classList.remove("hatterr");
+  hatterElem.classList.add("hatter");
+}, 1000);
           // Élet csökkentése
           eletek--;
           eletekElem.textContent = eletek;
