@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8" />
+  <title>Flappy Bird – Hanggal</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background: skyblue;
+      height: 100%;
+      width: 100%;
+    }
+
+    canvas {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="gameCanvas"></canvas>
+
+  <script>
+    const canvas = document.getElementById("gameCanvas");
+    const ctx = canvas.getContext("2d");
+
+    // BASE SIZE for scaling (original canvas size)
+    const BASE_WIDTH = 400;
+    const BASE_HEIGHT = 600;
+
+    // Images and sounds
+    const birdImage = new Image();
+    birdImage.src = "./image/aaabezboz.png";
+
+    const bgImage = new Image();
+    bgImage.src = "./image/aaahatter.jpeg";
+
+    const pipeImage = new Image();
+    pipeImage.src = "./image/aaabaseballbat.png";
+
+    const scoreSounds = Array.from({ length: 10 }, (_, i) =>
+      new Audio(`./audio/bezboz${i + 1}.mp3`)
+    );
+
+    // Scaled game values
+    let scale, PIPE_GAP, PIPE_SPACING, PIPE_WIDTH;
+
+    let bird, pipes, score, gameOver, frameCount, playedSounds;
+
+  function resizeCanvas() {
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+
+  const isMobile = window.innerWidth < 768;
+
+  scale = isMobile ? 1 : canvas.height / BASE_HEIGHT;
+
+  PIPE_GAP = isMobile ? 225 * 1.5 : 225 * scale;       // bigger gap on mobile (1.5x)
+  PIPE_SPACING = isMobile ? 135 * 0.5 : 135;           // closer pipes on mobile (half spacing)
+  PIPE_WIDTH = 20 * scale;
+
+  if (bird) {
+    bird.x = isMobile ? 80 : 80 * scale;
+    bird.width = isMobile ? 102 : 102 * scale;
+    bird.height = isMobile ? 72 : 72 * scale;
+  }
+}
+
+function resetGame() {
+  resizeCanvas();
+
+  const isMobile = window.innerWidth < 768;
+
+  bird = {
+    x: isMobile ? 80 : 80 * scale,
+    y: 250 * (isMobile ? 1 : scale),
+    width: isMobile ? 102 : 102 * scale,
+    height: isMobile ? 72 : 72 * scale,
+    gravity: 0.3 * (isMobile ? 1 : scale),
+    lift: -7.5 * (isMobile ? 1 : scale),
+    velocity: 0,
+    rotation: 0
+  };
+
+  pipes = [];
+  score = 0;
+  gameOver = false;
+  frameCount = 0;
+  playedSounds = Array(scoreSounds.length).fill(false);
+}
+
+    resetGame();
+
+    document.addEventListener("keydown", () => {
+      if (!gameOver) {
+        bird.velocity = bird.lift;
+      } else {
+        resetGame();
+        gameLoop();
+      }
+    });
+
+    document.addEventListener("click", () => {
+      if (!gameOver) {
+        bird.velocity = bird.lift;
+      } else {
+        resetGame();
+        gameLoop();
+      }
+    });
+
+    function drawBird() {
+      ctx.save();
+      ctx.translate(bird.x + bird.width / 2, bird.y + bird.height / 2);
+      bird.rotation = Math.min((bird.velocity / 10) * 90, 90);
+      ctx.rotate((bird.rotation * Math.PI) / 180);
+      ctx.drawImage(
+        birdImage,
+        -bird.width / 2,
+        -bird.height / 2,
+        bird.width,
+        bird.height
+      );
+      ctx.restore();
+    }
+
+    function drawPipe(pipe) {
+      // TOP PIPE (rotated)
+      ctx.save();
+      ctx.translate(pipe.x + PIPE_WIDTH / 2, pipe.top);
+      ctx.rotate(Math.PI);
+      ctx.drawImage(pipeImage, -60 * scale, 0, 120 * scale, canvas.height);
+      ctx.restore();
+
+      // BOTTOM PIPE
+      ctx.drawImage(pipeImage, pipe.x - 60 * scale + PIPE_WIDTH / 2, pipe.top + PIPE_GAP, 120 * scale, canvas.height);
+    }
+
+    function updatePipes() {
+      if (frameCount % PIPE_SPACING === 0) {
+        const top = Math.random() * (canvas.height - PIPE_GAP - 100 * scale) + 20 * scale;
+        pipes.push({ x: canvas.width, top });
+      }
+
+      for (let i = pipes.length - 1; i >= 0; i--) {
+        const p = pipes[i];
+        p.x -= 2 * scale;
+
+        drawPipe(p);
+
+        // Hitbox (5px)
+        const hitboxWidth = 5 * scale;
+        const hitboxX = p.x + PIPE_WIDTH / 2 - hitboxWidth / 2;
+
+        if (
+          bird.x < hitboxX + hitboxWidth &&
+          bird.x + bird.width > hitboxX &&
+          (bird.y < p.top || bird.y + bird.height > p.top + PIPE_GAP)
+        ) {
+          gameOver = true;
+        }
+
+        if (bird.y + bird.height >= canvas.height || bird.y <= 0) {
+          gameOver = true;
+        }
+
+        if (Math.floor(p.x + PIPE_WIDTH) === Math.floor(bird.x)) {
+          score++;
+        }
+
+        if (p.x + PIPE_WIDTH < 0) {
+          pipes.splice(i, 1);
+        }
+      }
+    }
+
+    function drawScore() {
+      ctx.fillStyle = "white";
+      ctx.font = `${28 * scale}px Arial`;
+      ctx.fillText(`Pontok: ${score}`, 10 * scale, 40 * scale);
+
+      const milestones = [5, 10, 15, 20, 25, 30, 35, 40, 45, 50];
+      milestones.forEach((threshold, i) => {
+        if (score >= threshold && !playedSounds[i]) {
+          scoreSounds[i].play();
+          playedSounds[i] = true;
+        }
+      });
+
+      if (score >= 50) {
+        gameOver = true;
+      }
+    }
+
+    function drawGameOver() {
+      ctx.fillStyle = "red";
+      ctx.font = `${42 * scale}px Arial`;
+      ctx.fillText("Játék vége", canvas.width / 2 - 120 * scale, canvas.height / 2 - 20 * scale);
+      ctx.font = `${24 * scale}px Arial`;
+      ctx.fillText(`Végső pontszám: ${score}`, canvas.width / 2 - 100 * scale, canvas.height / 2 + 20 * scale);
+      ctx.fillText("Kattints az újrakezdéshez!", canvas.width / 2 - 130 * scale, canvas.height / 2 + 60 * scale);
+    }
+
+    function gameLoop() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      ctx.drawImage(bgImage, 0, 0, canvas.width, canvas.height);
+
+      bird.velocity += bird.gravity;
+      bird.velocity = Math.min(bird.velocity, 4 * scale);
+      bird.y += bird.velocity;
+
+      drawBird();
+      updatePipes();
+      drawScore();
+
+      if (gameOver) {
+        drawGameOver();
+      } else {
+        requestAnimationFrame(gameLoop);
+        frameCount++;
+      }
+    }
+
+    let imagesLoaded = 0;
+    function tryStart() {
+      imagesLoaded++;
+      if (imagesLoaded === 3) {
+        gameLoop();
+      }
+    }
+
+    birdImage.onload = tryStart;
+    bgImage.onload = tryStart;
+    pipeImage.onload = tryStart;
+  </script>
+</body>
+</html>
